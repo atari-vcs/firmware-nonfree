@@ -29,11 +29,11 @@ files:
  cxgb4/aq1202_fw.cld
  cxgb4/bcm8483.bin
  cxgb4/t4fw.bin
- cxgb4/t4fw-1.22.9.0.bin
+ cxgb4/t4fw-1.23.4.0.bin
  cxgb4/t5fw.bin
- cxgb4/t5fw-1.22.9.0.bin
+ cxgb4/t5fw-1.23.4.0.bin
  cxgb4/t6fw.bin
- cxgb4/t6fw-1.22.9.0.bin
+ cxgb4/t6fw-1.23.4.0.bin
  dabusb/bitstream.bin
  dabusb/firmware.fw
  dvb-fe-xc4000-1.4.1.fw
@@ -69,14 +69,24 @@ files:
  imx/sdma/sdma-imx7d.bin
  i915/bxt_dmc_ver1.bin
  i915/bxt_dmc_ver1_07.bin
+ i915/bxt_guc_32.0.3.bin
+ i915/bxt_guc_33.0.0.bin
  i915/bxt_guc_ver8_7.bin
  i915/bxt_guc_ver9_29.bin
  i915/bxt_huc_ver01_07_1398.bin
  i915/cnl_dmc_ver1_07.bin
  i915/glk_dmc_ver1_04.bin
+ i915/glk_guc_32.0.3.bin
+ i915/glk_guc_33.0.0.bin
+ i915/glk_huc_ver03_01_2893.bin
+ i915/icl_guc_32.0.3.bin
+ i915/icl_guc_33.0.0.bin
+ i915/icl_huc_ver8_4_3238.bin
  i915/kbl_dmc_ver1.bin
  i915/kbl_dmc_ver1_01.bin
  i915/kbl_dmc_ver1_04.bin
+ i915/kbl_guc_32.0.3.bin
+ i915/kbl_guc_33.0.0.bin
  i915/kbl_guc_ver9_14.bin
  i915/kbl_guc_ver9_39.bin
  i915/kbl_huc_ver02_00_1810.bin
@@ -84,6 +94,8 @@ files:
  i915/skl_dmc_ver1_23.bin
  i915/skl_dmc_ver1_26.bin
  i915/skl_dmc_ver1_27.bin
+ i915/skl_guc_32.0.3.bin
+ i915/skl_guc_33.0.0.bin
  i915/skl_guc_ver1.bin
  i915/skl_guc_ver4.bin
  i915/skl_guc_ver6.bin
@@ -225,8 +237,11 @@ files:
  nvidia/gp102/gr/sw_nonctx.bin
  nvidia/gp102/nvdec/scrubber.bin
  nvidia/gp102/sec2/desc.bin
+ nvidia/gp102/sec2/desc-1.bin
  nvidia/gp102/sec2/image.bin
+ nvidia/gp102/sec2/image-1.bin
  nvidia/gp102/sec2/sig.bin
+ nvidia/gp102/sec2/sig-1.bin
  nvidia/gp104/acr/bl.bin
  nvidia/gp104/acr/ucode_load.bin
  nvidia/gp104/acr/ucode_unload.bin
@@ -247,6 +262,9 @@ files:
  nvidia/gp104/sec2/desc.bin
  nvidia/gp104/sec2/image.bin
  nvidia/gp104/sec2/sig.bin
+ nvidia/gp104/sec2/desc-1.bin
+ nvidia/gp104/sec2/image-1.bin
+ nvidia/gp104/sec2/sig-1.bin
  nvidia/gp106/acr/bl.bin
  nvidia/gp106/acr/ucode_load.bin
  nvidia/gp106/acr/ucode_unload.bin
@@ -267,6 +285,9 @@ files:
  nvidia/gp106/sec2/desc.bin
  nvidia/gp106/sec2/image.bin
  nvidia/gp106/sec2/sig.bin
+ nvidia/gp106/sec2/desc-1.bin
+ nvidia/gp106/sec2/image-1.bin
+ nvidia/gp106/sec2/sig-1.bin
  nvidia/gp107/acr/bl.bin
  nvidia/gp107/acr/ucode_load.bin
  nvidia/gp107/acr/ucode_unload.bin
@@ -287,6 +308,9 @@ files:
  nvidia/gp107/sec2/desc.bin
  nvidia/gp107/sec2/image.bin
  nvidia/gp107/sec2/sig.bin
+ nvidia/gp107/sec2/desc-1.bin
+ nvidia/gp107/sec2/image-1.bin
+ nvidia/gp107/sec2/sig-1.bin
  nvidia/gp108/acr/bl.bin
  nvidia/gp108/acr/ucode_load.bin
  nvidia/gp108/acr/ucode_unload.bin
@@ -326,6 +350,7 @@ files:
  nvidia/gp10b/pmu/sig.bin
  nvidia/gv100/acr/bl.bin
  nvidia/gv100/acr/unload_bl.bin
+ nvidia/gv100/acr/ucode_load.bin
  nvidia/gv100/acr/ucode_unload.bin
  nvidia/gv100/gr/fecs_bl.bin
  nvidia/gv100/gr/fecs_inst.bin
@@ -457,17 +482,17 @@ desc: Chelsio T4 10GBASE-T firmware (AQ1202 PHY)
 [cxgb4/bcm8483.bin_base]
 desc: Chelsio T4 10GBASE-T firmware (BCM84834 PHY)
 
-[cxgb4/t4fw-1.22.9.0.bin_base]
+[cxgb4/t4fw-1.23.4.0.bin_base]
 desc: Chelsio T4 firmware
-version: 1.22.9.0
+version: 1.23.4.0
 
-[cxgb4/t5fw-1.22.9.0.bin_base]
+[cxgb4/t5fw-1.23.4.0.bin_base]
 desc: Chelsio T5 firmware
-version: 1.22.9.0
+version: 1.23.4.0
 
-[cxgb4/t6fw-1.22.9.0.bin_base]
+[cxgb4/t6fw-1.23.4.0.bin_base]
 desc: Chelsio T6 firmware
-version: 1.22.9.0
+version: 1.23.4.0
 
 [dabusb/firmware.fw_base]
 desc: DAB-USB firmware
@@ -573,11 +598,11 @@ version: 0x10130001
 
 [imx/sdma/sdma-imx6q.bin_base]
 desc: Freescale i.MX6 SDMA firmware
-version: 3.3
+version: 3.5
 
 [imx/sdma/sdma-imx7d.bin_base]
 desc: Freescale i.MX7 SDMA firmware
-version: 4.2
+version: 4.5
 
 [i915/bxt_dmc_ver1_07.bin_base]
 desc: Intel "Broxton" DMC firmware
@@ -586,6 +611,14 @@ version: 1.07
 [i915/cnl_dmc_ver1_07.bin_base]
 desc: Intel "Cannonlake" DMC firmware
 version: 1.07
+
+[i915/bxt_guc_32.0.3.bin_base]
+desc: Intel "Broxton" GuC firmware
+version: 32.0.3
+
+[i915/bxt_guc_33.0.0.bin_base]
+desc: Intel "Broxton" GuC firmware
+version: 33.0.0
 
 [i915/bxt_guc_ver8_7.bin_base]
 desc: Intel "Broxton" GuC firmware
@@ -603,6 +636,30 @@ version: 1.07.1398
 desc: Intel "Geminilake" DMC firmware
 version: 1.04
 
+[i915/glk_guc_32.0.3.bin_base]
+desc: Intel "Geminilake" GuC firmware
+version: 32.0.3
+
+[i915/glk_guc_33.0.0.bin_base]
+desc: Intel "Geminilake" GuC firmware
+version: 33.0.0
+
+[i915/glk_huc_ver03_01_2893.bin_base]
+desc: Intel "Geminilake" HuC firmware
+version: 3.1.2893
+
+[i915/icl_guc_32.0.3.bin_base]
+desc: Intel "Icelake" GuC firmware
+version: 32.0.3
+
+[i915/icl_guc_33.0.0.bin_base]
+desc: Intel "Icelake" GuC firmware
+version: 33.0.0
+
+[i915/icl_huc_ver8_4_3238.bin_base]
+desc: Intel "Icelake" HuC firmware
+version: 8.4.3238
+
 [i915/kbl_dmc_ver1_01.bin_base]
 desc: Intel "Kabylake" DMC firmware
 version: 1.01
@@ -610,6 +667,14 @@ version: 1.01
 [i915/kbl_dmc_ver1_04.bin_base]
 desc: Intel "Kabylake" DMC firmware
 version: 1.04
+
+[i915/kbl_guc_32.0.3.bin_base]
+desc:Intel "Kabylake" GuC firmware
+version: 32.0.3
+
+[i915/kbl_guc_33.0.0.bin_base]
+desc: Intel "Kabylake" GuC firmware
+version: 33.0.0
 
 [i915/kbl_guc_ver9_14.bin_base]
 desc: Intel "Kabylake" GuC firmware
@@ -634,6 +699,14 @@ version: 1.26
 [i915/skl_dmc_ver1_27.bin_base]
 desc: Intel "Skylake" DMC firmware
 version: 1.27
+
+[i915/skl_guc_32.0.3.bin_base]
+desc: Intel "Skylake" GuC firmware
+version: 32.0.3
+
+[i915/skl_guc_33.0.0.bin_base]
+desc: Intel "Skylake" GuC firmware
+version: 33.0.0
 
 [i915/skl_guc_ver1.bin_base]
 desc: Intel "Skylake" GuC firmware

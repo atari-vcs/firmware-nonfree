@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-intel-sound</id>
+  <id>org.debian.packages.firmware_intel_sound</id>
   <name>Binary firmware for Intel sound DSPs</name>
-  <summary>
-Binary firmware for Intel SST sound DSPs supported by the snd-soc-sst-acpi or
-snd-intel-sst-acpi driver.
-  </summary>
+  <summary>Binary firmware for Intel SST sound DSPs supported by the snd-soc-sst-acpi or snd-intel-sst-acpi driver.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">intel/IntcSST2.bin</firmware>

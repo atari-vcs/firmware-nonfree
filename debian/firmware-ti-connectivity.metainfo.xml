@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-ti-connectivity</id>
+  <id>org.debian.packages.firmware_ti_connectivity</id>
   <name>Binary firmware for TI Connectivity wifi and BT/FM/GPS adapters</name>
-  <summary>
-Binary firmware for Texas Instruments WL1251, WL127x, WL128x and WL18xx wireless
-network chips supported by the wl1251, wl12xx and wl18xx drivers and
-BT/FM/GPS chips supported by the st_drv driver.
-  </summary>
+  <summary>Binary firmware for Texas Instruments WL1251, WL127x, WL128x and WL18xx wireless network chips supported by the wl1251, wl12xx and wl18xx drivers and BT/FM/GPS chips supported by the st_drv driver.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">ti-connectivity/TIInit_6.2.31.bts</firmware>

@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-qlogic</id>
+  <id>org.debian.packages.firmware_qlogic</id>
   <name>Binary firmware for QLogic HBAs</name>
-  <summary>
-Binary firmware for QLogic Infiniband, SCSI, Fibre Channel/FCoE adapters and
-Converged Network Adapters supported by the bfa, bna, ip_iband, qed, qla1280
-and qla2xxx drivers.
-  </summary>
+  <summary>Binary firmware for QLogic Infiniband, SCSI, Fibre Channel/FCoE adapters and Converged Network Adapters supported by the bfa, bna, ip_iband, qed, qla1280 and qla2xxx drivers.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">cbfw-3.2.3.0.bin</firmware>
