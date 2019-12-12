@@ -38,6 +38,8 @@ files:
  rtl_nic/rtl8402-1.fw
  rtl_nic/rtl8411-1.fw
  rtl_nic/rtl8411-2.fw
+ rtw88/rtw8822b_fw.bin
+ rtw88/rtw8822c_fw.bin
  rtlwifi/rtl8188efw.bin
  rtlwifi/rtl8188eufw.bin
  rtlwifi/rtl8192cfw.bin
@@ -199,6 +201,12 @@ version: 0.0.3
 [rtl_nic/rtl8411-2.fw_base]
 desc: Realtek RTL8411-2 firmware
 version: 0.0.1
+
+[rtw88/rtw8822b_fw.bin_base]
+desc: Realtek 8822BE firmware
+
+[rtw88/rtw8822c_fw.bin_base]
+desc: Realtek 8822CE firmware
 
 [rtlwifi/rtl8188efw.bin_base]
 desc: Realtek RTL8188EE firmware
