@@ -7,11 +7,11 @@ adc954a9dc00d79080e18ac44ff81ee5  debian/config/intel-sound/defines
 55528cf878602a52937380e49392b36e  debian/config/bnx2x/defines
 7e9bbc1e206af60541b528f0b977d979  debian/config/ti-connectivity/defines
 c4897d4d9a8c8fd5d4fbdd17540908de  debian/config/siano/defines
-0ccc2077c56e4b328f9f8fe0b70475de  debian/config/qcom-media/defines
 e6f55f1cd90512d515c4012bc48a47a8  debian/config/misc-nonfree/defines
-e8bef239008e7bcd1befe4402503b99b  debian/config/realtek/defines
-f95fcce88036d5dc0e2888346ee85d18  debian/config/intelwimax/defines
+afcd0e2ed9543b6f5a1d4f7cc0861d07  debian/config/realtek/defines
 13cb15c28f2e49c73ccbd03818ce81e0  debian/config/qlogic/defines
+f95fcce88036d5dc0e2888346ee85d18  debian/config/intelwimax/defines
+0ccc2077c56e4b328f9f8fe0b70475de  debian/config/qcom-media/defines
 267826af7fbd7daa34e4987987b051e0  debian/config/iwlwifi/defines
 62a33613ed9a3e048039a5ee1656a2f7  debian/config/ipw2x00/defines
 3a9da046c80082b3b494df20e2fa8ec3  debian/config/myricom/defines
@@ -34,8 +34,8 @@ e0d3033fbd733f2ac5aca49335fbb767  debian/config/amd-graphics/copyright
 4add08f2577086d44447996503cddf5f  debian/config/netronome/LICENSE
 0f462f7c71867f49affdc8d270e2f91c  debian/config/bnx2x/LICENSE
 4556c1bf830067f12ca151ad953ec2a5  debian/config/siano/LICENSE
-45d3f86709a1dcaadd8d8fbda5cd7aad  debian/config/qcom-media/LICENSE
 14b901969e23c41881327c0d9e4b7d36  debian/config/intelwimax/LICENSE
+45d3f86709a1dcaadd8d8fbda5cd7aad  debian/config/qcom-media/LICENSE
 bfc45fabe4f6190932efc41817ac39ee  debian/config/iwlwifi/LICENSE
 6e81681993c231ed42781bba47742e2a  debian/config/ipw2x00/LICENSE.install
 cacf93d0156c89414005ee29b80ef0d3  debian/config/ipw2x00/LICENSE

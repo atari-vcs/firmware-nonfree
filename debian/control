@@ -2064,6 +2064,8 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8402-1 firmware, version 0.0.1 (rtl_nic/rtl8402-1.fw)
   * Realtek RTL8411-1 firmware, version 0.0.3 (rtl_nic/rtl8411-1.fw)
   * Realtek RTL8411-2 firmware, version 0.0.1 (rtl_nic/rtl8411-2.fw)
+  * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
+  * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
   * Realtek RTL8188EE firmware (rtlwifi/rtl8188efw.bin)
   * Realtek RTL8188EU firmware (rtlwifi/rtl8188eufw.bin)
   * Realtek RTL8192CE/RTL8188CE firmware (rtlwifi/rtl8192cfw.bin)
