@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-misc-nonfree</id>
+  <id>org.debian.packages.firmware_misc_nonfree</id>
   <name>Binary firmware for various drivers in the Linux kernel</name>
-  <summary>
-Binary firmware for 
-various drivers in the Linux kernel. This is a collection of firmware blobs
-which are not individually large enough to warrant a standalone package.
-  </summary>
+  <summary>Binary firmware for  various drivers in the Linux kernel. This is a collection of firmware blobs which are not individually large enough to warrant a standalone package.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">3com/typhoon.bin</firmware>
@@ -31,11 +27,11 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">cxgb4/aq1202_fw.cld</firmware>
     <firmware type="runtime">cxgb4/bcm8483.bin</firmware>
     <firmware type="runtime">cxgb4/t4fw.bin</firmware>
-    <firmware type="runtime">cxgb4/t4fw-1.22.9.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t4fw-1.23.4.0.bin</firmware>
     <firmware type="runtime">cxgb4/t5fw.bin</firmware>
-    <firmware type="runtime">cxgb4/t5fw-1.22.9.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t5fw-1.23.4.0.bin</firmware>
     <firmware type="runtime">cxgb4/t6fw.bin</firmware>
-    <firmware type="runtime">cxgb4/t6fw-1.22.9.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t6fw-1.23.4.0.bin</firmware>
     <firmware type="runtime">dabusb/bitstream.bin</firmware>
     <firmware type="runtime">dabusb/firmware.fw</firmware>
     <firmware type="runtime">dvb-fe-xc4000-1.4.1.fw</firmware>
@@ -71,14 +67,24 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">imx/sdma/sdma-imx7d.bin</firmware>
     <firmware type="runtime">i915/bxt_dmc_ver1.bin</firmware>
     <firmware type="runtime">i915/bxt_dmc_ver1_07.bin</firmware>
+    <firmware type="runtime">i915/bxt_guc_32.0.3.bin</firmware>
+    <firmware type="runtime">i915/bxt_guc_33.0.0.bin</firmware>
     <firmware type="runtime">i915/bxt_guc_ver8_7.bin</firmware>
     <firmware type="runtime">i915/bxt_guc_ver9_29.bin</firmware>
     <firmware type="runtime">i915/bxt_huc_ver01_07_1398.bin</firmware>
     <firmware type="runtime">i915/cnl_dmc_ver1_07.bin</firmware>
     <firmware type="runtime">i915/glk_dmc_ver1_04.bin</firmware>
+    <firmware type="runtime">i915/glk_guc_32.0.3.bin</firmware>
+    <firmware type="runtime">i915/glk_guc_33.0.0.bin</firmware>
+    <firmware type="runtime">i915/glk_huc_ver03_01_2893.bin</firmware>
+    <firmware type="runtime">i915/icl_guc_32.0.3.bin</firmware>
+    <firmware type="runtime">i915/icl_guc_33.0.0.bin</firmware>
+    <firmware type="runtime">i915/icl_huc_ver8_4_3238.bin</firmware>
     <firmware type="runtime">i915/kbl_dmc_ver1.bin</firmware>
     <firmware type="runtime">i915/kbl_dmc_ver1_01.bin</firmware>
     <firmware type="runtime">i915/kbl_dmc_ver1_04.bin</firmware>
+    <firmware type="runtime">i915/kbl_guc_32.0.3.bin</firmware>
+    <firmware type="runtime">i915/kbl_guc_33.0.0.bin</firmware>
     <firmware type="runtime">i915/kbl_guc_ver9_14.bin</firmware>
     <firmware type="runtime">i915/kbl_guc_ver9_39.bin</firmware>
     <firmware type="runtime">i915/kbl_huc_ver02_00_1810.bin</firmware>
@@ -86,6 +92,8 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">i915/skl_dmc_ver1_23.bin</firmware>
     <firmware type="runtime">i915/skl_dmc_ver1_26.bin</firmware>
     <firmware type="runtime">i915/skl_dmc_ver1_27.bin</firmware>
+    <firmware type="runtime">i915/skl_guc_32.0.3.bin</firmware>
+    <firmware type="runtime">i915/skl_guc_33.0.0.bin</firmware>
     <firmware type="runtime">i915/skl_guc_ver1.bin</firmware>
     <firmware type="runtime">i915/skl_guc_ver4.bin</firmware>
     <firmware type="runtime">i915/skl_guc_ver6.bin</firmware>
@@ -98,6 +106,13 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">kaweth/trigger_code_fix.bin</firmware>
     <firmware type="runtime">matrox/g200_warp.fw</firmware>
     <firmware type="runtime">matrox/g400_warp.fw</firmware>
+    <firmware type="runtime">mediatek/mt7610e.bin</firmware>
+    <firmware type="runtime">mediatek/mt7610u.bin</firmware>
+    <firmware type="runtime">mediatek/mt7622pr2h.bin</firmware>
+    <firmware type="runtime">mediatek/mt7650e.bin</firmware>
+    <firmware type="runtime">mediatek/mt7662u.bin</firmware>
+    <firmware type="runtime">mediatek/mt7662u_rom_patch.bin</firmware>
+    <firmware type="runtime">mediatek/mt7668pr2h.bin</firmware>
     <firmware type="runtime">moxa/moxa-1110.fw</firmware>
     <firmware type="runtime">moxa/moxa-1130.fw</firmware>
     <firmware type="runtime">moxa/moxa-1131.fw</firmware>
@@ -220,8 +235,11 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">nvidia/gp102/gr/sw_nonctx.bin</firmware>
     <firmware type="runtime">nvidia/gp102/nvdec/scrubber.bin</firmware>
     <firmware type="runtime">nvidia/gp102/sec2/desc.bin</firmware>
+    <firmware type="runtime">nvidia/gp102/sec2/desc-1.bin</firmware>
     <firmware type="runtime">nvidia/gp102/sec2/image.bin</firmware>
+    <firmware type="runtime">nvidia/gp102/sec2/image-1.bin</firmware>
     <firmware type="runtime">nvidia/gp102/sec2/sig.bin</firmware>
+    <firmware type="runtime">nvidia/gp102/sec2/sig-1.bin</firmware>
     <firmware type="runtime">nvidia/gp104/acr/bl.bin</firmware>
     <firmware type="runtime">nvidia/gp104/acr/ucode_load.bin</firmware>
     <firmware type="runtime">nvidia/gp104/acr/ucode_unload.bin</firmware>
@@ -242,6 +260,9 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">nvidia/gp104/sec2/desc.bin</firmware>
     <firmware type="runtime">nvidia/gp104/sec2/image.bin</firmware>
     <firmware type="runtime">nvidia/gp104/sec2/sig.bin</firmware>
+    <firmware type="runtime">nvidia/gp104/sec2/desc-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp104/sec2/image-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp104/sec2/sig-1.bin</firmware>
     <firmware type="runtime">nvidia/gp106/acr/bl.bin</firmware>
     <firmware type="runtime">nvidia/gp106/acr/ucode_load.bin</firmware>
     <firmware type="runtime">nvidia/gp106/acr/ucode_unload.bin</firmware>
@@ -262,6 +283,9 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">nvidia/gp106/sec2/desc.bin</firmware>
     <firmware type="runtime">nvidia/gp106/sec2/image.bin</firmware>
     <firmware type="runtime">nvidia/gp106/sec2/sig.bin</firmware>
+    <firmware type="runtime">nvidia/gp106/sec2/desc-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp106/sec2/image-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp106/sec2/sig-1.bin</firmware>
     <firmware type="runtime">nvidia/gp107/acr/bl.bin</firmware>
     <firmware type="runtime">nvidia/gp107/acr/ucode_load.bin</firmware>
     <firmware type="runtime">nvidia/gp107/acr/ucode_unload.bin</firmware>
@@ -282,6 +306,9 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">nvidia/gp107/sec2/desc.bin</firmware>
     <firmware type="runtime">nvidia/gp107/sec2/image.bin</firmware>
     <firmware type="runtime">nvidia/gp107/sec2/sig.bin</firmware>
+    <firmware type="runtime">nvidia/gp107/sec2/desc-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp107/sec2/image-1.bin</firmware>
+    <firmware type="runtime">nvidia/gp107/sec2/sig-1.bin</firmware>
     <firmware type="runtime">nvidia/gp108/acr/bl.bin</firmware>
     <firmware type="runtime">nvidia/gp108/acr/ucode_load.bin</firmware>
     <firmware type="runtime">nvidia/gp108/acr/ucode_unload.bin</firmware>
@@ -319,6 +346,26 @@ which are not individually large enough to warrant a standalone package.
     <firmware type="runtime">nvidia/gp10b/pmu/desc.bin</firmware>
     <firmware type="runtime">nvidia/gp10b/pmu/image.bin</firmware>
     <firmware type="runtime">nvidia/gp10b/pmu/sig.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/acr/bl.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/acr/unload_bl.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/acr/ucode_load.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/acr/ucode_unload.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/fecs_bl.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/fecs_inst.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/fecs_data.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/fecs_sig.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/gpccs_bl.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/gpccs_inst.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/gpccs_data.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/gpccs_sig.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/sw_ctx.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/sw_nonctx.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/sw_bundle_init.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/gr/sw_method_init.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/nvdec/scrubber.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/sec2/desc.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/sec2/image.bin</firmware>
+    <firmware type="runtime">nvidia/gv100/sec2/sig.bin</firmware>
     <firmware type="runtime">nvidia/tegra124/vic03_ucode.bin</firmware>
     <firmware type="runtime">nvidia/tegra124/xusb.bin</firmware>
     <firmware type="runtime">nvidia/tegra186/vic04_ucode.bin</firmware>

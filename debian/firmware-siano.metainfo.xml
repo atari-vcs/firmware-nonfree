@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-siano</id>
+  <id>org.debian.packages.firmware_siano</id>
   <name>Binary firmware for Siano MDTV receivers</name>
-  <summary>
-Binary firmware for Siano Mobile Digital TV receivers supported by the smsmdtv driver.
-  </summary>
+  <summary>Binary firmware for Siano Mobile Digital TV receivers supported by the smsmdtv driver.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">cmmb_vega_12mhz.inp</firmware>

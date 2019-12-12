@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-amd-graphics</id>
+  <id>org.debian.packages.firmware_amd_graphics</id>
   <name>Binary firmware for AMD/ATI graphics chips</name>
-  <summary>
-Binary firmware for AMD/ATI graphics chips supported by the radeon, amdgpu and r128 drivers.
-  </summary>
+  <summary>Binary firmware for AMD/ATI graphics chips supported by the radeon, amdgpu and r128 drivers.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">amdgpu/banks_k_2_smc.bin</firmware>
@@ -184,7 +182,6 @@ Binary firmware for AMD/ATI graphics chips supported by the radeon, amdgpu and r
     <firmware type="runtime">amdgpu/raven2_pfp.bin</firmware>
     <firmware type="runtime">amdgpu/raven2_rlc.bin</firmware>
     <firmware type="runtime">amdgpu/raven2_sdma.bin</firmware>
-    <firmware type="runtime">amdgpu/raven2_sdma1.bin</firmware>
     <firmware type="runtime">amdgpu/raven2_vcn.bin</firmware>
     <firmware type="runtime">amdgpu/raven_asd.bin</firmware>
     <firmware type="runtime">amdgpu/raven_ce.bin</firmware>
@@ -266,6 +263,19 @@ Binary firmware for AMD/ATI graphics chips supported by the radeon, amdgpu and r
     <firmware type="runtime">amdgpu/vega12_sos.bin</firmware>
     <firmware type="runtime">amdgpu/vega12_uvd.bin</firmware>
     <firmware type="runtime">amdgpu/vega12_vce.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_asd.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_ce.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_me.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_mec.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_mec2.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_pfp.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_rlc.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_sdma.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_sdma1.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_smc.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_sos.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_uvd.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_vce.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_ce.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_me.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_mec.bin</firmware>

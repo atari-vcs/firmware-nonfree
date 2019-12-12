@@ -255,7 +255,6 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Raven 2" PFP firmware (amdgpu/raven2_pfp.bin)
   * "Raven 2" RLC firmware (amdgpu/raven2_rlc.bin)
   * "Raven 2" SDMA firmware (amdgpu/raven2_sdma.bin)
-  * "Raven 2" SDMA1 firmware (amdgpu/raven2_sdma1.bin)
   * "Raven 2" VCN firmware (amdgpu/raven2_vcn.bin)
   * "Raven" ASD firmware (amdgpu/raven_asd.bin)
   * "Raven" CE firmware (amdgpu/raven_ce.bin)
@@ -321,7 +320,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Vega 10" SDMA1 firmware (amdgpu/vega10_sdma1.bin)
   * "Vega 10" SMC firmware (amdgpu/vega10_smc.bin)
   * "Vega 10" SOS firmware (amdgpu/vega10_sos.bin)
-  * "Vega 10" UVD firmware, version 1.87 (amdgpu/vega10_uvd.bin)
+  * "Vega 10" UVD firmware (amdgpu/vega10_uvd.bin)
   * "Vega 10" VCE firmware (amdgpu/vega10_vce.bin)
   * "Vega 12" ASD firmware (amdgpu/vega12_asd.bin)
   * "Vega 12" CE firmware (amdgpu/vega12_ce.bin)
@@ -337,6 +336,19 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Vega 12" SOS firmware (amdgpu/vega12_sos.bin)
   * "Vega 12" UVD firmware (amdgpu/vega12_uvd.bin)
   * "Vega 12" VCE firmware (amdgpu/vega12_vce.bin)
+  * "Vega 20" ASD firmware (amdgpu/vega20_asd.bin)
+  * "Vega 20" CE firmware (amdgpu/vega20_ce.bin)
+  * "Vega 20" ME firmware (amdgpu/vega20_me.bin)
+  * "Vega 20" MEC firmware (amdgpu/vega20_mec.bin)
+  * "Vega 20" MEC2 firmware (amdgpu/vega20_mec2.bin)
+  * "Vega 20" PFP firmware (amdgpu/vega20_pfp.bin)
+  * "Vega 20" RLC firmware (amdgpu/vega20_rlc.bin)
+  * "Vega 20" SDMA firmware (amdgpu/vega20_sdma.bin)
+  * "Vega 20" SDMA1 firmware (amdgpu/vega20_sdma1.bin)
+  * "Vega 20" SMC firmware (amdgpu/vega20_smc.bin)
+  * "Vega 20" SOS firmware (amdgpu/vega20_sos.bin)
+  * "Vega 20" UVD firmware (amdgpu/vega20_uvd.bin)
+  * "Vega 20" VCE firmware (amdgpu/vega20_vce.bin)
   * "Vega M" CE firmware (amdgpu/vegam_ce.bin)
   * "Vega M" ME firmware (amdgpu/vegam_me.bin)
   * "Vega M" MEC firmware (amdgpu/vegam_mec.bin)
@@ -667,7 +679,7 @@ Suggests: initramfs-tools
 Replaces: 
 Breaks: 
 Conflicts: 
-Description: Binary firmware for Atheros wireless cards
+Description: Binary firmware for Qualcomm Atheros wireless cards
  This package contains the binary firmware for USB wireless network and
  Bluetooth cards supported by the ar5523, ath3k, ath6kl_sdio, ath6kl_usb,
  ath9k_htc, ath10k, or wilc6210 drivers.
@@ -724,25 +736,27 @@ Description: Binary firmware for Atheros wireless cards
   * Qualcomm Atheros QCA9377 rev 1.0 board configuration, version 2
     (ath10k/QCA9377/hw1.0/board-2.bin)
   * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
-    WLAN.TF.1.0-00002-QCATFSWPZ-5 (ath10k/QCA9377/hw1.0/firmware-5.bin)
+    WLAN.TF.1.0-00267-1 (ath10k/QCA9377/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
+    WLAN.TF.2.1-00021-QCARMSWP-1 (ath10k/QCA9377/hw1.0/firmware-6.bin)
   * Qualcomm Atheros QCA9887 rev 1.0 board configuration, version 1
     (ath10k/QCA9887/hw1.0/board.bin)
   * Qualcomm Atheros QCA9887 rev 1.0 firmware, version 10.2.4-1.0-00041
     (ath10k/QCA9887/hw1.0/firmware-5.bin)
   * Qualcomm Atheros QCA9888 rev 2.0 board configuration, version 2
     (ath10k/QCA9888/hw2.0/board-2.bin)
-  * Qualcomm Atheros QCA9888 rev 2.0 firmware, version 10.4-3.6-00140
-    (ath10k/QCA9888/hw2.0/firmware-5.bin)
+  * Qualcomm Atheros QCA9888 rev 2.0 firmware, version
+    10.4-3.9.0.2-00024 (ath10k/QCA9888/hw2.0/firmware-5.bin)
   * Qualcomm Atheros QCA988X board configuration, version 1
     (ath10k/QCA988X/hw2.0/board.bin)
   * Qualcomm Atheros QCA988X firmware, version 10.2.4.45
     (ath10k/QCA988X/hw2.0/firmware-4.bin)
-  * Qualcomm Atheros QCA988X firmware, version 10.2.4-1.0-00041
+  * Qualcomm Atheros QCA988X firmware, version 10.2.4-1.0-00043
     (ath10k/QCA988X/hw2.0/firmware-5.bin)
   * Qualcomm Atheros QCA9984 rev 1.0 board configuration, version 2
     (ath10k/QCA9984/hw1.0/board-2.bin)
   * Qualcomm Atheros QCA9984 rev 1.0 firmware, version
-    10.4-3.6.0.1-00003 (ath10k/QCA9984/hw1.0/firmware-5.bin)
+    10.4-3.9.0.2-00021 (ath10k/QCA9984/hw1.0/firmware-5.bin)
   * Qualcomm Atheros QCA99X0 board configuration, version 1
     (ath10k/QCA99X0/hw2.0/board.bin)
   * Qualcomm Atheros QCA99X0 firmware, version 10.4.1.00030-1
@@ -784,10 +798,13 @@ Description: Binary firmware for Atheros wireless cards
   * Atheros AR9271 firmware, version 1.4.0 (ath9k_htc/htc_9271-1.4.0.fw)
   * Atheros AR7010 firmware, version 1.3.1 (htc_7010.fw)
   * Atheros AR9271 firmware, version 1.3.1 (htc_9271.fw)
+  * Qualcomm WCN3990 Bluetooth firmware (qca/crbtfw21.tlv)
+  * Qualcomm WCN3990 Bluetooth NVM configuration (qca/crnv21.bin)
   * Qualcomm Atheros QCA61x4 version 3.0 UART BT NVM configuration
     (qca/nvm_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
     (qca/nvm_00130302.bin)
+  * Qualcomm Atheros QCA6174 BT NVM configuration (qca/nvm_00440302.bin)
   * Qualcomm Atheros QCA61x4 version 2.0 USB BT NVM configuration
     (qca/nvm_usb_00000200.bin)
   * Qualcomm Atheros QCA61x4 version 2.1 USB BT NVM configuration
@@ -800,6 +817,7 @@ Description: Binary firmware for Atheros wireless cards
     (qca/rampatch_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
     (qca/rampatch_00130302.bin)
+  * Qualcomm Atheros QCA6174 BT rampatch (qca/rampatch_00440302.bin)
   * Qualcomm Atheros QCA61x4 version 2.0 USB BT rampatch
     (qca/rampatch_usb_00000200.bin)
   * Qualcomm Atheros QCA61x4 version 2.1 USB BT rampatch
@@ -956,7 +974,10 @@ Description: Binary firmware for Cavium Ethernet adapters
  adapters supported by the nitrox and liquidio drivers.
  .
  Contents:
-  * Cavium CNN55XX firmware, version 10 (cavium/cnn55xx_se.fw)
+  * Cavium CNN55XX asymmetric crypto firmware, version 01
+    (cavium/cnn55xx_ae.fw)
+  * Cavium CNN55XX symmetric crypto firmware, version 10
+    (cavium/cnn55xx_se.fw)
   * Cavium LiquidIO 210Nv firmware, version 1.7.2
     (liquidio/lio_210nv_nic.bin)
   * Cavium LiquidIO 210Sv firmware, version 1.7.2
@@ -1110,7 +1131,7 @@ Description: Binary firmware for Intel Wireless cards
     (intel/ibt-11-5.sfi)
   * Intel Wireless 8265 Bluetooth configuration, version 20.30.0.1
     (intel/ibt-12-16.ddc)
-  * Intel Wireless 8265 Bluetooth firmware, version 20.100.0.3
+  * Intel Wireless 8265 Bluetooth firmware, version 21.10.0.6
     (intel/ibt-12-16.sfi)
   * Intel Wireless 9460/9650 (var 0 rev 1) Bluetooth configuration,
     version 20.10 (intel/ibt-17-0-1.ddc)
@@ -1119,7 +1140,7 @@ Description: Binary firmware for Intel Wireless cards
   * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth configuration,
     version 20.60.0.2 (intel/ibt-17-16-1.ddc)
   * Intel Wireless 9460/9650 (var 16 rev 1) Bluetooth firmware, version
-    20.100.0.3 (intel/ibt-17-16-1.sfi)
+    21.30.0.4 (intel/ibt-17-16-1.sfi)
   * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth configuration,
     version 20.10 (intel/ibt-18-0-1.ddc)
   * Intel Wireless 9160/9260 (var 0 rev 1) Bluetooth firmware, version
@@ -1127,7 +1148,35 @@ Description: Binary firmware for Intel Wireless cards
   * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth configuration,
     version 20.60.0.2 (intel/ibt-18-16-1.ddc)
   * Intel Wireless 9160/9260 (var 16 rev 1) Bluetooth firmware, version
-    20.100.0.3 (intel/ibt-18-16-1.sfi)
+    21.30.0.4 (intel/ibt-18-16-1.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 0) configuration, version 21.20.0.4
+    (intel/ibt-19-0-0.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 0) firmware, version 21.20.0.4
+    (intel/ibt-19-0-0.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 1) configuration, version 21.20.0.4
+    (intel/ibt-19-0-1.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 1) firmware, version 21.20.0.4
+    (intel/ibt-19-0-1.sfi)
+  * Intel Bluetooth AX201 (var 0 rev 4) configuration, version 21.20.0.4
+    (intel/ibt-19-0-4.ddc)
+  * Intel Bluetooth AX201 (var 0 rev 4) firmware, version 21.20.0.4
+    (intel/ibt-19-0-4.sfi)
+  * Intel Bluetooth AX201 (var 16 rev 4) configuration, version
+    21.20.0.4 (intel/ibt-19-16-4.ddc)
+  * Intel Bluetooth AX201 (var 16 rev 4) firmware, version 21.20.0.4
+    (intel/ibt-19-16-4.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 1) configuration, version
+    21.20.0.4 (intel/ibt-19-32-1.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 21.20.0.4
+    (intel/ibt-19-32-1.sfi)
+  * Intel Wireless 22161 (var 0 rev 3) Bluetooth configuration, version
+    21.0.0.4 (intel/ibt-20-0-3.ddc)
+  * Intel Wireless 22161 (var 0 rev 3) Bluetooth firmware, version
+    21.30.0.4 (intel/ibt-20-0-3.sfi)
+  * Intel Wireless 22161 (var 1 rev 3) Bluetooth configuration, version
+    21.0.0.4 (intel/ibt-20-1-3.ddc)
+  * Intel Wireless 22161 (var 1 rev 3) Bluetooth firmware, version
+    21.30.0.4 (intel/ibt-20-1-3.sfi)
   * Intel Wireless 3160 (B6) Bluetooth firmware patch, version 19.30
     (intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq)
   * Intel Wireless 3160 (B4) Bluetooth firmware patch, version 19.01
@@ -1197,11 +1246,11 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-7265D-29.ucode)
   * Intel Wireless 8000C firmware, version 22.391740.0
     (iwlwifi-8000C-22.ucode)
-  * Intel Wireless 8000C firmware, version 36.9f0a2d68.0
+  * Intel Wireless 8000C firmware, version 36.8fd77bb3c.0
     (iwlwifi-8000C-36.ucode)
   * Intel Wireless 8265 firmware, version 22.391740.0
     (iwlwifi-8265-22.ucode)
-  * Intel Wireless 8265 firmware, version 36.9f0a2d68.0
+  * Intel Wireless 8265 firmware, version 36.8fd77bb3c.0
     (iwlwifi-8265-36.ucode)
   * Intel Wireless 9000 firmware, version 34.ba501b11.0
     (iwlwifi-9000-pu-b0-jf-b0-34.ucode)
@@ -1209,12 +1258,32 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-9000-pu-b0-jf-b0-38.ucode)
   * Intel Wireless 9000 firmware, version 41.fc1a7aea.0
     (iwlwifi-9000-pu-b0-jf-b0-41.ucode)
+  * Intel Wireless 9000 firmware, version 46.a41adfe7.0
+    (iwlwifi-9000-pu-b0-jf-b0-46.ucode)
   * Intel Wireless 9260 firmware, version 34.ba501b11.0
     (iwlwifi-9260-th-b0-jf-b0-34.ucode)
   * Intel Wireless 9260 firmware, version 38.755cfdd8.0
     (iwlwifi-9260-th-b0-jf-b0-38.ucode)
   * Intel Wireless 9260 firmware, version 41.fc1a7aea.0
     (iwlwifi-9260-th-b0-jf-b0-41.ucode)
+  * Intel Wireless 9260 firmware, version 46.a41adfe7.0
+    (iwlwifi-9260-th-b0-jf-b0-46.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    48.13675109.0 (iwlwifi-Qu-b0-hr-b0-48.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    48.13675109.0 (iwlwifi-Qu-b0-jf-b0-48.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    48.13675109.0 (iwlwifi-Qu-c0-hr-b0-48.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    48.13675109.0 (iwlwifi-Qu-c0-jf-b0-48.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    48.13675109.0 (iwlwifi-QuZ-a0-hr-b0-48.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    48.13675109.0 (iwlwifi-QuZ-a0-jf-b0-48.ucode)
+  * Intel Wireless 22260 firmware, version 46.3cfab8da.0
+    (iwlwifi-cc-a0-46.ucode)
+  * Intel Wireless 22260 firmware, version 48.13675109.0
+    (iwlwifi-cc-a0-48.ucode)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1261,38 +1330,38 @@ Description: Binary firmware for Marvell wireless cards
     usb8388.bin)
   * Libertas 88W8388 firmware, version 9.x (libertas/usb8388_v9.bin)
   * 88W8682 firmware (libertas/usb8682.bin)
-  * Avastar 88W8897-PCIe firmware, version V15.68.7.p154 (WLAN) /
-    15.28.7.p154 (BT) (mrvl/pcie8897_uapsta.bin)
-  * Avastar 88W8997-PCIe firmware, version 16.68.1.p97
+  * Avastar 88W8897-PCIe firmware, version 15.68.19.p21 (WLAN) /
+    15.28.19.p21 (BT) (mrvl/pcie8897_uapsta.bin)
+  * Avastar 88W8997-PCIe firmware, version 16.68.1.p195
     (mrvl/pcie8997_wlan_v4.bin)
-  * Avastar 88W8997-PCIe-UART firmware, version 16.68.1.p70
-    (mrvl/pcieuart8997_combo_v4.bin)
-  * Avastar 88W8997-PCIe-USB firmware, version V16.68.1.p162 (WLAN) /
-    16.26.1.p162 (BT) (mrvl/pcieusb8997_combo_v4.bin)
+  * Avastar 88W8997-PCIe-UART firmware, version 16.68.1.p179 (WLAN) /
+    16.26.1.p179 (BT) (mrvl/pcieuart8997_combo_v4.bin)
+  * Avastar 88W8997-PCIe-USB firmware, version 16.68.1.p195 (WLAN) /
+    16.26.1.p195 (BT) (mrvl/pcieusb8997_combo_v4.bin)
   * 88W8688-SDIO main code (mrvl/sd8688.bin, libertas/sd8688.bin,
     sd8688.bin)
   * 88W8688-SDIO boot code (mrvl/sd8688_helper.bin,
     libertas/sd8688_helper.bin, sd8688_helper.bin)
-  * Avastar 88W8787 firmware, version 14.66.35.p52
+  * Avastar 88W8787 firmware, version 14.68.35.p66
     (mrvl/sd8787_uapsta.bin)
-  * Avastar 88W8797-SDIO firmware, version 14.66.11.p151
+  * Avastar 88W8797-SDIO firmware, version 14.68.29.p59
     (mrvl/sd8797_uapsta.bin)
-  * Avastar 88W8801-SDIO firmware, version 14.68.36.p60
+  * Avastar 88W8801-SDIO firmware, version 14.68.36.p204
     (mrvl/sd8801_uapsta.bin)
-  * Avastar 88W8887 firmware, version 15.68.1.p71
-    (mrvl/sd8887_uapsta.bin)
-  * Avastar 88W8897-SDIO firmware, version V15.68.7.p154 (WLAN) /
-    15.68.7.p154 (BT) (mrvl/sd8897_uapsta.bin)
+  * Avastar 88W8887 firmware, version 15.68.7.p189 (WLAN) / 15.26.7.p189
+    (BT) (mrvl/sd8887_uapsta.bin)
+  * Avastar 88W8897-SDIO firmware, version 15.68.19.17 (WLAN) /
+    15.26.19.17 (BT) (mrvl/sd8897_uapsta.bin)
   * Avastar 88W8766 firmware, version 14.68.22.p16 (WLAN) / 14.28.22.p16
     (BT) (mrvl/usb8766_uapsta.bin)
-  * Avastar 88W8797-USB firmware, version 14.68.29.p49
+  * Avastar 88W8797-USB firmware, version 14.68.29.p60
     (mrvl/usb8797_uapsta.bin)
   * Avastar 88W8801-USB firmware, version 14.68.36.p138
     (mrvl/usb8801_uapsta.bin)
   * Avastar 88W8897-USB firmware, version 15.68.4.p103 (WLAN) /
     15.28.4.p103 (BT) (mrvl/usb8897_uapsta.bin)
-  * Avastar 88W8997-USB firmware, version V16.68.1.p162 (WLAN) /
-    16.26.1.p162 (BT) (mrvl/usbusb8997_combo_v4.bin)
+  * Avastar 88W8997-USB firmware, version 16.68.1.p183 (WLAN) /
+    16.26.1.p183 (BT) (mrvl/usbusb8997_combo_v4.bin)
   * TopDog 88W8366 main code (mwl8k/fmimage_8366.fw)
   * TopDog 88W8366 AP-mode main code (mwl8k/fmimage_8366_ap-2.fw)
   * TopDog 88W8366 AP-mode main code, version 5.2.8.16
@@ -1348,11 +1417,11 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Chelsio T3 main firmware, version 7.12.0 (cxgb3/t3fw-7.12.0.bin)
   * Chelsio T4 10GBASE-T firmware (AQ1202 PHY) (cxgb4/aq1202_fw.cld)
   * Chelsio T4 10GBASE-T firmware (BCM84834 PHY) (cxgb4/bcm8483.bin)
-  * Chelsio T4 firmware, version 1.22.9.0 (cxgb4/t4fw-1.22.9.0.bin,
+  * Chelsio T4 firmware, version 1.23.4.0 (cxgb4/t4fw-1.23.4.0.bin,
     cxgb4/t4fw.bin)
-  * Chelsio T5 firmware, version 1.22.9.0 (cxgb4/t5fw-1.22.9.0.bin,
+  * Chelsio T5 firmware, version 1.23.4.0 (cxgb4/t5fw-1.23.4.0.bin,
     cxgb4/t5fw.bin)
-  * Chelsio T6 firmware, version 1.22.9.0 (cxgb4/t6fw-1.22.9.0.bin,
+  * Chelsio T6 firmware, version 1.23.4.0 (cxgb4/t6fw-1.23.4.0.bin,
     cxgb4/t6fw.bin)
   * DAB-USB FPGA bitfile (dabusb/bitstream.bin)
   * DAB-USB firmware (dabusb/firmware.fw)
@@ -1388,10 +1457,14 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel OPA Gen1 fabric firmware, version 0x1055 (hfi1_fabric.fw)
   * Intel OPA Gen1 PCIe serdes firmware, version 0x4755 (hfi1_pcie.fw)
   * Intel OPA Gen1 SBus firmware, version 0x10130001 (hfi1_sbus.fw)
-  * Freescale i.MX6 SDMA firmware, version 3.3 (imx/sdma/sdma-imx6q.bin)
-  * Freescale i.MX7 SDMA firmware, version 4.2 (imx/sdma/sdma-imx7d.bin)
+  * Freescale i.MX6 SDMA firmware, version 3.5 (imx/sdma/sdma-imx6q.bin)
+  * Freescale i.MX7 SDMA firmware, version 4.5 (imx/sdma/sdma-imx7d.bin)
   * Intel "Broxton" DMC firmware, version 1.07
     (i915/bxt_dmc_ver1_07.bin, i915/bxt_dmc_ver1.bin)
+  * Intel "Broxton" GuC firmware, version 32.0.3
+    (i915/bxt_guc_32.0.3.bin)
+  * Intel "Broxton" GuC firmware, version 33.0.0
+    (i915/bxt_guc_33.0.0.bin)
   * Intel "Broxton" GuC firmware, version 8.7 (i915/bxt_guc_ver8_7.bin)
   * Intel "Broxton" GuC firmware, version 9.29
     (i915/bxt_guc_ver9_29.bin)
@@ -1401,10 +1474,26 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/cnl_dmc_ver1_07.bin)
   * Intel "Geminilake" DMC firmware, version 1.04
     (i915/glk_dmc_ver1_04.bin)
+  * Intel "Geminilake" GuC firmware, version 32.0.3
+    (i915/glk_guc_32.0.3.bin)
+  * Intel "Geminilake" GuC firmware, version 33.0.0
+    (i915/glk_guc_33.0.0.bin)
+  * Intel "Geminilake" HuC firmware, version 3.1.2893
+    (i915/glk_huc_ver03_01_2893.bin)
+  * Intel "Icelake" GuC firmware, version 32.0.3
+    (i915/icl_guc_32.0.3.bin)
+  * Intel "Icelake" GuC firmware, version 33.0.0
+    (i915/icl_guc_33.0.0.bin)
+  * Intel "Icelake" HuC firmware, version 8.4.3238
+    (i915/icl_huc_ver8_4_3238.bin)
   * Intel "Kabylake" DMC firmware, version 1.01
     (i915/kbl_dmc_ver1_01.bin, i915/kbl_dmc_ver1.bin)
   * Intel "Kabylake" DMC firmware, version 1.04
     (i915/kbl_dmc_ver1_04.bin)
+  * Intel "Kabylake" GuC firmware, version 32.0.3
+    (i915/kbl_guc_32.0.3.bin)
+  * Intel "Kabylake" GuC firmware, version 33.0.0
+    (i915/kbl_guc_33.0.0.bin)
   * Intel "Kabylake" GuC firmware, version 9.14
     (i915/kbl_guc_ver9_14.bin)
   * Intel "Kabylake" GuC firmware, version 9.39
@@ -1417,6 +1506,10 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/skl_dmc_ver1_26.bin, i915/skl_dmc_ver1.bin)
   * Intel "Skylake" DMC firmware, version 1.27
     (i915/skl_dmc_ver1_27.bin)
+  * Intel "Skylake" GuC firmware, version 32.0.3
+    (i915/skl_guc_32.0.3.bin)
+  * Intel "Skylake" GuC firmware, version 33.0.0
+    (i915/skl_guc_33.0.0.bin)
   * Intel "Skylake" GuC firmware, version 1.1059 (i915/skl_guc_ver1.bin)
   * Intel "Skylake" GuC firmware, version 4.3 (i915/skl_guc_ver4.bin)
   * Intel "Skylake" GuC firmware, version 6.1 (i915/skl_guc_ver6_1.bin,
@@ -1431,6 +1524,13 @@ Description: Binary firmware for various drivers in the Linux kernel
   * kaweth/trigger_code_fix.bin
   * Matrox G200 WARP engine microcode (matrox/g200_warp.fw)
   * Matrox G400/G550 WARP engine microcode (matrox/g400_warp.fw)
+  * MediaTek MT76x0 wifi firmware (mediatek/mt7610e.bin)
+  * MediaTek MT76x0 wifi firmware (mediatek/mt7610u.bin)
+  * MediaTek MT7622 Bluetooth firmware (mediatek/mt7622pr2h.bin)
+  * MediaTek MT76x0 wifi firmware (mediatek/mt7650e.bin)
+  * MediaTek MT76x2u wifi firmware (mediatek/mt7662u.bin)
+  * MediaTek MT76x2u wifi firmware (mediatek/mt7662u_rom_patch.bin)
+  * MediaTek MT7668 Bluetooth firmware (mediatek/mt7668pr2h.bin)
   * MOXA UPort 1110 firmware (moxa/moxa-1110.fw)
   * MOXA UPort 1130 firmware (moxa/moxa-1130.fw)
   * MOXA UPort 1130I firmware (moxa/moxa-1131.fw)
@@ -1563,10 +1663,19 @@ Description: Binary firmware for various drivers in the Linux kernel
     nvidia/gp108/nvdec/scrubber.bin
   * nvidia/gp102/sec2/desc.bin, nvidia/gp104/sec2/desc.bin,
     nvidia/gp106/sec2/desc.bin, nvidia/gp107/sec2/desc.bin
+  * nvidia/gp102/sec2/desc-1.bin, nvidia/gp104/sec2/desc-1.bin,
+    nvidia/gp106/sec2/desc-1.bin, nvidia/gp107/sec2/desc-1.bin,
+    nvidia/gp108/sec2/desc.bin
   * nvidia/gp102/sec2/image.bin, nvidia/gp104/sec2/image.bin,
     nvidia/gp106/sec2/image.bin, nvidia/gp107/sec2/image.bin
+  * nvidia/gp102/sec2/image-1.bin, nvidia/gp104/sec2/image-1.bin,
+    nvidia/gp106/sec2/image-1.bin, nvidia/gp107/sec2/image-1.bin,
+    nvidia/gp108/sec2/image.bin
   * nvidia/gp102/sec2/sig.bin, nvidia/gp104/sec2/sig.bin,
     nvidia/gp106/sec2/sig.bin, nvidia/gp107/sec2/sig.bin
+  * nvidia/gp102/sec2/sig-1.bin, nvidia/gp104/sec2/sig-1.bin,
+    nvidia/gp106/sec2/sig-1.bin, nvidia/gp107/sec2/sig-1.bin,
+    nvidia/gp108/sec2/sig.bin
   * nvidia/gp104/gr/fecs_data.bin
   * nvidia/gp104/gr/fecs_inst.bin
   * nvidia/gp104/gr/fecs_sig.bin
@@ -1599,9 +1708,6 @@ Description: Binary firmware for various drivers in the Linux kernel
   * nvidia/gp108/gr/sw_ctx.bin
   * nvidia/gp108/gr/sw_method_init.bin
   * nvidia/gp108/gr/sw_nonctx.bin
-  * nvidia/gp108/sec2/desc.bin
-  * nvidia/gp108/sec2/image.bin
-  * nvidia/gp108/sec2/sig.bin
   * nvidia/gp10b/acr/bl.bin
   * nvidia/gp10b/acr/ucode_load.bin
   * nvidia/gp10b/gr/fecs_bl.bin
@@ -1619,6 +1725,26 @@ Description: Binary firmware for various drivers in the Linux kernel
   * nvidia/gp10b/pmu/desc.bin
   * nvidia/gp10b/pmu/image.bin
   * nvidia/gp10b/pmu/sig.bin
+  * nvidia/gv100/acr/bl.bin
+  * nvidia/gv100/acr/unload_bl.bin
+  * nvidia/gv100/acr/ucode_load.bin
+  * nvidia/gv100/acr/ucode_unload.bin
+  * nvidia/gv100/gr/fecs_bl.bin
+  * nvidia/gv100/gr/fecs_inst.bin
+  * nvidia/gv100/gr/fecs_data.bin
+  * nvidia/gv100/gr/fecs_sig.bin
+  * nvidia/gv100/gr/gpccs_bl.bin
+  * nvidia/gv100/gr/gpccs_inst.bin
+  * nvidia/gv100/gr/gpccs_data.bin
+  * nvidia/gv100/gr/gpccs_sig.bin
+  * nvidia/gv100/gr/sw_ctx.bin
+  * nvidia/gv100/gr/sw_nonctx.bin
+  * nvidia/gv100/gr/sw_bundle_init.bin
+  * nvidia/gv100/gr/sw_method_init.bin
+  * nvidia/gv100/nvdec/scrubber.bin
+  * nvidia/gv100/sec2/desc.bin
+  * nvidia/gv100/sec2/image.bin
+  * nvidia/gv100/sec2/sig.bin
   * nvidia/tegra124/vic03_ucode.bin
   * Nvidia Tegra 124 XHCI firmware, version 45.46
     (nvidia/tegra124/xusb.bin)
@@ -1714,50 +1840,68 @@ Description: Binary firmware for Netronome network adapters
  supported by the nfp driver.
  .
  Contents:
-  * Agilio CX 2x10GbE flower firmware, version AOTC-2.10.A.13
+  * Agilio LX flower firmware, version AOTC-2.10.A.23
+    (netronome/flower/nic_AMDA0058.nffw,
+    netronome/flower/nic_AMDA0058-0011_1x100.nffw,
+    netronome/flower/nic_AMDA0058-0011_2x40.nffw,
+    netronome/flower/nic_AMDA0058-0011_4x10_1x40.nffw,
+    netronome/flower/nic_AMDA0058-0011_8x10.nffw,
+    netronome/flower/nic_AMDA0058-0012_1x100.nffw,
+    netronome/flower/nic_AMDA0058-0012_2x40.nffw,
+    netronome/flower/nic_AMDA0058-0012_4x10_1x40.nffw,
+    netronome/flower/nic_AMDA0058-0012_8x10.nffw,
+    netronome/flower/nic_AMDA0078-0011_1x100.nffw,
+    netronome/flower/nic_AMDA0078-0011_2x40.nffw,
+    netronome/flower/nic_AMDA0078-0011_4x10_1x40.nffw,
+    netronome/flower/nic_AMDA0078-0011_8x10.nffw,
+    netronome/flower/nic_AMDA0078-0012_1x100.nffw,
+    netronome/flower/nic_AMDA0078-0012_2x40.nffw,
+    netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw,
+    netronome/flower/nic_AMDA0078-0012_8x10.nffw)
+  * Agilio CX 2x10GbE flower firmware, version AOTC-2.10.A.23
     (netronome/flower/nic_AMDA0096.nffw,
     netronome/flower/nic_AMDA0096-0001_2x10.nffw)
-  * Agilio CX 1/2x40GbE flower firmware, version AOTC-2.10.A.13
+  * Agilio CX 1/2x40GbE flower firmware, version AOTC-2.10.A.23
     (netronome/flower/nic_AMDA0097.nffw,
     netronome/flower/nic_AMDA0081.nffw,
     netronome/flower/nic_AMDA0097-0001_2x40.nffw,
     netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw,
     netronome/flower/nic_AMDA0097-0001_8x10.nffw)
-  * Agilio CX 2x25GbE flower firmware, version AOTC-2.10.A.13
+  * Agilio CX 2x25GbE flower firmware, version AOTC-2.10.A.23
     (netronome/flower/nic_AMDA0099.nffw,
     netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw,
     netronome/flower/nic_AMDA0099-0001_2x10.nffw,
     netronome/flower/nic_AMDA0099-0001_2x25.nffw)
-  * Agilio LX (rev 11) 2x40GbE firmware, version 2.1.13
+  * Agilio LX (rev 11) 2x40GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0058-0011_2x40.nffw)
-  * Agilio LX (rev 12) 2x40GbE firmware, version 2.1.13
+  * Agilio LX (rev 12) 2x40GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0058-0012_2x40.nffw)
-  * Agilio LX 1x100GbE firmware, version 2.1.13
+  * Agilio LX 1x100GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0078-0011_1x100.nffw)
-  * Agilio CX 1x40GbE firmware, version 2.1.13
+  * Agilio CX 1x40GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0081-0001_1x40.nffw,
     netronome/nic_AMDA0081-0001_1x40.nffw)
-  * Agilio CX 1x40GbE firmware (4x10GbE mode), version 2.1.13
+  * Agilio CX 1x40GbE firmware (4x10GbE mode), version 2.1.16.1
     (netronome/nic/nic_AMDA0081-0001_4x10.nffw,
     netronome/nic_AMDA0081-0001_4x10.nffw)
-  * Agilio CX 2x10GbE firmware, version 2.1.13
+  * Agilio CX 2x10GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0096-0001_2x10.nffw,
     netronome/nic_AMDA0096-0001_2x10.nffw)
-  * Agilio CX 2x40GbE firmware, version 2.1.13
+  * Agilio CX 2x40GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0097-0001_2x40.nffw,
     netronome/nic_AMDA0097-0001_2x40.nffw)
-  * Agilio CX 2x40GbE firmware (4x10GbE+1x40GbE mode), version 2.1.13
+  * Agilio CX 2x40GbE firmware (4x10GbE+1x40GbE mode), version 2.1.16.1
     (netronome/nic/nic_AMDA0097-0001_4x10_1x40.nffw,
     netronome/nic_AMDA0097-0001_4x10_1x40.nffw)
-  * Agilio CX 2x40GbE firmware (8x10GbE mode), version 2.1.13
+  * Agilio CX 2x40GbE firmware (8x10GbE mode), version 2.1.16.1
     (netronome/nic/nic_AMDA0097-0001_8x10.nffw,
     netronome/nic_AMDA0097-0001_8x10.nffw)
-  * Agilio CX 2x25GbE firmware (1x10GbE+1x25GbE mode), version 2.1.13
+  * Agilio CX 2x25GbE firmware (1x10GbE+1x25GbE mode), version 2.1.16.1
     (netronome/nic/nic_AMDA0099-0001_1x10_1x25.nffw)
-  * Agilio CX 2x25GbE firmware (2x10GbE mode), version 2.1.13
+  * Agilio CX 2x25GbE firmware (2x10GbE mode), version 2.1.16.1
     (netronome/nic/nic_AMDA0099-0001_2x10.nffw,
     netronome/nic_AMDA0099-0001_2x10.nffw)
-  * Agilio CX 2x25GbE firmware, version 2.1.13
+  * Agilio CX 2x25GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0099-0001_2x25.nffw,
     netronome/nic_AMDA0099-0001_2x25.nffw)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
@@ -1899,6 +2043,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8821C Bluetooth firmware (rtl_bt/rtl8821c_fw.bin)
   * Realtek RTL8822B Bluetooth config (rtl_bt/rtl8822b_config.bin)
   * Realtek RTL8822B Bluetooth firmware (rtl_bt/rtl8822b_fw.bin)
+  * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
   * Realtek RTL8105E-1 firmware (rtl_nic/rtl8105e-1.fw)
   * Realtek RTL8106E-1 firmware, version 0.0.1 (rtl_nic/rtl8106e-1.fw)
   * Realtek RTL8106E-2 firmware, version 0.0.1 (rtl_nic/rtl8106e-2.fw)

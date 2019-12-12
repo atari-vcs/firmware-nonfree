@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="firmware">
-  <id>org.debian.packages.firmware-qcom-media</id>
+  <id>org.debian.packages.firmware_qcom_media</id>
   <name>Binary firmware for Qualcomm graphics/video</name>
-  <summary>
-Binary firmware for Qualcomm Adreno GPUs and Venus video accelerators.
-  </summary>
+  <summary>Binary firmware for Qualcomm Adreno GPUs and Venus video accelerators.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
     <firmware type="runtime">qcom/a300_pfp.fw</firmware>
