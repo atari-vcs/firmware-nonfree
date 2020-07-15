@@ -20,6 +20,9 @@
     <firmware type="runtime">bnx2x/bnx2x-e1-7.13.1.0.fw</firmware>
     <firmware type="runtime">bnx2x/bnx2x-e1h-7.13.1.0.fw</firmware>
     <firmware type="runtime">bnx2x/bnx2x-e2-7.13.1.0.fw</firmware>
+    <firmware type="runtime">bnx2x/bnx2x-e1-7.13.15.0.fw</firmware>
+    <firmware type="runtime">bnx2x/bnx2x-e1h-7.13.15.0.fw</firmware>
+    <firmware type="runtime">bnx2x/bnx2x-e2-7.13.15.0.fw</firmware>
 
   </provides>
 </component>

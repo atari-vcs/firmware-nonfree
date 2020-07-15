@@ -11,6 +11,7 @@ kernel.
 Driver: BCM-0bb4-0306 Cypress Bluetooth firmware for HTC Vive
 
 File: brcm/BCM-0bb4-0306.hcd
+Link: brcm/BCM-0a5c-6410.hcd -> BCM-0bb4-0306.hcd
 
 Licence: Redistributable. See LICENCE.cypress for details.
 
@@ -577,16 +578,24 @@ Driver: cxgb4 - Chelsio Terminator 4/5/6 1/10/25/40/100G Ethernet adapter
 
 File: cxgb4/t4fw-1.14.4.0.bin
 File: cxgb4/t4fw-1.15.37.0.bin
-File: cxgb4/t4fw-1.23.4.0.bin
-Link: cxgb4/t4fw.bin -> t4fw-1.23.4.0.bin
+File: cxgb4/t4fw-1.24.14.0.bin
+Link: cxgb4/t4fw.bin -> t4fw-1.24.14.0.bin
 File: cxgb4/t5fw-1.14.4.0.bin
 File: cxgb4/t5fw-1.15.37.0.bin
-File: cxgb4/t5fw-1.23.4.0.bin
-Link: cxgb4/t5fw.bin -> t5fw-1.23.4.0.bin
-File: cxgb4/t6fw-1.23.4.0.bin
-Link: cxgb4/t6fw.bin -> t6fw-1.23.4.0.bin
+File: cxgb4/t5fw-1.24.14.0.bin
+Link: cxgb4/t5fw.bin -> t5fw-1.24.14.0.bin
+File: cxgb4/t6fw-1.24.14.0.bin
+Link: cxgb4/t6fw.bin -> t6fw-1.24.14.0.bin
 File: cxgb4/aq1202_fw.cld
 File: cxgb4/bcm8483.bin
+File: cxgb4/configs/t4-config-default.txt
+File: cxgb4/configs/t5-config-default.txt
+File: cxgb4/configs/t6-config-default.txt
+File: cxgb4/configs/t5-config-hashfilter.txt
+File: cxgb4/configs/t6-config-hashfilter.txt
+Link: cxgb4/t4-config.txt -> configs/t4-config-default.txt
+Link: cxgb4/t5-config.txt -> configs/t5-config-default.txt
+Link: cxgb4/t6-config.txt -> configs/t6-config-default.txt
 
 Licence: Redistributable. See LICENCE.chelsio_firmware for details
 
@@ -785,8 +794,8 @@ Version: W16.68.1.p179
 File: mrvl/sdsd8977_combo_v2.bin
 Version: W16.68.1.p195
 
-Licence: Redistributable. See LICENCE.Marvell for details.  Originates from
-http://git.marvell.com/?p=mwifiex-firmware.git
+Licence: Redistributable. See LICENCE.NXP for details.
+Originates from https://github.com/NXP/mwifiex-firmware.git
 
 --------------------------------------------------------------------------
 
@@ -983,7 +992,7 @@ File: iwlwifi-8000C-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8000C-36.ucode
-Version: 36.8fd77bb3.0
+Version: 36.77d01142.0
 
 File: iwlwifi-8265-21.ucode
 Version: 21.302800.0
@@ -1001,7 +1010,7 @@ File: iwlwifi-8265-34.ucode
 Version: 34.610288.0
 
 File: iwlwifi-8265-36.ucode
-Version: 36.8fd77bb3.0
+Version: 36.77d01142.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1019,7 +1028,7 @@ File: iwlwifi-9000-pu-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9000-pu-b0-jf-b0-46.ucode
-Version: 46.a41adfe7.0
+Version: 46.6bf1df06.0
 
 File: iwlwifi-9260-th-b0-jf-b0-33.ucode
 Version: 33.610294.0
@@ -1037,31 +1046,31 @@ File: iwlwifi-9260-th-b0-jf-b0-43.ucode
 Version: 43.95eb4e97.0
 
 File: iwlwifi-9260-th-b0-jf-b0-46.ucode
-Version: 46.a41adfe7.0
+Version: 46.6bf1df06.0
 
 File: iwlwifi-cc-a0-46.ucode
 Version: 46.3cfab8da.0
 
 File: iwlwifi-cc-a0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-Qu-b0-hr-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-Qu-b0-jf-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-Qu-c0-hr-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-Qu-c0-jf-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-QuZ-a0-hr-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 File: iwlwifi-QuZ-a0-jf-b0-48.ucode
-Version: 48.13675109.0
+Version: 48.4fa0041f.0
 
 Licence: Redistributable. See LICENCE.iwlwifi_firmware for details
 
@@ -1399,6 +1408,9 @@ File: bnx2x/bnx2x-e2-7.13.1.0.fw
 File: bnx2x/bnx2x-e1-7.13.11.0.fw
 File: bnx2x/bnx2x-e1h-7.13.11.0.fw
 File: bnx2x/bnx2x-e2-7.13.11.0.fw
+File: bnx2x/bnx2x-e1-7.13.15.0.fw
+File: bnx2x/bnx2x-e1h-7.13.15.0.fw
+File: bnx2x/bnx2x-e2-7.13.15.0.fw
 
 
 License:
@@ -2240,6 +2252,8 @@ File: amdgpu/raven_rlc.bin
 File: amdgpu/raven_sdma.bin
 File: amdgpu/raven_vcn.bin
 File: amdgpu/raven_dmcu.bin
+File: amdgpu/raven_kicker_rlc.bin
+File: amdgpu/raven_ta.bin
 File: amdgpu/picasso_asd.bin
 File: amdgpu/picasso_ce.bin
 File: amdgpu/picasso_gpu_info.bin
@@ -2251,6 +2265,7 @@ File: amdgpu/picasso_rlc.bin
 File: amdgpu/picasso_rlc_am4.bin
 File: amdgpu/picasso_sdma.bin
 File: amdgpu/picasso_vcn.bin
+File: amdgpu/picasso_ta.bin
 File: amdgpu/raven2_asd.bin
 File: amdgpu/raven2_ce.bin
 File: amdgpu/raven2_gpu_info.bin
@@ -2261,6 +2276,51 @@ File: amdgpu/raven2_pfp.bin
 File: amdgpu/raven2_rlc.bin
 File: amdgpu/raven2_sdma.bin
 File: amdgpu/raven2_vcn.bin
+File: amdgpu/raven2_ta.bin
+File: amdgpu/navi10_asd.bin
+File: amdgpu/navi10_ce.bin
+File: amdgpu/navi10_gpu_info.bin
+File: amdgpu/navi10_me.bin
+File: amdgpu/navi10_mec.bin
+File: amdgpu/navi10_mec2.bin
+File: amdgpu/navi10_pfp.bin
+File: amdgpu/navi10_rlc.bin
+File: amdgpu/navi10_sdma.bin
+File: amdgpu/navi10_sdma1.bin
+File: amdgpu/navi10_smc.bin
+File: amdgpu/navi10_sos.bin
+File: amdgpu/navi10_vcn.bin
+File: amdgpu/navi10_ta.bin
+File: amdgpu/navi14_asd.bin
+File: amdgpu/navi14_ce.bin
+File: amdgpu/navi14_ce_wks.bin
+File: amdgpu/navi14_gpu_info.bin
+File: amdgpu/navi14_me.bin
+File: amdgpu/navi14_me_wks.bin
+File: amdgpu/navi14_mec.bin
+File: amdgpu/navi14_mec_wks.bin
+File: amdgpu/navi14_mec2.bin
+File: amdgpu/navi14_mec2_wks.bin
+File: amdgpu/navi14_pfp.bin
+File: amdgpu/navi14_pfp_wks.bin
+File: amdgpu/navi14_rlc.bin
+File: amdgpu/navi14_sdma.bin
+File: amdgpu/navi14_sdma1.bin
+File: amdgpu/navi14_smc.bin
+File: amdgpu/navi14_sos.bin
+File: amdgpu/navi14_vcn.bin
+File: amdgpu/navi14_ta.bin
+File: amdgpu/renoir_asd.bin
+File: amdgpu/renoir_ce.bin
+File: amdgpu/renoir_gpu_info.bin
+File: amdgpu/renoir_me.bin
+File: amdgpu/renoir_mec.bin
+File: amdgpu/renoir_mec2.bin
+File: amdgpu/renoir_pfp.bin
+File: amdgpu/renoir_rlc.bin
+File: amdgpu/renoir_sdma.bin
+File: amdgpu/renoir_vcn.bin
+File: amdgpu/renoir_dmcub.bin
 
 Licence: Redistributable. See LICENSE.amdgpu for details.
 
@@ -2361,6 +2421,8 @@ File: qed/qed_init_values-8.33.12.0.bin
 File: qed/qed_init_values_zipped-8.37.2.0.bin
 File: qed/qed_init_values_zipped-8.37.7.0.bin
 File: qed/qed_init_values-8.37.7.0.bin
+File: qed/qed_init_values-8.40.33.0.bin
+File: qed/qed_init_values_zipped-8.42.2.0.bin
 
 Licence:
   This file contains firmware data derived from proprietary unpublished
@@ -2484,8 +2546,9 @@ Licence: Redistributable. See LICENCE.cypress for details.
 
 File: "brcm/brcmfmac4330-sdio.Prowise-PT301.txt"
 File: "brcm/brcmfmac43340-sdio.meegopad-t08.txt"
+File: "brcm/brcmfmac43340-sdio.pov-tab-p1006w-data.txt"
 File: "brcm/brcmfmac43362-sdio.cubietech,cubietruck.txt"
-File: "brcm/brcmfmac43362-sdio.lemaker,bananapro.txt"
+Link: brcm/brcmfmac43362-sdio.lemaker,bananapro.txt -> brcmfmac43362-sdio.cubietech,cubietruck.txt
 File: "brcm/brcmfmac43430a0-sdio.jumper-ezpad-mini3.txt"
 File: "brcm/brcmfmac43430a0-sdio.ONDA-V80 PLUS.txt"
 File: "brcm/brcmfmac43430-sdio.AP6212.txt"
@@ -2493,6 +2556,8 @@ File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
+File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
+File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
 
 Licence: GPLv2. See GPL-2 for details.
@@ -2765,6 +2830,16 @@ Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
+Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8812AE
+
+Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
+File: rtlwifi/rtl8812aefw.bin
+File: rtlwifi/rtl8812aefw_wowlan.bin
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
+
+--------------------------------------------------------------------------
+
 Driver: rtl8821ae - Realtek 802.11n WLAN driver for RTL8821AE
 
 Info: From Vendor's realtek/rtlwifi_linux_mac80211_0019.0320.2014V628 driver
@@ -2791,6 +2866,9 @@ Driver: rtw88 - Realtek 802.11ac WLAN driver for RTL8822BE and RTL8822CE
 Info: Sent to Larry Finger by Realtek engineer Yan-Hsuan Chuang <yhchuang@realtek.com>
 File: rtw88/rtw8822b_fw.bin
 File: rtw88/rtw8822c_fw.bin
+File: rtw88/rtw8822c_wow_fw.bin
+File: rtw88/README
+File: rtw88/rtw8723d_fw.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -2898,11 +2976,17 @@ Version: 0.0.2
 File: rtl_nic/rtl8168h-2.fw
 Version: 0.0.2
 
+File: rtl_nic/rtl8168fp-3.fw
+Version: 0.0.1
+
 File: rtl_nic/rtl8107e-1.fw
 Version: 0.0.2
 
 File: rtl_nic/rtl8107e-2.fw
 Version: 0.0.2
+
+File: rtl_nic/rtl8125a-3.fw
+Version: 0.0.1
 
 Licence:
  * Copyright © 2011-2013, Realtek Semiconductor Corporation
@@ -2910,6 +2994,17 @@ Licence:
  * Permission is hereby granted for the distribution of this firmware
  * data in hexadecimal or equivalent format, provided this copyright
  * notice is accompanying it.
+
+--------------------------------------------------------------------------
+
+Driver: r8152 - Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
+
+File: rtl_nic/rtl8153a-2.fw
+File: rtl_nic/rtl8153a-3.fw
+File: rtl_nic/rtl8153a-4.fw
+File: rtl_nic/rtl8153b-2.fw
+
+Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
 --------------------------------------------------------------------------
 
@@ -3015,7 +3110,7 @@ File: ath10k/QCA988X/hw2.0/firmware-4.bin
 Version: 10.2.4.45
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA988X/hw2.0/firmware-5.bin
-Version: 10.2.4-1.0-00043
+Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA988X/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA6174/hw2.1/board.bin
 File: ath10k/QCA6174/hw2.1/board-2.bin
@@ -3028,7 +3123,7 @@ File: ath10k/QCA6174/hw3.0/firmware-4.bin
 Version: WLAN.RM.2.0-00180-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-4.txt
 File: ath10k/QCA6174/hw3.0/firmware-6.bin
-Version: RM.4.4.1.c2-00057-QCARMSWP-1
+Version: WLAN.RM.4.4.1-00140-QCARMSWPZ-1
 Licence: ath10k/QCA6174/hw3.0/notice_ath10k_firmware-6.txt
 File: ath10k/QCA9377/hw1.0/board.bin
 File: ath10k/QCA9377/hw1.0/board-2.bin
@@ -3045,19 +3140,24 @@ Version: 10.4-3.6-00140
 Licence: ath10k/QCA4019/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9887/hw1.0/board.bin
 File: ath10k/QCA9887/hw1.0/firmware-5.bin
-Version: 10.2.4-1.0-00041
+Version: 10.2.4-1.0-00047
 Licence: ath10k/QCA9887/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9888/hw2.0/board-2.bin
 File: ath10k/QCA9888/hw2.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00024
+Version: 10.4-3.9.0.2-00070
 Licence: ath10k/QCA9888/hw2.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9984/hw1.0/board-2.bin
 File: ath10k/QCA9984/hw1.0/firmware-5.bin
-Version: 10.4-3.9.0.2-00021
+Version: 10.4-3.9.0.2-00070
 Licence: ath10k/QCA9984/hw1.0/notice_ath10k_firmware-5.txt
 File: ath10k/QCA9377/hw1.0/firmware-6.bin
 Version: WLAN.TF.2.1-00021-QCARMSWP-1
 Licence: ath10k/QCA9377/hw1.0/notice_ath10k_firmware-6.txt
+File: ath10k/WCN3990/hw1.0/firmware-5.bin
+File: ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Link: qcom/sdm845/wlanmdsp.mbn -> ../../ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+Version: WLAN.HL.2.0-01387-QCAHLSWMTPLZ-1
+Licence: ath10k/WCN3990/hw1.0/notice.txt_wlanmdsp
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k for details
 
@@ -3225,13 +3325,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0472
+Version: BT_JeffersonPeak_B0_B0_REL0538
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0472
+Version: BT_JeffersonPeak_B0_B0_REL0538
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL0472
+Version: BT_JeffersonPeak_B0_B0_REL0538
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL0472
+Version: BT_JeffersonPeak_B0_B0_REL0538
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3241,13 +3341,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL0472
+Version: BT_ThunderPeak_B0_B0_REL0538
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL0472
+Version: BT_ThunderPeak_B0_B0_REL0538
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL0472
+Version: BT_ThunderPeak_B0_B0_REL0538
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL0472
+Version: BT_ThunderPeak_B0_B0_REL0538
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3257,41 +3357,53 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL_0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL0310
+Version: BT_CyclonePeak_A0_REL0384
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL0310
+Version: BT_Quasar_REL0384
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL0310
+Version: BT_Quasar_REL0384
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL0310
+Version: BT_Quasar_REL0384
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL0310
+Version: BT_Quasar_REL0384
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL0310
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-32-4.sfi
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-32-4.ddc
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-240-1.sfi
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-240-1.ddc
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-240-4.sfi
+Version: BT_HarrisonPeak_REL0384
+File:intel/ibt-19-240-4.ddc
+Version: BT_HarrisonPeak_REL0384
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
@@ -3312,6 +3424,9 @@ File: rtl_bt/rtl8723d_config.bin
 File: rtl_bt/rtl8821c_fw.bin
 File: rtl_bt/rtl8821c_config.bin
 File: rtl_bt/rtl8822cu_fw.bin
+File: rtl_bt/rtl8822cu_config.bin
+File: rtl_bt/rtl8822cs_fw.bin
+File: rtl_bt/rtl8822cs_config.bin
 
 Licence: Redistributable. See LICENCE.rtlwifi_firmware.txt for details.
 
@@ -3323,6 +3438,8 @@ Files rtl_bt/rtl8821c_* and rtl_bt/rtl8723d_* came directly from Realtek.
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
 updated on February 24, 2019
 File rtl_bt/rtl8822cu_fw.bin came directly from Realtek.
+updated on October 23, 2019
+File rtl_bt/rtl8822cu_config.bin came directly from Realtek.
 
 --------------------------------------------------------------------------
 
@@ -3398,7 +3515,7 @@ Version: 2018-05-24
 File: amd-ucode/microcode_amd_fam16h.bin
 Version: 2014-10-28
 File: amd-ucode/microcode_amd_fam17h.bin
-Version: 2018-11-28
+Version: 2019-12-18
 
 License: Redistributable. See LICENSE.amd-ucode for details
 
@@ -3601,7 +3718,7 @@ File: intel/dsp_fw_release_v969.bin
 Version: 8.20.00.969
 File: intel/dsp_fw_release_v3402.bin
 Version: 9.21.00.3402_161
-Link: intel/dsp_fw_release.bin -> intel/dsp_fw_release_v3402.bin
+Link: intel/dsp_fw_release.bin -> dsp_fw_release_v3402.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3609,7 +3726,7 @@ File: intel/dsp_fw_bxtn_v2219.bin
 Version: 9.22.01.2219_64
 File: intel/dsp_fw_bxtn_v3366.bin
 Version: 9.22.01.3366_157
-Link: intel/dsp_fw_bxtn.bin -> intel/dsp_fw_bxtn_v3366.bin
+Link: intel/dsp_fw_bxtn.bin -> dsp_fw_bxtn_v3366.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3645,8 +3762,7 @@ File: intel/dsp_fw_cnl_v1191.bin
 Version: 10.00.00.1191
 File: intel/dsp_fw_cnl_v1858.bin
 Version: 10.23.00.1858
-File: intel/dsp_fw_cnl.bin
-Link: intel/dsp_fw_cnl.bin -> intel/dsp_fw_cnl_v1858.bin
+Link: intel/dsp_fw_cnl.bin -> dsp_fw_cnl_v1858.bin
 
 License: Redistributable. See LICENCE.adsp_sst for details
 
@@ -3678,7 +3794,13 @@ File: nvidia/tegra124/xusb.bin
 Version: v45.46
 
 File: nvidia/tegra210/xusb.bin
-Version: v50.10
+Version: v50.24
+
+File: nvidia/tegra186/xusb.bin
+Version: v55.15
+
+File: nvidia/tegra194/xusb.bin
+Version: v60.06
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3687,8 +3809,13 @@ Licence: Redistributable. See LICENCE.nvidia for details
 Driver: tegra-vic -- NVIDIA Tegra VIC driver
 
 File: nvidia/tegra124/vic03_ucode.bin
+Link: nvidia/tegra124/vic.bin -> vic03_ucode.bin
+
 File: nvidia/tegra210/vic04_ucode.bin
+Link: nvidia/tegra210/vic.bin -> vic04_ucode.bin
+
 File: nvidia/tegra186/vic04_ucode.bin
+Link: nvidia/tegra186/vic.bin -> vic04_ucode.bin
 
 Licence: Redistributable. See LICENCE.nvidia for details
 
@@ -3708,7 +3835,7 @@ Licence: GPLv2 or later. See GPL-2 and GPL-3 for details.
 
 --------------------------------------------------------------------------
 
-Driver: qca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
+Driver: btqca - Qualcomm Atheros Bluetooth support for QCA61x4 chips
 
 File: qca/nvm_usb_00000201.bin
 File: qca/nvm_usb_00000200.bin
@@ -3722,10 +3849,24 @@ File: qca/rampatch_usb_00000300.bin
 File: qca/rampatch_usb_00000302.bin
 File: qca/rampatch_00130300.bin
 File: qca/rampatch_00130302.bin
-File: qca/crbtfw21.tlv
-File: qca/crnv21.bin
 File: qca/nvm_00440302.bin
 File: qca/rampatch_00440302.bin
+File: qca/nvm_00440302_eu.bin
+File: qca/nvm_00440302_i2s_eu.bin
+File: qca/nvm_usb_00000302_eu.bin
+File: qca/htbtfw20.tlv
+File: qca/htnv20.bin
+
+Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
+
+--------------------------------------------------------------------------
+
+Driver: qca - Qualcomm Atheros Bluetooth support for WCN399x chips
+
+File: qca/crbtfw21.tlv
+File: qca/crnv21.bin
+File: qca/crbtfw32.tlv
+File: qca/crnv32.bin
 
 Licence: Redistributable. See LICENSE.QualcommAtheros_ath10k and qca/NOTICE.txt for details
 
@@ -3806,14 +3947,23 @@ Version: Guc API/ABI ver 33 - release 0 for Skylake
 File: i915/skl_huc_ver01_07_1398.bin
 Version: HuC API/ABI ver 1 - release 7 for Skylake
 
+File: i915/skl_huc_2.0.0.bin
+Version: HuC API/ABI ver 2 - release 0 for Skylake
+
 File: i915/bxt_huc_ver01_07_1398.bin
 Version: HuC API/APB ver 1 - release 7 for Broxton
 
 File: i915/bxt_huc_ver01_8_2893.bin
 Version: HuC API/APB ver 1 - release 8 for Broxton
 
+File: i915/bxt_huc_2.0.0.bin
+Version: HuC API/APB ver 2 - release 0 for Broxton
+
 File: i915/kbl_huc_ver02_00_1810.bin
 Version: HuC API/APB ver 2 - for Kabylake
+
+File: i915/kbl_huc_4.0.0.bin
+Version: HuC API/APB ver 4 - for Kabylake
 
 File: i915/bxt_guc_ver8_7.bin
 Version: Guc API/APB ver 8 - release 7 for Broxton
@@ -3829,6 +3979,9 @@ Version: Guc API/APB ver 33 - release 0 for Broxton
 
 File: i915/kbl_guc_ver9_14.bin
 Version: Guc API/APB ver 9 release 14 for Kabylake
+
+File: i915/cml_guc_33.0.0.bin
+Version: Guc API/APB ver 33 release 0 for Comet Lake
 
 File: i915/kbl_guc_ver9_39.bin
 Version: Guc API/APB ver 9 release 39 for Kabylake
@@ -3848,8 +4001,14 @@ Version: Guc API/APB ver 33 release 0 for Geminilake
 File: i915/glk_huc_ver03_01_2893.bin
 Version: Huc API/APB ver 3 release 1 for Geminilake
 
+File: i915/glk_huc_4.0.0.bin
+Version: Huc API/APB ver 4 release 0 for Geminilake
+
 File: i915/glk_dmc_ver1_04.bin
 Version: DMC API/ABI ver 1 - release 04 for Geminilake
+
+File: i915/cml_huc_4.0.0.bin
+Version: HuC API/ABI ver 4 - release 0 for Cometlake
 
 File: i915/cnl_dmc_ver1_06.bin
 Version: DMC API/ABI ver 1 - release 06 for Cannonlake
@@ -3860,6 +4019,9 @@ Version: DMC API/ABI ver 1 - release 07 for Cannonlake
 File: i915/icl_dmc_ver1_07.bin
 Version: DMC API/ABI ver 1 - release 07 for icelake
 
+File: i915/icl_dmc_ver1_09.bin
+Version: DMC API/ABI ver 1 - release 09 for icelake
+
 File: i915/icl_guc_32.0.3.bin
 Version: Guc API/APB ver 32 release 0 for Icelake
 
@@ -3868,6 +4030,31 @@ Version: Guc API/APB ver 33 release 0 for Icelake
 
 File: i915/icl_huc_ver8_4_3238.bin
 Version: Huc API/APB ver 8 release 4 for Icelake
+
+File: i915/tgl_dmc_ver2_04.bin
+Version: DMC API/APB ver 2 release 4 for Tigerlake
+
+File: i915/tgl_dmc_ver2_06.bin
+Version: DMC API/APB ver 2 release 6 for Tigerlake
+
+File: i915/icl_huc_9.0.0.bin
+Version: Huc API/APB ver 9 release 0 for Icelake
+
+File: i915/ehl_guc_33.0.4.bin
+Version: Guc API/APB ver 33 release 0 for Elkhartlake
+
+File: i915/ehl_huc_9.0.0.bin
+Version: Huc API/APB ver 9 release 0 for Elkhartlake
+
+File: i915/tgl_guc_35.2.0.bin
+Version: Guc API/APB ver 35 release 2 for Tigerlake
+
+File: i915/tgl_huc_7.0.3.bin
+Version: Huc API/APB ver 7 release 0 for Tigerlake
+
+File: i915/tgl_huc_7.0.12.bin
+Version: Huc API/APB ver 7 release 0 for Tigerlake
+
 License: Redistributable. See LICENSE.i915 for details
 
 --------------------------------------------------------------------------
@@ -3977,6 +4164,9 @@ File: nvidia/gp102/nvdec/scrubber.bin
 File: nvidia/gp102/sec2/desc.bin
 File: nvidia/gp102/sec2/image.bin
 File: nvidia/gp102/sec2/sig.bin
+File: nvidia/gp102/sec2/desc-1.bin
+File: nvidia/gp102/sec2/image-1.bin
+File: nvidia/gp102/sec2/sig-1.bin
 File: nvidia/gp104/acr/bl.bin
 File: nvidia/gp104/acr/ucode_load.bin
 File: nvidia/gp104/acr/ucode_unload.bin
@@ -3997,6 +4187,9 @@ File: nvidia/gp104/nvdec/scrubber.bin
 File: nvidia/gp104/sec2/desc.bin
 File: nvidia/gp104/sec2/image.bin
 File: nvidia/gp104/sec2/sig.bin
+File: nvidia/gp104/sec2/desc-1.bin
+File: nvidia/gp104/sec2/image-1.bin
+File: nvidia/gp104/sec2/sig-1.bin
 File: nvidia/gp106/acr/bl.bin
 File: nvidia/gp106/acr/ucode_load.bin
 File: nvidia/gp106/acr/ucode_unload.bin
@@ -4017,6 +4210,9 @@ File: nvidia/gp106/nvdec/scrubber.bin
 File: nvidia/gp106/sec2/desc.bin
 File: nvidia/gp106/sec2/image.bin
 File: nvidia/gp106/sec2/sig.bin
+File: nvidia/gp106/sec2/desc-1.bin
+File: nvidia/gp106/sec2/image-1.bin
+File: nvidia/gp106/sec2/sig-1.bin
 File: nvidia/gp107/acr/bl.bin
 File: nvidia/gp107/acr/ucode_load.bin
 File: nvidia/gp107/acr/ucode_unload.bin
@@ -4037,6 +4233,9 @@ File: nvidia/gp107/nvdec/scrubber.bin
 File: nvidia/gp107/sec2/desc.bin
 File: nvidia/gp107/sec2/image.bin
 File: nvidia/gp107/sec2/sig.bin
+File: nvidia/gp107/sec2/desc-1.bin
+File: nvidia/gp107/sec2/image-1.bin
+File: nvidia/gp107/sec2/sig-1.bin
 File: nvidia/gp10b/acr/bl.bin
 File: nvidia/gp10b/acr/ucode_load.bin
 File: nvidia/gp10b/gr/fecs_bl.bin
@@ -4094,6 +4293,116 @@ File: nvidia/gv100/nvdec/scrubber.bin
 File: nvidia/gv100/sec2/desc.bin
 File: nvidia/gv100/sec2/image.bin
 File: nvidia/gv100/sec2/sig.bin
+File: nvidia/tu102/acr/bl.bin
+File: nvidia/tu102/acr/ucode_ahesasc.bin
+File: nvidia/tu102/acr/ucode_asb.bin
+File: nvidia/tu102/acr/unload_bl.bin
+File: nvidia/tu102/acr/ucode_unload.bin
+File: nvidia/tu102/gr/fecs_bl.bin
+File: nvidia/tu102/gr/fecs_data.bin
+File: nvidia/tu102/gr/fecs_inst.bin
+File: nvidia/tu102/gr/fecs_sig.bin
+File: nvidia/tu102/gr/gpccs_bl.bin
+File: nvidia/tu102/gr/gpccs_data.bin
+File: nvidia/tu102/gr/gpccs_inst.bin
+File: nvidia/tu102/gr/gpccs_sig.bin
+File: nvidia/tu102/gr/sw_bundle_init.bin
+File: nvidia/tu102/gr/sw_ctx.bin
+File: nvidia/tu102/gr/sw_method_init.bin
+File: nvidia/tu102/gr/sw_nonctx.bin
+File: nvidia/tu102/gr/sw_veid_bundle_init.bin
+File: nvidia/tu102/nvdec/scrubber.bin
+File: nvidia/tu102/sec2/desc.bin
+File: nvidia/tu102/sec2/image.bin
+File: nvidia/tu102/sec2/sig.bin
+File: nvidia/tu104/acr/bl.bin
+File: nvidia/tu104/acr/ucode_ahesasc.bin
+File: nvidia/tu104/acr/ucode_asb.bin
+File: nvidia/tu104/acr/unload_bl.bin
+File: nvidia/tu104/acr/ucode_unload.bin
+File: nvidia/tu104/gr/fecs_bl.bin
+File: nvidia/tu104/gr/fecs_data.bin
+File: nvidia/tu104/gr/fecs_inst.bin
+File: nvidia/tu104/gr/fecs_sig.bin
+File: nvidia/tu104/gr/gpccs_bl.bin
+File: nvidia/tu104/gr/gpccs_data.bin
+File: nvidia/tu104/gr/gpccs_inst.bin
+File: nvidia/tu104/gr/gpccs_sig.bin
+File: nvidia/tu104/gr/sw_bundle_init.bin
+File: nvidia/tu104/gr/sw_ctx.bin
+File: nvidia/tu104/gr/sw_method_init.bin
+File: nvidia/tu104/gr/sw_nonctx.bin
+File: nvidia/tu104/gr/sw_veid_bundle_init.bin
+File: nvidia/tu104/nvdec/scrubber.bin
+File: nvidia/tu104/sec2/desc.bin
+File: nvidia/tu104/sec2/image.bin
+File: nvidia/tu104/sec2/sig.bin
+File: nvidia/tu106/acr/bl.bin
+File: nvidia/tu106/acr/ucode_ahesasc.bin
+File: nvidia/tu106/acr/ucode_asb.bin
+File: nvidia/tu106/acr/unload_bl.bin
+File: nvidia/tu106/acr/ucode_unload.bin
+File: nvidia/tu106/gr/fecs_bl.bin
+File: nvidia/tu106/gr/fecs_data.bin
+File: nvidia/tu106/gr/fecs_inst.bin
+File: nvidia/tu106/gr/fecs_sig.bin
+File: nvidia/tu106/gr/gpccs_bl.bin
+File: nvidia/tu106/gr/gpccs_data.bin
+File: nvidia/tu106/gr/gpccs_inst.bin
+File: nvidia/tu106/gr/gpccs_sig.bin
+File: nvidia/tu106/gr/sw_bundle_init.bin
+File: nvidia/tu106/gr/sw_ctx.bin
+File: nvidia/tu106/gr/sw_method_init.bin
+File: nvidia/tu106/gr/sw_nonctx.bin
+File: nvidia/tu106/gr/sw_veid_bundle_init.bin
+File: nvidia/tu106/nvdec/scrubber.bin
+File: nvidia/tu106/sec2/desc.bin
+File: nvidia/tu106/sec2/image.bin
+File: nvidia/tu106/sec2/sig.bin
+File: nvidia/tu116/acr/bl.bin
+File: nvidia/tu116/acr/ucode_ahesasc.bin
+File: nvidia/tu116/acr/ucode_asb.bin
+File: nvidia/tu116/acr/ucode_unload.bin
+File: nvidia/tu116/acr/unload_bl.bin
+File: nvidia/tu116/gr/fecs_bl.bin
+File: nvidia/tu116/gr/fecs_data.bin
+File: nvidia/tu116/gr/fecs_inst.bin
+File: nvidia/tu116/gr/fecs_sig.bin
+File: nvidia/tu116/gr/gpccs_bl.bin
+File: nvidia/tu116/gr/gpccs_data.bin
+File: nvidia/tu116/gr/gpccs_inst.bin
+File: nvidia/tu116/gr/gpccs_sig.bin
+File: nvidia/tu116/gr/sw_bundle_init.bin
+File: nvidia/tu116/gr/sw_ctx.bin
+File: nvidia/tu116/gr/sw_method_init.bin
+File: nvidia/tu116/gr/sw_nonctx.bin
+File: nvidia/tu116/gr/sw_veid_bundle_init.bin
+File: nvidia/tu116/nvdec/scrubber.bin
+File: nvidia/tu116/sec2/desc.bin
+File: nvidia/tu116/sec2/image.bin
+File: nvidia/tu116/sec2/sig.bin
+File: nvidia/tu117/acr/bl.bin
+File: nvidia/tu117/acr/ucode_ahesasc.bin
+File: nvidia/tu117/acr/ucode_asb.bin
+File: nvidia/tu117/acr/ucode_unload.bin
+File: nvidia/tu117/acr/unload_bl.bin
+File: nvidia/tu117/gr/fecs_bl.bin
+File: nvidia/tu117/gr/fecs_data.bin
+File: nvidia/tu117/gr/fecs_inst.bin
+File: nvidia/tu117/gr/fecs_sig.bin
+File: nvidia/tu117/gr/gpccs_bl.bin
+File: nvidia/tu117/gr/gpccs_data.bin
+File: nvidia/tu117/gr/gpccs_inst.bin
+File: nvidia/tu117/gr/gpccs_sig.bin
+File: nvidia/tu117/gr/sw_bundle_init.bin
+File: nvidia/tu117/gr/sw_ctx.bin
+File: nvidia/tu117/gr/sw_method_init.bin
+File: nvidia/tu117/gr/sw_nonctx.bin
+File: nvidia/tu117/gr/sw_veid_bundle_init.bin
+File: nvidia/tu117/nvdec/scrubber.bin
+File: nvidia/tu117/sec2/desc.bin
+File: nvidia/tu117/sec2/image.bin
+File: nvidia/tu117/sec2/sig.bin
 
 File: nvidia/tu10x/typec/ccg_primary.cyacd
 File: nvidia/tu10x/typec/ccg_secondary.cyacd
@@ -4151,8 +4460,28 @@ Licence: Redistributable. See LICENCE.Marvell for details.
 
 Driver: mtk-vpu - Mediatek VPU video processing unit driver
 
-File: vpu_d.bin
-File: vpu_p.bin
+File: mediatek/mt8173/vpu_d.bin
+File: mediatek/mt8173/vpu_p.bin
+Link: vpu_d.bin -> mediatek/mt8173/vpu_d.bin
+Link: vpu_p.bin -> mediatek/mt8173/vpu_p.bin
+
+Licence: Redistributable.
+
+MediaTek Inc. grants permission to use and redistribute aforementioned firmware
+files for the use with devices containing MediaTek chipsets, but not as part of
+the Linux kernel or in any other form which would require these files themselves
+to be covered by the terms of the GNU General Public License or the GNU Lesser
+General Public License.
+
+These firmware files are distributed in the hope that they will be useful, but
+are provided WITHOUT ANY WARRANTY, INCLUDING BUT NOT LIMITED TO IMPLIED WARRANTY
+OF MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+
+--------------------------------------------------------------------------
+
+Driver: mtk_scp - Mediatek SCP System Control Processing Driver
+
+File: mediatek/mt8183/scp.img
 
 Licence: Redistributable.
 
@@ -4174,6 +4503,8 @@ File: mediatek/mt7622pr2h.bin
 Version: 20180621204904
 File: mediatek/mt7668pr2h.bin
 Version: 20180517181834
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4227,11 +4558,33 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7615e - MediaTek MT7615e Wireless MACs
 
 File: mediatek/mt7615_n9.bin
-Version: 20190114
+Version: 20200131
 File: mediatek/mt7615_cr4.bin
 Version: 20190114
 File: mediatek/mt7615_rom_patch.bin
 Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7622 - MediaTek MT7622 Wireless MACs
+
+File: mediatek/mt7622_n9.bin
+Version: 20200131
+File: mediatek/mt7622_rom_patch.bin
+Version: 20190114
+
+Licence: Redistributable. See LICENCE.mediatek for details.
+
+--------------------------------------------------------------------------
+
+Driver: mt7663 - MediaTek MT7663 Wireless MACs
+
+File: mediatek/mt7663pr2h.bin
+Version: 7663mp1802-2003211229
+File: mediatek/mt7663_n9_v3.bin
+Version: 7663mp1827-20200326130317
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4282,34 +4635,34 @@ File: netronome/flower/nic_AMDA0099.nffw
 File: netronome/flower/nic_AMDA0096.nffw
 File: netronome/flower/nic_AMDA0097.nffw
 File: netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0081.nffw -> netronome/flower/nic_AMDA0097.nffw
-Link: netronome/flower/nic_AMDA0081-0001_1x40.nffw -> netronome/flower/nic_AMDA0081.nffw
-Link: netronome/flower/nic_AMDA0097-0001_2x40.nffw -> netronome/flower/nic_AMDA0097.nffw
-Link: netronome/flower/nic_AMDA0099-0001_2x10.nffw -> netronome/flower/nic_AMDA0099.nffw
-Link: netronome/flower/nic_AMDA0081-0001_4x10.nffw -> netronome/flower/nic_AMDA0081.nffw
-Link: netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw -> netronome/flower/nic_AMDA0097.nffw
-Link: netronome/flower/nic_AMDA0099-0001_2x25.nffw -> netronome/flower/nic_AMDA0099.nffw
-Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> netronome/flower/nic_AMDA0096.nffw
-Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> netronome/flower/nic_AMDA0097.nffw
-Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> netronome/flower/nic_AMDA0099.nffw
-Link: netronome/flower/nic_AMDA0058-0011_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0011_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0011_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0011_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0012_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0012_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0012_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0058-0012_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0011_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0011_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0011_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0011_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0012_1x100.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0012_2x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw -> netronome/flower/nic_AMDA0058.nffw
-Link: netronome/flower/nic_AMDA0078-0012_8x10.nffw -> netronome/flower/nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0081.nffw -> nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0081-0001_1x40.nffw -> nic_AMDA0081.nffw
+Link: netronome/flower/nic_AMDA0097-0001_2x40.nffw -> nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_2x10.nffw -> nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0081-0001_4x10.nffw -> nic_AMDA0081.nffw
+Link: netronome/flower/nic_AMDA0097-0001_4x10_1x40.nffw -> nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_2x25.nffw -> nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0096-0001_2x10.nffw -> nic_AMDA0096.nffw
+Link: netronome/flower/nic_AMDA0097-0001_8x10.nffw -> nic_AMDA0097.nffw
+Link: netronome/flower/nic_AMDA0099-0001_1x10_1x25.nffw -> nic_AMDA0099.nffw
+Link: netronome/flower/nic_AMDA0058-0011_1x100.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_2x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_4x10_1x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0011_8x10.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_1x100.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_2x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_4x10_1x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0058-0012_8x10.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_1x100.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_2x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_4x10_1x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0011_8x10.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_1x100.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_2x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_4x10_1x40.nffw -> nic_AMDA0058.nffw
+Link: netronome/flower/nic_AMDA0078-0012_8x10.nffw -> nic_AMDA0058.nffw
 
-Version: AOTC-2.10.A.23
+Version: AOTC-2.12.A.13
 
 File: netronome/bpf/nic_AMDA0081-0001_1x40.nffw
 File: netronome/bpf/nic_AMDA0097-0001_2x40.nffw
@@ -4371,6 +4724,16 @@ File: qcom/venus-5.2/venus.mbn
 
 Version: 5.2-00023
 
+File: qcom/venus-5.4/venus.mdt
+File: qcom/venus-5.4/venus.b00
+File: qcom/venus-5.4/venus.b01
+File: qcom/venus-5.4/venus.b02
+File: qcom/venus-5.4/venus.b03
+File: qcom/venus-5.4/venus.b04
+File: qcom/venus-5.4/venus.mbn
+
+Version: 5.4-00024
+
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
@@ -4402,11 +4765,51 @@ File: qcom/a530_zap.b00
 File: qcom/a530_zap.b01
 File: qcom/a530_zap.b02
 File: qcom/a530_zap.mdt
+File: qcom/a630_gmu.bin
+File: qcom/a630_sqe.fw
+File: qcom/sdm845/a630_zap.mbn
 
 Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
 
 Binary files supplied originally from
 https://developer.qualcomm.com/hardware/dragonboard-410c/tools
+
+--------------------------------------------------------------------------
+
+Driver: qcom_q6v5_pas - Qualcomm remoteproc firmware
+
+File: qcom/sdm845/adsp.mbn
+File: qcom/sdm845/adspr.jsn
+File: qcom/sdm845/adspua.jsn
+File: qcom/sdm845/cdsp.mbn
+File: qcom/sdm845/cdspr.jsn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+
+adsp.mbn has been converted from 20-adsp_split/firmware/adsp.* using
+https://github.com/andersson/pil-squasher
+
+cdsp.mbn has been converted from 21-cdsp_split/firmware/cdsp.* using
+https://github.com/andersson/pil-squasher
+
+--------------------------------------------------------------------------
+
+Driver: qcom_q6v5_mss - Qualcomm modem subsystem firmware
+
+File: qcom/sdm845/mba.mbn
+File: qcom/sdm845/modem.mbn
+File: qcom/sdm845/modemuw.jsn
+
+Licence: Redistributable. See LICENSE.qcom and qcom/NOTICE.txt for details
+
+Binary files supplied originally from
+http://releases.linaro.org/96boards/dragonboard845c/qualcomm/firmware/RB3_firmware_20190529180356-v4.zip
+
+modem.mbn has been converted from 28-modem/modem.* using
+https://github.com/andersson/pil-squasher
 
 --------------------------------------------------------------------------
 
@@ -4419,9 +4822,14 @@ File: mellanox/mlxsw_spectrum-13.1702.6.mfa2
 File: mellanox/mlxsw_spectrum-13.1703.4.mfa2
 File: mellanox/mlxsw_spectrum-13.1910.622.mfa2
 File: mellanox/mlxsw_spectrum-13.2000.1122.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.1886.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.2308.mfa2
+File: mellanox/mlxsw_spectrum2-29.2000.2308.mfa2
+File: mellanox/mlxsw_spectrum-13.2000.2714.mfa2
+File: mellanox/mlxsw_spectrum2-29.2000.2714.mfa2
 
 Licence:
- Copyright (c) 2017-2019 Mellanox Technologies, Ltd. All rights reserved.
+ Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
 
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
@@ -4470,6 +4878,12 @@ File: dpaa2/mc/mc_10.10.0_lx2160a.itb
 File: dpaa2/mc/mc_10.14.3_ls1088a.itb
 File: dpaa2/mc/mc_10.14.3_ls2088a.itb
 File: dpaa2/mc/mc_10.14.3_lx2160a.itb
+File: dpaa2/mc/mc_10.16.2_ls1088a.itb
+File: dpaa2/mc/mc_10.16.2_ls2088a.itb
+File: dpaa2/mc/mc_10.16.2_lx2160a.itb
+File: dpaa2/mc/mc_10.18.0_ls1088a.itb
+File: dpaa2/mc/mc_10.18.0_ls2088a.itb
+File: dpaa2/mc/mc_10.18.0_lx2160a.itb
 
 Licence: Redistributable. See LICENSE.nxp_mc_firmware for details
 
@@ -4487,6 +4901,7 @@ Licence: Redistributable. See LICENCE.microchip for details
 Driver: meson-vdec - Amlogic video decoder
 
 File: meson/vdec/g12a_h264.bin
+File: meson/vdec/g12a_hevc_mmu.bin
 File: meson/vdec/g12a_vp9.bin
 File: meson/vdec/gxbb_h264.bin
 File: meson/vdec/gxl_h263.bin
@@ -4496,6 +4911,33 @@ File: meson/vdec/gxl_hevc_mmu.bin
 File: meson/vdec/gxl_mjpeg.bin
 File: meson/vdec/gxl_mpeg12.bin
 File: meson/vdec/gxl_mpeg4_5.bin
+File: meson/vdec/gxl_vp9.bin
 File: meson/vdec/gxm_h264.bin
+File: meson/vdec/sm1_hevc_mmu.bin
+File: meson/vdec/sm1_vp9_mmu.bin
 
 Licence: Redistributable. See LICENSE.amlogic_vdec for details.
+
+--------------------------------------------------------------------------
+
+Driver: ice - Intel(R) Ethernet Connection E800 Series
+
+File: intel/ice/ddp/ice-1.3.4.0.pkg
+Link: intel/ice/ddp/ice.pkg -> ice-1.3.4.0.pkg
+
+License: Redistributable. See LICENSE.ice for details
+
+--------------------------------------------------------------------------
+
+Driver: inside-secure -- Inside Secure EIP197 crypto driver
+
+File: inside-secure/eip197_minifw/ipue.bin
+File: inside-secure/eip197_minifw/ifpp.bin
+
+Licence: Redistributable.
+Copyright (c) 2019 Verimatrix, Inc.
+
+Derived from proprietary unpublished source code.
+Permission is hereby granted for the distribution of this firmware
+as part of Linux or other Open Source operating system kernel,
+provided this copyright notice is accompanying it.

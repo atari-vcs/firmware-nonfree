@@ -27,19 +27,11 @@ Description: Binary firmware for various drivers in the Linux kernel (meta-packa
  This package depends on non-free firmware which may be used with drivers
  in the Linux kernel.
 
-Package: firmware-adi
+Package: firmware-qcom-media
 Architecture: all
 Section: non-free/oldlibs
-Depends: firmware-misc-nonfree, ${misc:Depends}
-Description: Binary firmware for Analog Devices Inc. DSL modem chips (dummmy package)
- This is a dummy transitional package.  It can be safely removed.
-Multi-Arch: foreign
-
-Package: firmware-ralink
-Architecture: all
-Section: non-free/oldlibs
-Depends: firmware-misc-nonfree, ${misc:Depends}
-Description: Binary firmware for Ralink wireless cards (dummmy package)
+Depends: firmware-qcom-soc, ${misc:Depends}
+Description: Binary firmware for Qualcomm graphics/video (dummy package)
  This is a dummy transitional package.  It can be safely removed.
 Multi-Arch: foreign
 
@@ -159,6 +151,39 @@ Description: Binary firmware for AMD/ATI graphics chips
     (amdgpu/mullins_sdma1.bin)
   * Radeon "Mullins"/"Beema" IGP UVD microcode (amdgpu/mullins_uvd.bin)
   * Radeon "Mullins"/"Beema" IGP VCE microcode (amdgpu/mullins_vce.bin)
+  * "Navi 10" ASD firmware (amdgpu/navi10_asd.bin)
+  * "Navi 10" CE firmware (amdgpu/navi10_ce.bin)
+  * "Navi 10" GPU info (amdgpu/navi10_gpu_info.bin)
+  * "Navi 10" ME firmware (amdgpu/navi10_me.bin)
+  * "Navi 10" MEC firmware (amdgpu/navi10_mec.bin)
+  * "Navi 10" MEC2 firmware (amdgpu/navi10_mec2.bin)
+  * "Navi 10" PFP firmware (amdgpu/navi10_pfp.bin)
+  * "Navi 10" RLC firmware (amdgpu/navi10_rlc.bin)
+  * "Navi 10" SDMA firmware (amdgpu/navi10_sdma.bin)
+  * "Navi 10" SDMA1 firmware (amdgpu/navi10_sdma1.bin)
+  * "Navi 10" SMC firmware (amdgpu/navi10_smc.bin)
+  * "Navi 10" SOS firmware (amdgpu/navi10_sos.bin)
+  * "Navi 10" TA firmware (amdgpu/navi10_ta.bin)
+  * "Navi 10" VCN firmware (amdgpu/navi10_vcn.bin)
+  * "Navi 14" ASD firmware (amdgpu/navi14_asd.bin)
+  * "Navi 14" CE firmware (amdgpu/navi14_ce.bin)
+  * "Navi 14 wks" CE firmware (amdgpu/navi14_ce_wks.bin)
+  * "Navi 14" GPU info (amdgpu/navi14_gpu_info.bin)
+  * "Navi 14" ME firmware (amdgpu/navi14_me.bin)
+  * "Navi 14 wks" ME firmware (amdgpu/navi14_me_wks.bin)
+  * "Navi 14" MEC firmware (amdgpu/navi14_mec.bin)
+  * "Navi 14" MEC2 firmware (amdgpu/navi14_mec2.bin)
+  * "Navi 14 wks" MEC2 firmware (amdgpu/navi14_mec2_wks.bin)
+  * "Navi 14 wks" MEC firmware (amdgpu/navi14_mec_wks.bin)
+  * "Navi 14" PFP firmware (amdgpu/navi14_pfp.bin)
+  * "Navi 14 wks" PFP firmware (amdgpu/navi14_pfp_wks.bin)
+  * "Navi 14" RLC firmware (amdgpu/navi14_rlc.bin)
+  * "Navi 14" SDMA firmware (amdgpu/navi14_sdma.bin)
+  * "Navi 14" SDMA1 firmware (amdgpu/navi14_sdma1.bin)
+  * "Navi 14" SMC firmware (amdgpu/navi14_smc.bin)
+  * "Navi 14" SOS firmware (amdgpu/navi14_sos.bin)
+  * "Navi 14" TA firmware (amdgpu/navi14_ta.bin)
+  * "Navi 14" VCN firmware (amdgpu/navi14_vcn.bin)
   * Radeon HD 8500/8600/8700 series CE microcode (amdgpu/oland_ce.bin)
   * Radeon HD 8500/8600/8700 series K SMC microcode
     (amdgpu/oland_k_smc.bin)
@@ -177,6 +202,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Picasso" RLC firmware (amdgpu/picasso_rlc.bin)
   * "Picasso" RLC AM4 firmware (amdgpu/picasso_rlc_am4.bin)
   * "Picasso" SDMA firmware (amdgpu/picasso_sdma.bin)
+  * "Picasso" TA firmware (amdgpu/picasso_ta.bin)
   * "Picasso" VCN firmware (amdgpu/picasso_vcn.bin)
   * Radeon HD 7800 series CE microcode (amdgpu/pitcairn_ce.bin)
   * Radeon HD 7800 series K SMC microcode (amdgpu/pitcairn_k_smc.bin)
@@ -255,18 +281,32 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Raven 2" PFP firmware (amdgpu/raven2_pfp.bin)
   * "Raven 2" RLC firmware (amdgpu/raven2_rlc.bin)
   * "Raven 2" SDMA firmware (amdgpu/raven2_sdma.bin)
+  * "Raven 2" TA firmware (amdgpu/raven2_ta.bin)
   * "Raven 2" VCN firmware (amdgpu/raven2_vcn.bin)
   * "Raven" ASD firmware (amdgpu/raven_asd.bin)
   * "Raven" CE firmware (amdgpu/raven_ce.bin)
   * "Raven" DMCU firmware (amdgpu/raven_dmcu.bin)
   * "Raven" GPU info (amdgpu/raven_gpu_info.bin)
+  * "Raven refresh" RLC firmware (amdgpu/raven_kicker_rlc.bin)
   * "Raven" ME firmware (amdgpu/raven_me.bin)
   * "Raven" MEC firmware (amdgpu/raven_mec.bin)
   * "Raven" MEC2 firmware (amdgpu/raven_mec2.bin)
   * "Raven" PFP firmware (amdgpu/raven_pfp.bin)
   * "Raven" RLC firmware (amdgpu/raven_rlc.bin)
   * "Raven" SDMA firmware (amdgpu/raven_sdma.bin)
+  * "Raven" TA firmware (amdgpu/raven_ta.bin)
   * "Raven" VCN firmware (amdgpu/raven_vcn.bin)
+  * "Renoir" ASD firmware (amdgpu/renoir_asd.bin)
+  * "Renoir" CE firmware (amdgpu/renoir_ce.bin)
+  * "Renoir" DMCUB firmware (amdgpu/renoir_dmcub.bin)
+  * "Renoir" GPU info (amdgpu/renoir_gpu_info.bin)
+  * "Renoir" ME firmware (amdgpu/renoir_me.bin)
+  * "Renoir" MEC firmware (amdgpu/renoir_mec.bin)
+  * "Renoir" MEC2 firmware (amdgpu/renoir_mec2.bin)
+  * "Renoir" PFP firmware (amdgpu/renoir_pfp.bin)
+  * "Renoir" RLC firmware (amdgpu/renoir_rlc.bin)
+  * "Renoir" SDMA firmware (amdgpu/renoir_sdma.bin)
+  * "Renoir" VCN firmware (amdgpu/renoir_vcn.bin)
   * Radeon "SI58" MC microcode (amdgpu/si58_mc.bin)
   * "Stoney" CE firmware (amdgpu/stoney_ce.bin)
   * "Stoney" ME firmware (amdgpu/stoney_me.bin)
@@ -761,6 +801,8 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (ath10k/QCA99X0/hw2.0/board.bin)
   * Qualcomm Atheros QCA99X0 firmware, version 10.4.1.00030-1
     (ath10k/QCA99X0/hw2.0/firmware-5.bin)
+  * ath10k/WCN3990/hw1.0/firmware-5.bin
+  * ath10k/WCN3990/hw1.0/wlanmdsp.mbn
   * Atheros AR3011 firmware (ath3k-1.fw)
   * ath6k/AR6003.1/hw2.1.1/athwlan.bin
   * ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
@@ -906,6 +948,12 @@ Description: Binary firmware for Broadcom NetXtreme II 10Gb
     (bnx2x/bnx2x-e1h-7.13.1.0.fw)
   * Broadcom NetXtreme II 10Gb 57712, version 7.13.1.0
     (bnx2x/bnx2x-e2-7.13.1.0.fw)
+  * Broadcom NetXtreme II 10Gb 57710, version 7.13.15.0
+    (bnx2x/bnx2x-e1-7.13.15.0.fw)
+  * Broadcom NetXtreme II 10Gb 57711, version 7.13.15.0
+    (bnx2x/bnx2x-e1h-7.13.15.0.fw)
+  * Broadcom NetXtreme II 10Gb 57712, version 7.13.15.0
+    (bnx2x/bnx2x-e2-7.13.15.0.fw)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -941,8 +989,14 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM43362 firmware (brcm/brcmfmac43362-sdio.bin)
   * Broadcom BCM4339 firmware (brcm/brcmfmac4339-sdio.bin)
   * Broadcom BCM43455 firmware (brcm/brcmfmac43455-sdio.bin)
+  * BCM43455 NVRAM for the Raspberry Pi 3 B+
+    (brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt)
+  * BCM43455 NVRAM for the Raspberry Pi 4 B
+    (brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt)
   * Broadcom BCM43430 rev 0 firmware (brcm/brcmfmac43430a0-sdio.bin)
   * Broadcom BCM43430 rev 1+ firmware (brcm/brcmfmac43430-sdio.bin)
+  * BCM43430 NVRAM for the Raspberry Pi 3 B
+    (brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt)
   * Broadcom BCM4350 rev 0-4 firmware (brcm/brcmfmac4350-pcie.bin)
   * Broadcom BCM4350 rev 5+ firmware (brcm/brcmfmac4350c2-pcie.bin)
   * Broadcom BCM4354 firmware (brcm/brcmfmac4354-sdio.bin)
@@ -1298,7 +1352,7 @@ Breaks: libertas-firmware (<< 9.70.7.p0.0-2)
 Conflicts: 
 Description: Binary firmware for Marvell wireless cards
  This package contains the binary firmware for wireless network cards with
- Marvell 88W8xxx chips supported by the libertas_cs, libertas_sdio,
+ Marvell and NXP 88W8xxx chips supported by the libertas_cs, libertas_sdio,
  libertas_spi, libertas_tf_usb, mwifiex_pcie, mwifiex_sdio, mwifiex_usb,
  mwl8k and usb8xxx drivers.
  .
@@ -1352,6 +1406,10 @@ Description: Binary firmware for Marvell wireless cards
     (BT) (mrvl/sd8887_uapsta.bin)
   * Avastar 88W8897-SDIO firmware, version 15.68.19.17 (WLAN) /
     15.26.19.17 (BT) (mrvl/sd8897_uapsta.bin)
+  * NXP 88W8977-SDIO firmware, version 16.68.1.p195 (WLAN) /
+    16.26.1.p195 (BT) (mrvl/sdsd8977_combo_v2.bin)
+  * NXP 88W8997-SDIO firmware, version 16.68.1.p179 (WLAN) /
+    16.26.1.p179 (BT) (mrvl/sdsd8997_combo_v4.bin)
   * Avastar 88W8766 firmware, version 14.68.22.p16 (WLAN) / 14.28.22.p16
     (BT) (mrvl/usb8766_uapsta.bin)
   * Avastar 88W8797-USB firmware, version 14.68.29.p60
@@ -1400,6 +1458,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     I (agere_sta_fw.bin)
   * Abilis Systems AS102 stage 1 firmware (as102_data1_st.hex)
   * Abilis Systems AS102 stage 2 firmware (as102_data2_st.hex)
+  * Broadcom/Cypress Bluetooth firmware (HTC Vive)
+    (brcm/BCM-0bb4-0306.hcd, brcm/BCM-0a5c-6410.hcd)
   * Creative CA0132 DSP firmware (ctefx.bin)
   * Creative CA0132 SpeakerEQ firmware (ctspeq.bin)
   * Chelsio T3 optical EDC firmware (AEL2005 PHY)
@@ -1417,11 +1477,11 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Chelsio T3 main firmware, version 7.12.0 (cxgb3/t3fw-7.12.0.bin)
   * Chelsio T4 10GBASE-T firmware (AQ1202 PHY) (cxgb4/aq1202_fw.cld)
   * Chelsio T4 10GBASE-T firmware (BCM84834 PHY) (cxgb4/bcm8483.bin)
-  * Chelsio T4 firmware, version 1.23.4.0 (cxgb4/t4fw-1.23.4.0.bin,
+  * Chelsio T4 firmware, version 1.24.14.0 (cxgb4/t4fw-1.24.14.0.bin,
     cxgb4/t4fw.bin)
-  * Chelsio T5 firmware, version 1.23.4.0 (cxgb4/t5fw-1.23.4.0.bin,
+  * Chelsio T5 firmware, version 1.24.14.0 (cxgb4/t5fw-1.24.14.0.bin,
     cxgb4/t5fw.bin)
-  * Chelsio T6 firmware, version 1.23.4.0 (cxgb4/t6fw-1.23.4.0.bin,
+  * Chelsio T6 firmware, version 1.24.14.0 (cxgb4/t6fw-1.24.14.0.bin,
     cxgb4/t6fw.bin)
   * DAB-USB FPGA bitfile (dabusb/bitstream.bin)
   * DAB-USB firmware (dabusb/firmware.fw)
@@ -1468,22 +1528,40 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel "Broxton" GuC firmware, version 8.7 (i915/bxt_guc_ver8_7.bin)
   * Intel "Broxton" GuC firmware, version 9.29
     (i915/bxt_guc_ver9_29.bin)
+  * Intel "Broxton" HuC firmware, version 2.0.0 (i915/bxt_huc_2.0.0.bin)
   * Intel "Broxton" HuC firmware, version 1.07.1398
     (i915/bxt_huc_ver01_07_1398.bin)
+  * Intel "Broxton" HuC firmware, version 1.8.2893
+    (i915/bxt_huc_ver01_8_2893.bin)
+  * Intel "Comet Lake" GuC firmware, version 33.0.0
+    (i915/cml_guc_33.0.0.bin)
+  * Intel "Comet Lake" HuC firmware, version 4.0.0
+    (i915/cml_huc_4.0.0.bin)
   * Intel "Cannonlake" DMC firmware, version 1.07
     (i915/cnl_dmc_ver1_07.bin)
+  * Intel "Elkhart Lake" GuC firmware, version 33.0.4
+    (i915/ehl_guc_33.0.4.bin)
+  * Intel "Elkhart Lake" HuC firmware, version 9.0.0
+    (i915/ehl_huc_9.0.0.bin)
   * Intel "Geminilake" DMC firmware, version 1.04
     (i915/glk_dmc_ver1_04.bin)
   * Intel "Geminilake" GuC firmware, version 32.0.3
     (i915/glk_guc_32.0.3.bin)
   * Intel "Geminilake" GuC firmware, version 33.0.0
     (i915/glk_guc_33.0.0.bin)
+  * Intel "Geminilake" HuC firmware, version 4.0.0
+    (i915/glk_huc_4.0.0.bin)
   * Intel "Geminilake" HuC firmware, version 3.1.2893
     (i915/glk_huc_ver03_01_2893.bin)
+  * Intel "Icelake" DMC firmware, version 1.07
+    (i915/icl_dmc_ver1_07.bin)
+  * Intel "Icelake" DMC firmware, version 1.09
+    (i915/icl_dmc_ver1_09.bin)
   * Intel "Icelake" GuC firmware, version 32.0.3
     (i915/icl_guc_32.0.3.bin)
   * Intel "Icelake" GuC firmware, version 33.0.0
     (i915/icl_guc_33.0.0.bin)
+  * Intel "Icelake" HuC firmware, version 9.0.0 (i915/icl_huc_9.0.0.bin)
   * Intel "Icelake" HuC firmware, version 8.4.3238
     (i915/icl_huc_ver8_4_3238.bin)
   * Intel "Kabylake" DMC firmware, version 1.01
@@ -1498,6 +1576,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/kbl_guc_ver9_14.bin)
   * Intel "Kabylake" GuC firmware, version 9.39
     (i915/kbl_guc_ver9_39.bin)
+  * Intel "Kabylake" HuC firmware, version 4.0.0
+    (i915/kbl_huc_4.0.0.bin)
   * Intel "Kabylake" HuC firmware, version 2.0.1810
     (i915/kbl_huc_ver02_00_1810.bin)
   * Intel "Skylake" DMC firmware, version 1.23
@@ -1516,8 +1596,19 @@ Description: Binary firmware for various drivers in the Linux kernel
     i915/skl_guc_ver6.bin)
   * Intel "Skylake" GuC firmware, version 9.33
     (i915/skl_guc_ver9_33.bin)
+  * Intel "Skylake" HuC firmware, version 3.0.0 (i915/skl_huc_2.0.0.bin)
   * Intel "Skylake" HuC firmware, version 1.07.1398
     (i915/skl_huc_ver01_07_1398.bin)
+  * Intel "Tiger Lake" DMC firmware, version 2.04
+    (i915/tgl_dmc_ver2_04.bin)
+  * Intel "Tiger Lake" DMC firmware, version 2.06
+    (i915/tgl_dmc_ver2_06.bin)
+  * Intel "Tiger Lake" GuC firmware, version 35.2.0
+    (i915/tgl_guc_35.2.0.bin)
+  * Intel "Tiger Lake" HuC firmware, version 7.0.12
+    (i915/tgl_huc_7.0.12.bin)
+  * Intel "Tiger Lake" HuC firmware, version 7.0.3
+    (i915/tgl_huc_7.0.3.bin)
   * kaweth/new_code.bin
   * kaweth/new_code_fix.bin
   * kaweth/trigger_code.bin
@@ -1748,10 +1839,107 @@ Description: Binary firmware for various drivers in the Linux kernel
   * nvidia/tegra124/vic03_ucode.bin
   * Nvidia Tegra 124 XHCI firmware, version 45.46
     (nvidia/tegra124/xusb.bin)
+  * Nvidia Tegra 186 XHCI firmware, version 55.15
+    (nvidia/tegra186/xusb.bin)
   * nvidia/tegra186/vic04_ucode.bin
+  * Nvidia Tegra 194 XHCI firmware, version 60.06
+    (nvidia/tegra194/xusb.bin)
   * nvidia/tegra210/vic04_ucode.bin
-  * Nvidia Tegra 210 XHCI firmware, version 50.10
+  * Nvidia Tegra 210 XHCI firmware, version 50.24
     (nvidia/tegra210/xusb.bin)
+  * nvidia/tu102/acr/bl.bin, nvidia/tu104/acr/bl.bin,
+    nvidia/tu106/acr/bl.bin
+  * nvidia/tu102/acr/ucode_ahesasc.bin,
+    nvidia/tu104/acr/ucode_ahesasc.bin,
+    nvidia/tu106/acr/ucode_ahesasc.bin
+  * nvidia/tu102/acr/ucode_asb.bin, nvidia/tu104/acr/ucode_asb.bin,
+    nvidia/tu106/acr/ucode_asb.bin
+  * nvidia/tu102/acr/ucode_unload.bin,
+    nvidia/tu104/acr/ucode_unload.bin, nvidia/tu106/acr/ucode_unload.bin
+  * nvidia/tu102/acr/unload_bl.bin, nvidia/tu104/acr/unload_bl.bin,
+    nvidia/tu106/acr/unload_bl.bin
+  * nvidia/tu102/gr/fecs_bl.bin, nvidia/tu104/gr/fecs_bl.bin,
+    nvidia/tu106/gr/fecs_bl.bin
+  * nvidia/tu102/gr/fecs_data.bin
+  * nvidia/tu102/gr/fecs_inst.bin
+  * nvidia/tu102/gr/fecs_sig.bin
+  * nvidia/tu102/gr/gpccs_bl.bin, nvidia/tu104/gr/gpccs_bl.bin,
+    nvidia/tu106/gr/gpccs_bl.bin
+  * nvidia/tu102/gr/gpccs_data.bin
+  * nvidia/tu102/gr/gpccs_inst.bin
+  * nvidia/tu102/gr/gpccs_sig.bin
+  * nvidia/tu102/gr/sw_bundle_init.bin
+  * nvidia/tu102/gr/sw_ctx.bin
+  * nvidia/tu102/gr/sw_method_init.bin
+  * nvidia/tu102/gr/sw_nonctx.bin
+  * nvidia/tu102/gr/sw_veid_bundle_init.bin
+  * nvidia/tu102/nvdec/scrubber.bin, nvidia/tu104/nvdec/scrubber.bin,
+    nvidia/tu106/nvdec/scrubber.bin
+  * nvidia/tu102/sec2/desc.bin, nvidia/tu104/sec2/desc.bin,
+    nvidia/tu106/sec2/desc.bin
+  * nvidia/tu102/sec2/image.bin, nvidia/tu104/sec2/image.bin,
+    nvidia/tu106/sec2/image.bin
+  * nvidia/tu102/sec2/sig.bin, nvidia/tu104/sec2/sig.bin,
+    nvidia/tu106/sec2/sig.bin
+  * nvidia/tu104/gr/fecs_data.bin
+  * nvidia/tu104/gr/fecs_inst.bin
+  * nvidia/tu104/gr/fecs_sig.bin
+  * nvidia/tu104/gr/gpccs_data.bin
+  * nvidia/tu104/gr/gpccs_inst.bin
+  * nvidia/tu104/gr/gpccs_sig.bin
+  * nvidia/tu104/gr/sw_bundle_init.bin
+  * nvidia/tu104/gr/sw_ctx.bin
+  * nvidia/tu104/gr/sw_method_init.bin
+  * nvidia/tu104/gr/sw_nonctx.bin
+  * nvidia/tu104/gr/sw_veid_bundle_init.bin
+  * nvidia/tu106/gr/fecs_data.bin
+  * nvidia/tu106/gr/fecs_inst.bin
+  * nvidia/tu106/gr/fecs_sig.bin
+  * nvidia/tu106/gr/gpccs_data.bin
+  * nvidia/tu106/gr/gpccs_inst.bin
+  * nvidia/tu106/gr/gpccs_sig.bin
+  * nvidia/tu106/gr/sw_bundle_init.bin
+  * nvidia/tu106/gr/sw_ctx.bin
+  * nvidia/tu106/gr/sw_method_init.bin
+  * nvidia/tu106/gr/sw_nonctx.bin
+  * nvidia/tu106/gr/sw_veid_bundle_init.bin
+  * nvidia/tu10x/typec/ccg_boot.cyacd
+  * nvidia/tu10x/typec/ccg_primary.cyacd
+  * nvidia/tu10x/typec/ccg_secondary.cyacd
+  * nvidia/tu116/acr/bl.bin, nvidia/tu117/acr/bl.bin
+  * nvidia/tu116/acr/ucode_ahesasc.bin,
+    nvidia/tu117/acr/ucode_ahesasc.bin
+  * nvidia/tu116/acr/ucode_asb.bin, nvidia/tu117/acr/ucode_asb.bin
+  * nvidia/tu116/acr/ucode_unload.bin, nvidia/tu117/acr/ucode_unload.bin
+  * nvidia/tu116/acr/unload_bl.bin, nvidia/tu117/acr/unload_bl.bin
+  * nvidia/tu116/gr/fecs_bl.bin, nvidia/tu117/gr/fecs_bl.bin
+  * nvidia/tu116/gr/fecs_data.bin
+  * nvidia/tu116/gr/fecs_inst.bin
+  * nvidia/tu116/gr/fecs_sig.bin
+  * nvidia/tu116/gr/gpccs_bl.bin, nvidia/tu117/gr/gpccs_bl.bin
+  * nvidia/tu116/gr/gpccs_data.bin
+  * nvidia/tu116/gr/gpccs_inst.bin
+  * nvidia/tu116/gr/gpccs_sig.bin
+  * nvidia/tu116/gr/sw_bundle_init.bin
+  * nvidia/tu116/gr/sw_ctx.bin
+  * nvidia/tu116/gr/sw_method_init.bin
+  * nvidia/tu116/gr/sw_nonctx.bin
+  * nvidia/tu116/gr/sw_veid_bundle_init.bin
+  * nvidia/tu116/nvdec/scrubber.bin, nvidia/tu117/nvdec/scrubber.bin
+  * nvidia/tu116/sec2/desc.bin, nvidia/tu117/sec2/desc.bin
+  * nvidia/tu116/sec2/image.bin, nvidia/tu117/sec2/image.bin
+  * nvidia/tu116/sec2/sig.bin, nvidia/tu117/sec2/sig.bin
+  * nvidia/tu117/gr/fecs_data.bin
+  * nvidia/tu117/gr/fecs_inst.bin
+  * nvidia/tu117/gr/fecs_sig.bin
+  * nvidia/tu117/gr/gpccs_data.bin
+  * nvidia/tu117/gr/gpccs_inst.bin
+  * nvidia/tu117/gr/gpccs_sig.bin
+  * nvidia/tu117/gr/sw_bundle_init.bin
+  * nvidia/tu117/gr/sw_ctx.bin
+  * nvidia/tu117/gr/sw_method_init.bin
+  * nvidia/tu117/gr/sw_nonctx.bin
+  * nvidia/tu117/gr/sw_veid_bundle_init.bin
   * Intel QAT DH895xCC UOF firmware (qat_895xcc.bin)
   * Intel QAT DH895xCC MMP firmware (qat_895xcc_mmp.bin, qat_mmp.bin)
   * Intel QAT C3xxx UOF firmware (qat_c3xxx.bin)
@@ -1840,6 +2028,30 @@ Description: Binary firmware for Netronome network adapters
  supported by the nfp driver.
  .
  Contents:
+  * Agilio LX (rev 11) 2x40GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0058-0011_2x40.nffw)
+  * Agilio LX (rev 12) 2x40GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0058-0012_2x40.nffw)
+  * Agilio LX 1x100GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0078-0011_1x100.nffw)
+  * Agilio CX 1x40GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0081-0001_1x40.nffw)
+  * Agilio CX 1x40GbE firmware (4x10GbE mode, BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0081-0001_4x10.nffw)
+  * Agilio CX 2x10GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0096-0001_2x10.nffw)
+  * Agilio CX 2x40GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0097-0001_2x40.nffw)
+  * Agilio CX 2x40GbE firmware (4x10GbE+1x40GbE mode, BPF), version
+    2.0.6.124 (netronome/bpf/nic_AMDA0097-0001_4x10_1x40.nffw)
+  * Agilio CX 2x40GbE firmware (8x10GbE mode, BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0097-0001_8x10.nffw)
+  * Agilio CX 2x25GbE firmware (1x10GbE+1x25GbE mode, BPF), version
+    2.0.6.124 (netronome/bpf/nic_AMDA0099-0001_1x10_1x25.nffw)
+  * Agilio CX 2x25GbE firmware (2x10GbE mode, BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0099-0001_2x10.nffw)
+  * Agilio CX 2x25GbE firmware (BPF), version 2.0.6.124
+    (netronome/bpf/nic_AMDA0099-0001_2x25.nffw)
   * Agilio LX flower firmware, version AOTC-2.10.A.23
     (netronome/flower/nic_AMDA0058.nffw,
     netronome/flower/nic_AMDA0058-0011_1x100.nffw,
@@ -1904,6 +2116,30 @@ Description: Binary firmware for Netronome network adapters
   * Agilio CX 2x25GbE firmware, version 2.1.16.1
     (netronome/nic/nic_AMDA0099-0001_2x25.nffw,
     netronome/nic_AMDA0099-0001_2x25.nffw)
+  * Agilio LX (rev 11) 2x40GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0058-0011_2x40.nffw)
+  * Agilio LX (rev 12) 2x40GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0058-0012_2x40.nffw)
+  * Agilio LX 1x100GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0078-0011_1x100.nffw)
+  * Agilio CX 1x40GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0081-0001_1x40.nffw)
+  * Agilio CX 1x40GbE firmware (4x10GbE mode, SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0081-0001_4x10.nffw)
+  * Agilio CX 2x10GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0096-0001_2x10.nffw)
+  * Agilio CX 2x40GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0097-0001_2x40.nffw)
+  * Agilio CX 2x40GbE firmware (4x10GbE+1x40GbE mode, SR-IOV), version
+    2.1.16.1 (netronome/nic-sriov/nic_AMDA0097-0001_4x10_1x40.nffw)
+  * Agilio CX 2x40GbE firmware (8x10GbE mode, SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0097-0001_8x10.nffw)
+  * Agilio CX 2x25GbE firmware (1x10GbE+1x25GbE mode, SR-IOV), version
+    2.1.16.1 (netronome/nic-sriov/nic_AMDA0099-0001_1x10_1x25.nffw)
+  * Agilio CX 2x25GbE firmware (2x10GbE mode, SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0099-0001_2x10.nffw)
+  * Agilio CX 2x25GbE firmware (SR-IOV), version 2.1.16.1
+    (netronome/nic-sriov/nic_AMDA0099-0001_2x25.nffw)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1922,11 +2158,12 @@ Description: Binary firmware for QLogic Intelligent Ethernet (3000 and 3100 Seri
  drivers.
  .
  Contents:
-  * phanfw.bin
+  * QLogic Intelligent Ethernet (3000 and 3100 Series), version 4.0.590
+    (phanfw.bin)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
-Package: firmware-qcom-media
+Package: firmware-qcom-soc
 Architecture: all
 Provides: 
 Depends: ${misc:Depends}
@@ -1935,9 +2172,8 @@ Suggests: initramfs-tools
 Replaces: 
 Breaks: 
 Conflicts: 
-Description: Binary firmware for Qualcomm graphics/video
- This package contains the binary firmware for Qualcomm Adreno GPUs and
- Venus video accelerators.
+Description: Binary firmware for Qualcomm SoCs
+ This package contains the binary firmware for Qualcomm Snapdragon SoCs.
  .
  Contents:
   * Qualcomm Adreno 300 PFP firmware (qcom/a300_pfp.fw)
@@ -1949,6 +2185,17 @@ Description: Binary firmware for Qualcomm graphics/video
   * Qualcomm Adreno 530 Zap firmware part 2 (qcom/a530_zap.b02)
   * Qualcomm Adreno 530 Zap firmware header (qcom/a530_zap.mdt)
   * Qualcomm Adreno 530 v3 GPMU firmware (qcom/a530v3_gpmu.fw2)
+  * Qualcomm Adreno 530 v3 GPMU firmware (qcom/a530v3_gpmu.fw2)
+  * qcom/a630_gmu.bin
+  * qcom/a630_sqe.fw
+  * qcom/sdm845/adsp.mbn
+  * qcom/sdm845/adspr.jsn
+  * qcom/sdm845/adspua.jsn
+  * qcom/sdm845/cdsp.mbn
+  * qcom/sdm845/cdspr.jsn
+  * qcom/sdm845/mba.mbn
+  * qcom/sdm845/modem.mbn
+  * qcom/sdm845/modemuw.jsn
   * Qualcomm Venus 1.8 firmware part 0 (qcom/venus-1.8/venus.b00)
   * Qualcomm Venus 1.8 firmware part 1 (qcom/venus-1.8/venus.b01)
   * Qualcomm Venus 1.8 firmware part 2 (qcom/venus-1.8/venus.b02)
@@ -2108,6 +2355,8 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw.bin)
   * Realtek RTL8822BE firmware (rtlwifi/rtl8822befw.bin)
+  * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
+  * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
