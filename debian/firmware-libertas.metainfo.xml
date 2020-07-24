@@ -48,6 +48,7 @@
     <firmware type="runtime">mrvl/usb8801_uapsta.bin</firmware>
     <firmware type="runtime">mrvl/usb8897_uapsta.bin</firmware>
     <firmware type="runtime">mrvl/usbusb8997_combo_v4.bin</firmware>
+    <firmware type="runtime">mrvl/prestera/mvsw_prestera_fw-v2.0.img</firmware>
     <firmware type="runtime">mwl8k/fmimage_8366.fw</firmware>
     <firmware type="runtime">mwl8k/fmimage_8366_ap-2.fw</firmware>
     <firmware type="runtime">mwl8k/fmimage_8366_ap-3.fw</firmware>

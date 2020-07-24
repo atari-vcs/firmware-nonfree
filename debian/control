@@ -389,6 +389,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Vega 20" SOS firmware (amdgpu/vega20_sos.bin)
   * "Vega 20" UVD firmware (amdgpu/vega20_uvd.bin)
   * "Vega 20" VCE firmware (amdgpu/vega20_vce.bin)
+  * "Vega 20" TA firmware (amdgpu/vega20_ta.bin)
   * "Vega M" CE firmware (amdgpu/vegam_ce.bin)
   * "Vega M" ME firmware (amdgpu/vegam_me.bin)
   * "Vega M" MEC firmware (amdgpu/vegam_mec.bin)
@@ -859,6 +860,7 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (qca/rampatch_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
     (qca/rampatch_00130302.bin)
+  * Qualcomm QCA9377 BT rampatch (qca/rampatch_00230302.bin)
   * Qualcomm Atheros QCA6174 BT rampatch (qca/rampatch_00440302.bin)
   * Qualcomm Atheros QCA61x4 version 2.0 USB BT rampatch
     (qca/rampatch_usb_00000200.bin)
@@ -1324,20 +1326,41 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-9260-th-b0-jf-b0-46.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-b0-hr-b0-48.ucode)
+  * iwlwifi-Qu-b0-hr-b0-50.ucode
+  * iwlwifi-Qu-b0-hr-b0-53.ucode
+  * iwlwifi-Qu-b0-hr-b0-55.ucode
   * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-b0-jf-b0-48.ucode)
+  * iwlwifi-Qu-b0-jf-b0-50.ucode
+  * iwlwifi-Qu-b0-jf-b0-53.ucode
+  * iwlwifi-Qu-b0-jf-b0-55.ucode
   * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-c0-hr-b0-48.ucode)
+  * iwlwifi-Qu-c0-hr-b0-50.ucode
+  * iwlwifi-Qu-c0-hr-b0-53.ucode
+  * iwlwifi-Qu-c0-hr-b0-55.ucode
   * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-c0-jf-b0-48.ucode)
+  * iwlwifi-Qu-c0-jf-b0-50.ucode
+  * iwlwifi-Qu-c0-jf-b0-53.ucode
+  * iwlwifi-Qu-c0-jf-b0-55.ucode
   * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
     48.13675109.0 (iwlwifi-QuZ-a0-hr-b0-48.ucode)
+  * iwlwifi-QuZ-a0-hr-b0-50.ucode
+  * iwlwifi-QuZ-a0-hr-b0-53.ucode
+  * iwlwifi-QuZ-a0-hr-b0-55.ucode
   * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
     48.13675109.0 (iwlwifi-QuZ-a0-jf-b0-48.ucode)
+  * iwlwifi-QuZ-a0-jf-b0-50.ucode
+  * iwlwifi-QuZ-a0-jf-b0-53.ucode
+  * iwlwifi-QuZ-a0-jf-b0-55.ucode
   * Intel Wireless 22260 firmware, version 46.3cfab8da.0
     (iwlwifi-cc-a0-46.ucode)
   * Intel Wireless 22260 firmware, version 48.13675109.0
     (iwlwifi-cc-a0-48.ucode)
+  * iwlwifi-cc-a0-50.ucode
+  * iwlwifi-cc-a0-53.ucode
+  * iwlwifi-cc-a0-55.ucode
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1420,6 +1443,7 @@ Description: Binary firmware for Marvell wireless cards
     15.28.4.p103 (BT) (mrvl/usb8897_uapsta.bin)
   * Avastar 88W8997-USB firmware, version 16.68.1.p183 (WLAN) /
     16.26.1.p183 (BT) (mrvl/usbusb8997_combo_v4.bin)
+  * Prestera ASIC firmware (mrvl/prestera/mvsw_prestera_fw-v2.0.img)
   * TopDog 88W8366 main code (mwl8k/fmimage_8366.fw)
   * TopDog 88W8366 AP-mode main code (mwl8k/fmimage_8366_ap-2.fw)
   * TopDog 88W8366 AP-mode main code, version 5.2.8.16
@@ -1477,12 +1501,9 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Chelsio T3 main firmware, version 7.12.0 (cxgb3/t3fw-7.12.0.bin)
   * Chelsio T4 10GBASE-T firmware (AQ1202 PHY) (cxgb4/aq1202_fw.cld)
   * Chelsio T4 10GBASE-T firmware (BCM84834 PHY) (cxgb4/bcm8483.bin)
-  * Chelsio T4 firmware, version 1.24.14.0 (cxgb4/t4fw-1.24.14.0.bin,
-    cxgb4/t4fw.bin)
-  * Chelsio T5 firmware, version 1.24.14.0 (cxgb4/t5fw-1.24.14.0.bin,
-    cxgb4/t5fw.bin)
-  * Chelsio T6 firmware, version 1.24.14.0 (cxgb4/t6fw-1.24.14.0.bin,
-    cxgb4/t6fw.bin)
+  * cxgb4/t4fw-1.24.17.0.bin, cxgb4/t4fw.bin
+  * cxgb4/t5fw-1.24.17.0.bin, cxgb4/t5fw.bin
+  * cxgb4/t6fw-1.24.17.0.bin, cxgb4/t6fw.bin
   * DAB-USB FPGA bitfile (dabusb/bitstream.bin)
   * DAB-USB firmware (dabusb/firmware.fw)
   * Xceive 4000 tuner firmware, version 1.4.1 (dvb-fe-xc4000-1.4.1.fw)
@@ -1621,7 +1642,12 @@ Description: Binary firmware for various drivers in the Linux kernel
   * MediaTek MT76x0 wifi firmware (mediatek/mt7650e.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u_rom_patch.bin)
+  * MediaTek MT7663 rebb rom firmware (mediatek/mt7663pr2h_rebb.bin)
+  * MediaTek MT7663 rebb n9 firmware (mediatek/mt7663_n9_rebb.bin)
   * MediaTek MT7668 Bluetooth firmware (mediatek/mt7668pr2h.bin)
+  * MediaTek MT7915E firmware (mediatek/mt7915_wm.bin)
+  * MediaTek MT7915E firmware (mediatek/mt7915_wa.bin)
+  * MediaTek MT7915E firmware (mediatek/mt7915_rom_patch.bin)
   * MOXA UPort 1110 firmware (moxa/moxa-1110.fw)
   * MOXA UPort 1130 firmware (moxa/moxa-1130.fw)
   * MOXA UPort 1130I firmware (moxa/moxa-1131.fw)
@@ -2169,8 +2195,8 @@ Provides:
 Depends: ${misc:Depends}
 Recommends: 
 Suggests: initramfs-tools
-Replaces: 
-Breaks: 
+Replaces: firmware-qcom-media (<< 20200421-1~)
+Breaks: firmware-qcom-media (<< 20200421-1~)
 Conflicts: 
 Description: Binary firmware for Qualcomm SoCs
  This package contains the binary firmware for Qualcomm Snapdragon SoCs.
@@ -2186,16 +2212,17 @@ Description: Binary firmware for Qualcomm SoCs
   * Qualcomm Adreno 530 Zap firmware header (qcom/a530_zap.mdt)
   * Qualcomm Adreno 530 v3 GPMU firmware (qcom/a530v3_gpmu.fw2)
   * Qualcomm Adreno 530 v3 GPMU firmware (qcom/a530v3_gpmu.fw2)
-  * qcom/a630_gmu.bin
-  * qcom/a630_sqe.fw
-  * qcom/sdm845/adsp.mbn
-  * qcom/sdm845/adspr.jsn
-  * qcom/sdm845/adspua.jsn
-  * qcom/sdm845/cdsp.mbn
-  * qcom/sdm845/cdspr.jsn
-  * qcom/sdm845/mba.mbn
-  * qcom/sdm845/modem.mbn
-  * qcom/sdm845/modemuw.jsn
+  * Qualcomm Adreno 630 GMU firmware (qcom/a630_gmu.bin)
+  * Qualcomm Adreno 630 SQE firmware (qcom/a630_sqe.fw)
+  * Qualcomm Adreno 630 SDM845 ZAP firmware (qcom/sdm845/a630_zap.mbn)
+  * Qualcomm SDM845 audio firmware (qcom/sdm845/adsp.mbn)
+  * Qualcomm SDM845 audio configuration (qcom/sdm845/adspr.jsn)
+  * Qualcomm SDM845 audio configuration (qcom/sdm845/adspua.jsn)
+  * Qualcomm SDM845 compute firmware (qcom/sdm845/cdsp.mbn)
+  * Qualcomm SDM845 compute configuration (qcom/sdm845/cdspr.jsn)
+  * Qualcomm SDM845 modem firmware (qcom/sdm845/mba.mbn)
+  * Qualcomm SDM845 modem firmware (qcom/sdm845/modem.mbn)
+  * Qualcomm SDM845 modem configuration (qcom/sdm845/modemuw.jsn)
   * Qualcomm Venus 1.8 firmware part 0 (qcom/venus-1.8/venus.b00)
   * Qualcomm Venus 1.8 firmware part 1 (qcom/venus-1.8/venus.b01)
   * Qualcomm Venus 1.8 firmware part 2 (qcom/venus-1.8/venus.b02)
@@ -2244,6 +2271,8 @@ Description: Binary firmware for QLogic HBAs
     (qed/qed_init_values_zipped-8.33.11.0.bin)
   * QLogic QL45000 series firmware, version 8.37.2.0
     (qed/qed_init_values_zipped-8.37.2.0.bin)
+  * QLogic QL45000 series firmware, version 8.42.2.0
+    (qed/qed_init_values_zipped-8.42.2.0.bin)
   * QLogic QLA1040 firmware, version 7.65.06 (qlogic/1040.bin)
   * QLogic QLA1080, 1240, 1280 firmware, version 8.15.11
     (qlogic/1280.bin)
@@ -2296,6 +2325,9 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8106E-2 firmware, version 0.0.1 (rtl_nic/rtl8106e-2.fw)
   * Realtek RTL8107E-1 firmware, version 0.0.2 (rtl_nic/rtl8107e-1.fw)
   * Realtek RTL8107E-2 firmware, version 0.0.2 (rtl_nic/rtl8107e-2.fw)
+  * Realtek RTL8125 firmware (rtl_nic/rtl8125a-3.fw)
+  * Realtek RTL8125B firmware (rtl_nic/rtl8125b-1.fw)
+  * Realtek RTL8125B firmware (rtl_nic/rtl8125b-2.fw)
   * Realtek RTL8111D-1/RTL8168D-1 firmware (rtl_nic/rtl8168d-1.fw)
   * Realtek RTL8111D-2/RTL8168D-2 firmware (rtl_nic/rtl8168d-2.fw)
   * Realtek RTL8168E-1 firmware (rtl_nic/rtl8168e-1.fw)
@@ -2303,6 +2335,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8168E-3 firmware, version 0.0.4 (rtl_nic/rtl8168e-3.fw)
   * Realtek RTL8168F-1 firmware, version 0.0.5 (rtl_nic/rtl8168f-1.fw)
   * Realtek RTL8168F-2 firmware, version 0.0.4 (rtl_nic/rtl8168f-2.fw)
+  * Realtek's RTL8168fp/RTL8117 firmware (rtl_nic/rtl8168fp-3.fw)
   * Realtek RTL8168G-1 firmware, version 0.0.3 (rtl_nic/rtl8168g-1.fw)
   * Realtek RTL8168G-2 firmware, version 0.0.1 (rtl_nic/rtl8168g-2.fw)
   * Realtek RTL8168G-3 firmware, version 0.0.1 (rtl_nic/rtl8168g-3.fw)

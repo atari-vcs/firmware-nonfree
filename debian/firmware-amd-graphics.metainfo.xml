@@ -324,6 +324,7 @@
     <firmware type="runtime">amdgpu/vega20_sos.bin</firmware>
     <firmware type="runtime">amdgpu/vega20_uvd.bin</firmware>
     <firmware type="runtime">amdgpu/vega20_vce.bin</firmware>
+    <firmware type="runtime">amdgpu/vega20_ta.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_ce.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_me.bin</firmware>
     <firmware type="runtime">amdgpu/vegam_mec.bin</firmware>

@@ -1,3 +1,51 @@
+firmware-nonfree (20200619-1) unstable; urgency=medium
+
+  [maximilian attems]
+  * New upstream version:
+    - linux-firmware: add rebb firmware for mt7663
+    - QCA: Add Bluetooth firmware for QCA9377
+    - linux-firmware: add firmware for MT7915E
+    - rtw88: update firmware information and README
+    - iwlwifi: update 8265 FW
+    - iwlwifi: update FWs to core47-142 release
+    - rtw88: RTL8821C: add firmware file v24.5
+    - iwlwifi: update and add new FWs from core50-70 and core52-81 releases
+    - mrvl: add firmware for Prestera ASIC devices
+    - cxgb4: Update firmware to revision 1.24.17.0
+    - rtw88: RTL8822C: update firmware version to v9.9
+    - linux-firmware: Update firmware file for Intel Bluetooth 9260
+    - linux-firmware: Update firmware file for Intel Bluetooth 9560
+    - linux-firmware: Update firmware file for Intel Bluetooth AX201
+    - linux-firmware: Update firmware file for Intel Bluetooth AX200
+    - rtl_nic: add firmware for RTL8125B
+    - amdgpu: update navi14 firmware from 20.20 release
+    - amdgpu: update navi10 firmware from 20.20 release
+    - amdgpu: update vega10 firmware from 20.20 release
+    - amdgpu: update vega12 firmware from 20.20 release
+    - amdgpu: update vega20 firmware from 20.20 release
+    - amdgpu: add vega20 TA firmware from 20.20 release
+    - amdgpu: update raven firmware from 20.20 release
+    - amdgpu: update raven2 firmware from 20.20 release
+    - amdgpu: update picasso firmware from 20.20 release
+    - amdgpu: update renoir firmware from 20.20 release
+   * add rtl8168fp-3 for Realtek's RTL8168fp/RTL8117. (closes: #956224)
+   * add firmware-qcom-soc breaks and replaces against old firmware-qcom-media.
+     (closes: #966025)
+
+  [ Lucas Nussbaum ]
+  * README.source: fix option name
+  * qlogic: Add new firmware versions for the QLogic QL45000 series.
+    Closes: #963558
+
+  [ Hideki Yamane ]
+  * add Realtek RTL8125 firmware. (closes: #947356)
+
+  [ Aníbal Limón ]
+  * qcom-soc: Add SDM845 Adreno 630/WLAN DSP SDM845 firmware
+  * qcom-soc: Add missing _base to fw files for pkg desc
+
+ -- maximilian attems <maks@debian.org>  Fri, 24 Jul 2020 17:13:23 +0200
+
 firmware-nonfree (20200421-1) unstable; urgency=medium
 
   * New upstream version:

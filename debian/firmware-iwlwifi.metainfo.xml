@@ -78,13 +78,34 @@
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-41.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-cc-a0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-cc-a0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-55.ucode</firmware>
 
   </provides>
 </component>

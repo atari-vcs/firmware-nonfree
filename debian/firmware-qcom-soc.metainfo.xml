@@ -17,6 +17,7 @@
     <firmware type="runtime">qcom/a530v3_gpmu.fw2</firmware>
     <firmware type="runtime">qcom/a630_gmu.bin</firmware>
     <firmware type="runtime">qcom/a630_sqe.fw</firmware>
+    <firmware type="runtime">qcom/sdm845/a630_zap.mbn</firmware>
     <firmware type="runtime">qcom/sdm845/adsp.mbn</firmware>
     <firmware type="runtime">qcom/sdm845/adspr.jsn</firmware>
     <firmware type="runtime">qcom/sdm845/adspua.jsn</firmware>
@@ -25,6 +26,7 @@
     <firmware type="runtime">qcom/sdm845/mba.mbn</firmware>
     <firmware type="runtime">qcom/sdm845/modem.mbn</firmware>
     <firmware type="runtime">qcom/sdm845/modemuw.jsn</firmware>
+    <firmware type="runtime">qcom/sdm845/wlanmdsp.mbn</firmware>
     <firmware type="runtime">qcom/venus-1.8/venus.b00</firmware>
     <firmware type="runtime">qcom/venus-1.8/venus.b01</firmware>
     <firmware type="runtime">qcom/venus-1.8/venus.b02</firmware>
