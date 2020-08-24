@@ -92,6 +92,8 @@
     <firmware type="runtime">htc_9271.fw</firmware>
     <firmware type="runtime">qca/crbtfw21.tlv</firmware>
     <firmware type="runtime">qca/crnv21.bin</firmware>
+    <firmware type="runtime">qca/crnv32.bin</firmware>
+    <firmware type="runtime">qca/htbtfw20.tlv</firmware>
     <firmware type="runtime">qca/nvm_00130300.bin</firmware>
     <firmware type="runtime">qca/nvm_00130302.bin</firmware>
     <firmware type="runtime">qca/nvm_00440302.bin</firmware>

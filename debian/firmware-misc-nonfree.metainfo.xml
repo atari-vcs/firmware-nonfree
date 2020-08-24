@@ -127,12 +127,17 @@
     <firmware type="runtime">matrox/g400_warp.fw</firmware>
     <firmware type="runtime">mediatek/mt7610e.bin</firmware>
     <firmware type="runtime">mediatek/mt7610u.bin</firmware>
+    <firmware type="runtime">mediatek/mt7615_cr4.bin</firmware>
+    <firmware type="runtime">mediatek/mt7615_n9.bin</firmware>
+    <firmware type="runtime">mediatek/mt7615_rom_patch.bin</firmware>
     <firmware type="runtime">mediatek/mt7622pr2h.bin</firmware>
     <firmware type="runtime">mediatek/mt7650e.bin</firmware>
     <firmware type="runtime">mediatek/mt7662u.bin</firmware>
     <firmware type="runtime">mediatek/mt7662u_rom_patch.bin</firmware>
+    <firmware type="runtime">mediatek/mt7663pr2h.bin</firmware>
     <firmware type="runtime">mediatek/mt7663pr2h_rebb.bin</firmware>
     <firmware type="runtime">mediatek/mt7663_n9_rebb.bin</firmware>
+    <firmware type="runtime">mediatek/mt7663_n9_v3.bin</firmware>
     <firmware type="runtime">mediatek/mt7668pr2h.bin</firmware>
     <firmware type="runtime">mediatek/mt7915_wm.bin</firmware>
     <firmware type="runtime">mediatek/mt7915_wa.bin</firmware>

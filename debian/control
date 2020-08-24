@@ -192,6 +192,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * Radeon HD 8500/8600/8700 series PFP microcode (amdgpu/oland_pfp.bin)
   * Radeon HD 8500/8600/8700 series RLC microcode (amdgpu/oland_rlc.bin)
   * Radeon HD 8500/8600/8700 series SMC microcode (amdgpu/oland_smc.bin)
+  * Radeon HD 8500/8600/8700 series UVD microcode (amdgpu/oland_uvd.bin)
   * "Picasso" ASD firmware (amdgpu/picasso_asd.bin)
   * "Picasso" CE firmware (amdgpu/picasso_ce.bin)
   * "Picasso" GPU info (amdgpu/picasso_gpu_info.bin)
@@ -211,6 +212,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * Radeon HD 7800 series PFP microcode (amdgpu/pitcairn_pfp.bin)
   * Radeon HD 7800 series RLC microcode (amdgpu/pitcairn_rlc.bin)
   * Radeon HD 7800 series SMC microcode (amdgpu/pitcairn_smc.bin)
+  * Radeon HD 7800 series UVD microcode (amdgpu/pitcairn_uvd.bin)
   * "Polaris 10" old CE firmware (amdgpu/polaris10_ce.bin)
   * "Polaris 10" new CE firmware (amdgpu/polaris10_ce_2.bin)
   * "Polaris 10" K2 SMC firmware (amdgpu/polaris10_k2_smc.bin)
@@ -323,6 +325,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * Radeon HD 7900 series PFP microcode (amdgpu/tahiti_pfp.bin)
   * Radeon HD 7900 series RLC microcode (amdgpu/tahiti_rlc.bin)
   * Radeon HD 7900 series SMC microcode (amdgpu/tahiti_smc.bin)
+  * Radeon HD 7900 series UVD microcode (amdgpu/tahiti_uvd.bin)
   * "Tonga" CE firmware (amdgpu/tonga_ce.bin)
   * "Tonga" K SMC firmware (amdgpu/tonga_k_smc.bin)
   * "Tonga" MC firmware (amdgpu/tonga_mc.bin)
@@ -408,6 +411,7 @@ Description: Binary firmware for AMD/ATI graphics chips
   * Radeon HD 7700 series PFP microcode (amdgpu/verde_pfp.bin)
   * Radeon HD 7700 series RLC microcode (amdgpu/verde_rlc.bin)
   * Radeon HD 7700 series SMC microcode (amdgpu/verde_smc.bin)
+  * Radeon HD 7700 series UVD microcode (amdgpu/verde_uvd.bin)
   * Rage 128 CCE microcode (r128/r128_cce.bin)
   * Radeon HD IGP 7500/7600 series ME microcode (radeon/ARUBA_me.bin)
   * Radeon HD IGP 7500/7600 series PFP microcode (radeon/ARUBA_pfp.bin)
@@ -843,6 +847,8 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * Atheros AR9271 firmware, version 1.3.1 (htc_9271.fw)
   * Qualcomm WCN3990 Bluetooth firmware (qca/crbtfw21.tlv)
   * Qualcomm WCN3990 Bluetooth NVM configuration (qca/crnv21.bin)
+  * Qualcomm WCN3991 Bluetooth NVM configuration (qca/crnv32.bin)
+  * Qualcomm QCA6390 Bluetooth firmware (qca/htbtfw20.tlv)
   * Qualcomm Atheros QCA61x4 version 3.0 UART BT NVM configuration
     (qca/nvm_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
@@ -1003,6 +1009,8 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM4350 rev 5+ firmware (brcm/brcmfmac4350c2-pcie.bin)
   * Broadcom BCM4354 firmware (brcm/brcmfmac4354-sdio.bin)
   * Broadcom BCM4356-PCIe firmware (brcm/brcmfmac4356-pcie.bin)
+  * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
+    (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
   * Broadcom BCM4356-SDIO firmware] (brcm/brcmfmac4356-sdio.bin)
   * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
   * Broadcom BCM43570 firmware (brcm/brcmfmac43570-pcie.bin)
@@ -1221,10 +1229,22 @@ Description: Binary firmware for Intel Wireless cards
     21.20.0.4 (intel/ibt-19-16-4.ddc)
   * Intel Bluetooth AX201 (var 16 rev 4) firmware, version 21.20.0.4
     (intel/ibt-19-16-4.sfi)
+  * Intel Bluetooth AX201 firmware, version 21.110.0.3
+    (intel/ibt-19-240-1.ddc)
+  * Intel Bluetooth AX201 firmware, version 21.110.0.3
+    (intel/ibt-19-240-1.sfi)
+  * Intel Bluetooth AX201 firmware, version 21.90.0.3
+    (intel/ibt-19-240-4.ddc)
+  * Intel Bluetooth AX201 firmware, version 21.90.0.3
+    (intel/ibt-19-240-4.sfi)
   * Intel Bluetooth AX201 (var 32 rev 1) configuration, version
     21.20.0.4 (intel/ibt-19-32-1.ddc)
   * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 21.20.0.4
     (intel/ibt-19-32-1.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 4) configuration, version
+    21.90.0.3 (intel/ibt-19-32-4.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 4) firmware, version 21.90.0.3
+    (intel/ibt-19-32-4.sfi)
   * Intel Wireless 22161 (var 0 rev 3) Bluetooth configuration, version
     21.0.0.4 (intel/ibt-20-0-3.ddc)
   * Intel Wireless 22161 (var 0 rev 3) Bluetooth firmware, version
@@ -1233,6 +1253,10 @@ Description: Binary firmware for Intel Wireless cards
     21.0.0.4 (intel/ibt-20-1-3.ddc)
   * Intel Wireless 22161 (var 1 rev 3) Bluetooth firmware, version
     21.30.0.4 (intel/ibt-20-1-3.sfi)
+  * Intel Wireless 22161 (var 1 rev 4) Bluetooth configuration
+    (intel/ibt-20-1-4.ddc)
+  * Intel Wireless 22161 (var 1 rev 4) Bluetooth firmware
+    (intel/ibt-20-1-4.sfi)
   * Intel Wireless 3160 (B6) Bluetooth firmware patch, version 19.30
     (intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq)
   * Intel Wireless 3160 (B4) Bluetooth firmware patch, version 19.01
@@ -1638,12 +1662,17 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Matrox G400/G550 WARP engine microcode (matrox/g400_warp.fw)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7610e.bin)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7610u.bin)
+  * MediaTek MT7615 cr4 firmware (mediatek/mt7615_cr4.bin)
+  * MediaTek MT7615 n9 firmware (mediatek/mt7615_n9.bin)
+  * MediaTek MT7615 rom firmware (mediatek/mt7615_rom_patch.bin)
   * MediaTek MT7622 Bluetooth firmware (mediatek/mt7622pr2h.bin)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7650e.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u_rom_patch.bin)
+  * MediaTek MT7663 firmware (mediatek/mt7663pr2h.bin)
   * MediaTek MT7663 rebb rom firmware (mediatek/mt7663pr2h_rebb.bin)
   * MediaTek MT7663 rebb n9 firmware (mediatek/mt7663_n9_rebb.bin)
+  * MediaTek MT7663 n9 v3 firmware (mediatek/mt7663_n9_v3.bin)
   * MediaTek MT7668 Bluetooth firmware (mediatek/mt7668pr2h.bin)
   * MediaTek MT7915E firmware (mediatek/mt7915_wm.bin)
   * MediaTek MT7915E firmware (mediatek/mt7915_wa.bin)
@@ -2328,6 +2357,10 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8125 firmware (rtl_nic/rtl8125a-3.fw)
   * Realtek RTL8125B firmware (rtl_nic/rtl8125b-1.fw)
   * Realtek RTL8125B firmware (rtl_nic/rtl8125b-2.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-2.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-3.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153a-4.fw)
+  * Realtek RTL8152/RTL8153 firmware (rtl_nic/rtl8153b-2.fw)
   * Realtek RTL8111D-1/RTL8168D-1 firmware (rtl_nic/rtl8168d-1.fw)
   * Realtek RTL8111D-2/RTL8168D-2 firmware (rtl_nic/rtl8168d-2.fw)
   * Realtek RTL8168E-1 firmware (rtl_nic/rtl8168e-1.fw)
@@ -2390,6 +2423,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8822BE firmware (rtlwifi/rtl8822befw.bin)
   * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
   * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
+  * Realtek 8822C firmware (rtw88/rtw8822c_wow_fw.bin)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 

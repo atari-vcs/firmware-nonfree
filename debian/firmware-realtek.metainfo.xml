@@ -30,6 +30,10 @@
     <firmware type="runtime">rtl_nic/rtl8125a-3.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8125b-1.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8125b-2.fw</firmware>
+    <firmware type="runtime">rtl_nic/rtl8153a-2.fw</firmware>
+    <firmware type="runtime">rtl_nic/rtl8153a-3.fw</firmware>
+    <firmware type="runtime">rtl_nic/rtl8153a-4.fw</firmware>
+    <firmware type="runtime">rtl_nic/rtl8153b-2.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8168d-1.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8168d-2.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8168e-1.fw</firmware>
@@ -80,6 +84,7 @@
     <firmware type="runtime">rtlwifi/rtl8822befw.bin</firmware>
     <firmware type="runtime">rtw88/rtw8822b_fw.bin</firmware>
     <firmware type="runtime">rtw88/rtw8822c_fw.bin</firmware>
+    <firmware type="runtime">rtw88/rtw8822c_wow_fw.bin</firmware>
 
   </provides>
 </component>

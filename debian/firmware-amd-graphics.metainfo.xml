@@ -127,6 +127,7 @@
     <firmware type="runtime">amdgpu/oland_pfp.bin</firmware>
     <firmware type="runtime">amdgpu/oland_rlc.bin</firmware>
     <firmware type="runtime">amdgpu/oland_smc.bin</firmware>
+    <firmware type="runtime">amdgpu/oland_uvd.bin</firmware>
     <firmware type="runtime">amdgpu/picasso_asd.bin</firmware>
     <firmware type="runtime">amdgpu/picasso_ce.bin</firmware>
     <firmware type="runtime">amdgpu/picasso_gpu_info.bin</firmware>
@@ -146,6 +147,7 @@
     <firmware type="runtime">amdgpu/pitcairn_pfp.bin</firmware>
     <firmware type="runtime">amdgpu/pitcairn_rlc.bin</firmware>
     <firmware type="runtime">amdgpu/pitcairn_smc.bin</firmware>
+    <firmware type="runtime">amdgpu/pitcairn_uvd.bin</firmware>
     <firmware type="runtime">amdgpu/polaris10_ce.bin</firmware>
     <firmware type="runtime">amdgpu/polaris10_ce_2.bin</firmware>
     <firmware type="runtime">amdgpu/polaris10_k2_smc.bin</firmware>
@@ -258,6 +260,7 @@
     <firmware type="runtime">amdgpu/tahiti_pfp.bin</firmware>
     <firmware type="runtime">amdgpu/tahiti_rlc.bin</firmware>
     <firmware type="runtime">amdgpu/tahiti_smc.bin</firmware>
+    <firmware type="runtime">amdgpu/tahiti_uvd.bin</firmware>
     <firmware type="runtime">amdgpu/tonga_ce.bin</firmware>
     <firmware type="runtime">amdgpu/tonga_k_smc.bin</firmware>
     <firmware type="runtime">amdgpu/tonga_mc.bin</firmware>
@@ -343,6 +346,7 @@
     <firmware type="runtime">amdgpu/verde_pfp.bin</firmware>
     <firmware type="runtime">amdgpu/verde_rlc.bin</firmware>
     <firmware type="runtime">amdgpu/verde_smc.bin</firmware>
+    <firmware type="runtime">amdgpu/verde_uvd.bin</firmware>
     <firmware type="runtime">r128/r128_cce.bin</firmware>
     <firmware type="runtime">radeon/ARUBA_me.bin</firmware>
     <firmware type="runtime">radeon/ARUBA_pfp.bin</firmware>
