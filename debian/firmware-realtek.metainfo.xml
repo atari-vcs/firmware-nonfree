@@ -21,6 +21,7 @@
     <firmware type="runtime">rtl_bt/rtl8821c_fw.bin</firmware>
     <firmware type="runtime">rtl_bt/rtl8822b_config.bin</firmware>
     <firmware type="runtime">rtl_bt/rtl8822b_fw.bin</firmware>
+    <firmware type="runtime">rtl_bt/rtl8822cs_fw.bin</firmware>
     <firmware type="runtime">rtl_bt/rtl8822cu_fw.bin</firmware>
     <firmware type="runtime">rtl_nic/rtl8105e-1.fw</firmware>
     <firmware type="runtime">rtl_nic/rtl8106e-1.fw</firmware>
@@ -82,6 +83,7 @@
     <firmware type="runtime">rtlwifi/rtl8821aefw_wowlan.bin</firmware>
     <firmware type="runtime">rtlwifi/rtl8821aefw.bin</firmware>
     <firmware type="runtime">rtlwifi/rtl8822befw.bin</firmware>
+    <firmware type="runtime">rtw88/rtw8821c_fw.bin</firmware>
     <firmware type="runtime">rtw88/rtw8822b_fw.bin</firmware>
     <firmware type="runtime">rtw88/rtw8822c_fw.bin</firmware>
     <firmware type="runtime">rtw88/rtw8822c_wow_fw.bin</firmware>

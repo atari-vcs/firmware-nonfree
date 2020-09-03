@@ -39,6 +39,20 @@
     <firmware type="runtime">qcom/venus-4.2/venus.b03</firmware>
     <firmware type="runtime">qcom/venus-4.2/venus.b04</firmware>
     <firmware type="runtime">qcom/venus-4.2/venus.mdt</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.b00</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.b01</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.b02</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.b03</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.b04</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.mbn</firmware>
+    <firmware type="runtime">qcom/venus-5.2/venus.mdt</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.b00</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.b01</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.b02</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.b03</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.b04</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.mbn</firmware>
+    <firmware type="runtime">qcom/venus-5.4/venus.mdt</firmware>
 
   </provides>
 </component>

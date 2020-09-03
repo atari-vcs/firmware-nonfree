@@ -1625,6 +1625,7 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/kbl_huc_4.0.0.bin)
   * Intel "Kabylake" HuC firmware, version 2.0.1810
     (i915/kbl_huc_ver02_00_1810.bin)
+  * i915/rkl_dmc_ver2_02.bin
   * Intel "Skylake" DMC firmware, version 1.23
     (i915/skl_dmc_ver1_23.bin)
   * Intel "Skylake" DMC firmware, version 1.26
@@ -1648,12 +1649,16 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/tgl_dmc_ver2_04.bin)
   * Intel "Tiger Lake" DMC firmware, version 2.06
     (i915/tgl_dmc_ver2_06.bin)
+  * Intel "Tiger Lake" DMC firmware, version 2.08
+    (i915/tgl_dmc_ver2_08.bin)
   * Intel "Tiger Lake" GuC firmware, version 35.2.0
     (i915/tgl_guc_35.2.0.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.12
     (i915/tgl_huc_7.0.12.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.3
     (i915/tgl_huc_7.0.3.bin)
+  * Intel "Tiger Lake" HuC firmware, version 7.5.0
+    (i915/tgl_huc_7.5.0.bin)
   * kaweth/new_code.bin
   * kaweth/new_code_fix.bin
   * kaweth/trigger_code.bin
@@ -2264,6 +2269,20 @@ Description: Binary firmware for Qualcomm SoCs
   * Qualcomm Venus 4.2 firmware part 3 (qcom/venus-4.2/venus.b03)
   * Qualcomm Venus 4.2 firmware part 4 (qcom/venus-4.2/venus.b04)
   * Qualcomm Venus 4.2 firmware header (qcom/venus-4.2/venus.mdt)
+  * Qualcomm Venus 5.2 firmware part 0 (qcom/venus-5.2/venus.b00)
+  * Qualcomm Venus 5.2 firmware part 1 (qcom/venus-5.2/venus.b01)
+  * Qualcomm Venus 5.2 firmware part 2 (qcom/venus-5.2/venus.b02)
+  * Qualcomm Venus 5.2 firmware part 3 (qcom/venus-5.2/venus.b03)
+  * Qualcomm Venus 5.2 firmware part 4 (qcom/venus-5.2/venus.b04)
+  * Qualcomm Venus 5.2 firmware (qcom/venus-5.2/venus.mbn)
+  * Qualcomm Venus 5.2 firmware header (qcom/venus-5.2/venus.mdt)
+  * Qualcomm Venus 5.4 firmware part 0 (qcom/venus-5.4/venus.b00)
+  * Qualcomm Venus 5.4 firmware part 1 (qcom/venus-5.4/venus.b01)
+  * Qualcomm Venus 5.4 firmware part 2 (qcom/venus-5.4/venus.b02)
+  * Qualcomm Venus 5.4 firmware part 3 (qcom/venus-5.4/venus.b03)
+  * Qualcomm Venus 5.4 firmware part 4 (qcom/venus-5.4/venus.b04)
+  * Qualcomm Venus 5.4 firmware (qcom/venus-5.4/venus.mbn)
+  * Qualcomm Venus 5.4 firmware header (qcom/venus-5.4/venus.mdt)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -2348,6 +2367,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8821C Bluetooth firmware (rtl_bt/rtl8821c_fw.bin)
   * Realtek RTL8822B Bluetooth config (rtl_bt/rtl8822b_config.bin)
   * Realtek RTL8822B Bluetooth firmware (rtl_bt/rtl8822b_fw.bin)
+  * Realtek RTL8822CS Bluetooth firmware (rtl_bt/rtl8822cs_fw.bin)
   * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
   * Realtek RTL8105E-1 firmware (rtl_nic/rtl8105e-1.fw)
   * Realtek RTL8106E-1 firmware, version 0.0.1 (rtl_nic/rtl8106e-1.fw)
@@ -2421,6 +2441,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw.bin)
   * Realtek RTL8822BE firmware (rtlwifi/rtl8822befw.bin)
+  * Realtek 8821C firmware (rtw88/rtw8821c_fw.bin)
   * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
   * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
   * Realtek 8822C firmware (rtw88/rtw8822c_wow_fw.bin)
