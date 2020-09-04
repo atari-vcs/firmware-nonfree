@@ -51,6 +51,8 @@
     <firmware type="runtime">ath10k/QCA9984/hw1.0/firmware-5.bin</firmware>
     <firmware type="runtime">ath10k/QCA99X0/hw2.0/board.bin</firmware>
     <firmware type="runtime">ath10k/QCA99X0/hw2.0/firmware-5.bin</firmware>
+    <firmware type="runtime">ath10k/WCN3990/hw1.0/firmware-5.bin</firmware>
+    <firmware type="runtime">ath10k/WCN3990/hw1.0/wlanmdsp.mbn</firmware>
     <firmware type="runtime">ath3k-1.fw</firmware>
     <firmware type="runtime">ath6k/AR6003.1/hw2.1.1/athwlan.bin</firmware>
     <firmware type="runtime">ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin</firmware>
@@ -90,6 +92,8 @@
     <firmware type="runtime">htc_9271.fw</firmware>
     <firmware type="runtime">qca/crbtfw21.tlv</firmware>
     <firmware type="runtime">qca/crnv21.bin</firmware>
+    <firmware type="runtime">qca/crnv32.bin</firmware>
+    <firmware type="runtime">qca/htbtfw20.tlv</firmware>
     <firmware type="runtime">qca/nvm_00130300.bin</firmware>
     <firmware type="runtime">qca/nvm_00130302.bin</firmware>
     <firmware type="runtime">qca/nvm_00440302.bin</firmware>
@@ -99,6 +103,7 @@
     <firmware type="runtime">qca/nvm_usb_00000302.bin</firmware>
     <firmware type="runtime">qca/rampatch_00130300.bin</firmware>
     <firmware type="runtime">qca/rampatch_00130302.bin</firmware>
+    <firmware type="runtime">qca/rampatch_00230302.bin</firmware>
     <firmware type="runtime">qca/rampatch_00440302.bin</firmware>
     <firmware type="runtime">qca/rampatch_usb_00000200.bin</firmware>
     <firmware type="runtime">qca/rampatch_usb_00000201.bin</firmware>

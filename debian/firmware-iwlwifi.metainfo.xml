@@ -25,12 +25,20 @@
     <firmware type="runtime">intel/ibt-19-0-4.sfi</firmware>
     <firmware type="runtime">intel/ibt-19-16-4.ddc</firmware>
     <firmware type="runtime">intel/ibt-19-16-4.sfi</firmware>
+    <firmware type="runtime">intel/ibt-19-240-1.ddc</firmware>
+    <firmware type="runtime">intel/ibt-19-240-1.sfi</firmware>
+    <firmware type="runtime">intel/ibt-19-240-4.ddc</firmware>
+    <firmware type="runtime">intel/ibt-19-240-4.sfi</firmware>
     <firmware type="runtime">intel/ibt-19-32-1.ddc</firmware>
     <firmware type="runtime">intel/ibt-19-32-1.sfi</firmware>
+    <firmware type="runtime">intel/ibt-19-32-4.ddc</firmware>
+    <firmware type="runtime">intel/ibt-19-32-4.sfi</firmware>
     <firmware type="runtime">intel/ibt-20-0-3.ddc</firmware>
     <firmware type="runtime">intel/ibt-20-0-3.sfi</firmware>
     <firmware type="runtime">intel/ibt-20-1-3.ddc</firmware>
     <firmware type="runtime">intel/ibt-20-1-3.sfi</firmware>
+    <firmware type="runtime">intel/ibt-20-1-4.ddc</firmware>
+    <firmware type="runtime">intel/ibt-20-1-4.sfi</firmware>
     <firmware type="runtime">intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq</firmware>
     <firmware type="runtime">intel/ibt-hw-37.7.10-fw-1.0.2.3.d.bseq</firmware>
     <firmware type="runtime">intel/ibt-hw-37.7.10-fw-1.80.1.2d.d.bseq</firmware>
@@ -78,13 +86,34 @@
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-41.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-b0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-Qu-c0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-hr-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-QuZ-a0-jf-b0-55.ucode</firmware>
     <firmware type="runtime">iwlwifi-cc-a0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-cc-a0-48.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-50.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-53.ucode</firmware>
+    <firmware type="runtime">iwlwifi-cc-a0-55.ucode</firmware>
 
   </provides>
 </component>
