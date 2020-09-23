@@ -1,5 +1,5 @@
 ae9d57a264ff3a9ba5933f2ff686d731  debian/bin/gencontrol.py
-b79aa25fdcfe3e4f8d632b690974125f  debian/build/version-info
+61fe48c1a66ad5664767e17f64ae2d17  debian/build/version-info
 f2d56a87a7a481fec4b3983bd3129cdb  debian/templates/control.binary.in
 463b3ce9e0bf7e828429778da9046274  debian/templates/control.extra.in
 23e858c90f46d393ec91602a3958f143  debian/templates/control.source.in
@@ -10,7 +10,7 @@ d8ec26344473f36fc003658b597cc8b2  debian/templates/metainfo.xml.firmware.in
 806fe86a541b1425bc9507109a078c3a  debian/templates/preinst.license.in
 14a2c569f8c79cb237a31d63452ad7e9  debian/templates/templates.license.in
 3cf2509a34435a867ced35763d1d100f  debian/config/defines
-51fa60d44ff20dfb00f72978ac8a8879  debian/config/amd-graphics/defines
+320ca7d7d1bf6471012eb4f3330789e3  debian/config/amd-graphics/defines
 9b7196059df38c187c084a8fa89691c7  debian/config/atheros/defines
 6cacebcacee21fc8152e214f27f4c07c  debian/config/bnx2/defines
 ebefd3d149a0f4d19d3708a76b83050c  debian/config/bnx2x/defines

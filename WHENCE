@@ -2378,6 +2378,21 @@ File: amdgpu/navi14_smc.bin
 File: amdgpu/navi14_sos.bin
 File: amdgpu/navi14_vcn.bin
 File: amdgpu/navi14_ta.bin
+File: amdgpu/navi12_asd.bin
+File: amdgpu/navi12_ce.bin
+File: amdgpu/navi12_dmcu.bin
+File: amdgpu/navi12_gpu_info.bin
+File: amdgpu/navi12_me.bin
+File: amdgpu/navi12_mec.bin
+File: amdgpu/navi12_mec2.bin
+File: amdgpu/navi12_pfp.bin
+File: amdgpu/navi12_rlc.bin
+File: amdgpu/navi12_sdma.bin
+File: amdgpu/navi12_sdma1.bin
+File: amdgpu/navi12_smc.bin
+File: amdgpu/navi12_sos.bin
+File: amdgpu/navi12_vcn.bin
+File: amdgpu/navi12_ta.bin
 File: amdgpu/renoir_asd.bin
 File: amdgpu/renoir_ce.bin
 File: amdgpu/renoir_gpu_info.bin
@@ -2624,7 +2639,7 @@ File: "brcm/brcmfmac43430-sdio.Hampoo-D2D3_Vi8A1.txt"
 File: "brcm/brcmfmac43430-sdio.MUR1DX.txt"
 File: "brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt"
-Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
+Link: brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt -> brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt
 File: "brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt"
 File: "brcm/brcmfmac43455-sdio.MINIX-NEO Z83-4.txt"
 File: "brcm/brcmfmac4356-pcie.gpd-win-pocket.txt"
@@ -3409,13 +3424,13 @@ Version: BT_WindStormPeak_REL0306
 File: intel/ibt-12-16.sfi
 Version: BT_WindStormPeak_REL0306
 File: intel/ibt-17-16-1.sfi
-Version: BT_JeffersonPeak_B0_B0_REL10183
+Version: BT_JeffersonPeak_B0_B0_REL13313
 File: intel/ibt-17-16-1.ddc
-Version: BT_JeffersonPeak_B0_B0_REL10183
+Version: BT_JeffersonPeak_B0_B0_REL13313
 File: intel/ibt-17-2.sfi
-Version: BT_JeffersonPeak_B0_B0_REL10183
+Version: BT_JeffersonPeak_B0_B0_REL13313
 File: intel/ibt-17-2.ddc
-Version: BT_JeffersonPeak_B0_B0_REL10183
+Version: BT_JeffersonPeak_B0_B0_REL13313
 File: intel/ibt-17-0-1.sfi
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-0-1.ddc
@@ -3425,13 +3440,13 @@ Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-17-1.ddc
 Version: BT_JeffersonPeak_A0_B0_REL0201
 File: intel/ibt-18-16-1.sfi
-Version: BT_ThunderPeak_B0_B0_REL10183
+Version: BT_ThunderPeak_B0_B0_REL13313
 File: intel/ibt-18-16-1.ddc
-Version: BT_ThunderPeak_B0_B0_REL10183
+Version: BT_ThunderPeak_B0_B0_REL13313
 File: intel/ibt-18-2.sfi
-Version: BT_ThunderPeak_B0_B0_REL10183
+Version: BT_ThunderPeak_B0_B0_REL13313
 File: intel/ibt-18-2.ddc
-Version: BT_ThunderPeak_B0_B0_REL10183
+Version: BT_ThunderPeak_B0_B0_REL13313
 File: intel/ibt-18-0-1.sfi
 Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-0-1.ddc
@@ -3441,53 +3456,53 @@ Version: BT_ThunderPeak_A0_B0_REL0201
 File: intel/ibt-18-1.ddc
 Version: BT_ThunderPeak_A0_B0_REL0201
 File:intel/ibt-20-0-3.sfi
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-20-0-3.ddc
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-20-1-3.sfi
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-20-1-3.ddc
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-20-1-4.sfi
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-20-1-4.ddc
-Version: BT_CyclonePeak_A0_REL9916
+Version: BT_CyclonePeak_A0_REL13705
 File:intel/ibt-19-0-0.sfi
-Version: BT_Quasar_REL9916
+Version: BT_Quasar_REL13705
 File:intel/ibt-19-0-0.ddc
-Version: BT_Quasar_REL9916
+Version: BT_Quasar_REL13705
 File:intel/ibt-19-0-1.sfi
-Version: BT_Quasar_REL9916
+Version: BT_Quasar_REL13705
 File:intel/ibt-19-0-1.ddc
-Version: BT_Quasar_REL9916
+Version: BT_Quasar_REL13705
 File:intel/ibt-19-0-4.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-0-4.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-16-4.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-16-4.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-1.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-1.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-0.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-0.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-4.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-32-4.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-240-1.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-240-1.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-240-4.sfi
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 File:intel/ibt-19-240-4.ddc
-Version: BT_HarrisonPeak_REL9916
+Version: BT_HarrisonPeak_REL13705
 
 
 Licence: Redistributable. See LICENCE.ibt_firmware for details
@@ -3584,9 +3599,9 @@ Licence: Redistributable. See LICENCE.go7007 for details
 Driver: ccp - Platform Security Processor (PSP) device
 
 File: amd/amd_sev_fam17h_model0xh.sbin
-Version: 2020-07-21
+Version: 2020-09-15
 File: amd/amd_sev_fam17h_model3xh.sbin
-Version: 2020-07-21
+Version: 2020-09-15
 
 License: Redistributable. See LICENSE.amd-sev for details
 
@@ -4657,7 +4672,7 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7615e - MediaTek MT7615e Wireless MACs
 
 File: mediatek/mt7615_n9.bin
-Version: 20200629
+Version: 20200814
 File: mediatek/mt7615_cr4.bin
 Version: 20190114
 File: mediatek/mt7615_rom_patch.bin
@@ -4697,11 +4712,11 @@ Licence: Redistributable. See LICENCE.mediatek for details.
 Driver: mt7915e - MediaTek MT7915e Wireless MACs
 
 File: mediatek/mt7915_wm.bin
-Version: 19530513
+Version: 20200819
 File: mediatek/mt7915_wa.bin
-Version: 19530513
+Version: 20200819
 File: mediatek/mt7915_rom_patch.bin
-Version: 19530513
+Version: 20200819
 
 Licence: Redistributable. See LICENCE.mediatek for details.
 
@@ -4949,6 +4964,9 @@ File: mellanox/mlxsw_spectrum3-30.2007.1168.mfa2
 File: mellanox/mlxsw_spectrum-13.2008.1036.mfa2
 File: mellanox/mlxsw_spectrum2-29.2008.1036.mfa2
 File: mellanox/mlxsw_spectrum3-30.2008.1036.mfa2
+File: mellanox/mlxsw_spectrum-13.2008.1310.mfa2
+File: mellanox/mlxsw_spectrum2-29.2008.1310.mfa2
+File: mellanox/mlxsw_spectrum3-30.2008.1310.mfa2
 
 Licence:
  Copyright (c) 2017-2020 Mellanox Technologies, Ltd. All rights reserved.
