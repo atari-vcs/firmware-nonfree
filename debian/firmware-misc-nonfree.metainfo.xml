@@ -101,6 +101,7 @@
     <firmware type="runtime">i915/kbl_guc_ver9_39.bin</firmware>
     <firmware type="runtime">i915/kbl_huc_4.0.0.bin</firmware>
     <firmware type="runtime">i915/kbl_huc_ver02_00_1810.bin</firmware>
+    <firmware type="runtime">i915/rkl_dmc_ver2_02.bin</firmware>
     <firmware type="runtime">i915/skl_dmc_ver1.bin</firmware>
     <firmware type="runtime">i915/skl_dmc_ver1_23.bin</firmware>
     <firmware type="runtime">i915/skl_dmc_ver1_26.bin</firmware>
@@ -116,9 +117,11 @@
     <firmware type="runtime">i915/skl_huc_ver01_07_1398.bin</firmware>
     <firmware type="runtime">i915/tgl_dmc_ver2_04.bin</firmware>
     <firmware type="runtime">i915/tgl_dmc_ver2_06.bin</firmware>
+    <firmware type="runtime">i915/tgl_dmc_ver2_08.bin</firmware>
     <firmware type="runtime">i915/tgl_guc_35.2.0.bin</firmware>
     <firmware type="runtime">i915/tgl_huc_7.0.12.bin</firmware>
     <firmware type="runtime">i915/tgl_huc_7.0.3.bin</firmware>
+    <firmware type="runtime">i915/tgl_huc_7.5.0.bin</firmware>
     <firmware type="runtime">kaweth/new_code.bin</firmware>
     <firmware type="runtime">kaweth/new_code_fix.bin</firmware>
     <firmware type="runtime">kaweth/trigger_code.bin</firmware>

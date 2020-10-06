@@ -9,7 +9,7 @@ d8ec26344473f36fc003658b597cc8b2  debian/templates/metainfo.xml.firmware.in
 806fe86a541b1425bc9507109a078c3a  debian/templates/preinst.license.in
 14a2c569f8c79cb237a31d63452ad7e9  debian/templates/templates.license.in
 3cf2509a34435a867ced35763d1d100f  debian/config/defines
-51fa60d44ff20dfb00f72978ac8a8879  debian/config/amd-graphics/defines
+320ca7d7d1bf6471012eb4f3330789e3  debian/config/amd-graphics/defines
 9b7196059df38c187c084a8fa89691c7  debian/config/atheros/defines
 6cacebcacee21fc8152e214f27f4c07c  debian/config/bnx2/defines
 ebefd3d149a0f4d19d3708a76b83050c  debian/config/bnx2x/defines
@@ -21,13 +21,13 @@ f95fcce88036d5dc0e2888346ee85d18  debian/config/intelwimax/defines
 8c667a41116d0fab86bd1a524801b122  debian/config/ivtv/defines
 d0ab57e6777d6d3a0b538f08fb6420db  debian/config/iwlwifi/defines
 8b9e204164ea1fdaac12424ee864e5aa  debian/config/libertas/defines
-53b4c0423208b81db1d419d280d33bde  debian/config/misc-nonfree/defines
+03d885fa48eff468b180d49c92726074  debian/config/misc-nonfree/defines
 3a9da046c80082b3b494df20e2fa8ec3  debian/config/myricom/defines
 f05420efbb40dbdccc866507c7046b2b  debian/config/netronome/defines
 71cf992c3f0de4d379ebeb6478b192cb  debian/config/netxen/defines
-2c66d1238368463f1bfca791a4ba9f77  debian/config/qcom-soc/defines
+8bbfab8b9d97d3175b4e698fca48ee09  debian/config/qcom-soc/defines
 4fa20574adb2334113bf759f217c5286  debian/config/qlogic/defines
-44c27905af21da60251c60eab18bd8e7  debian/config/realtek/defines
+888848afeca7f5e0f5b610830644fae2  debian/config/realtek/defines
 4d1779a828bdc84fb7ee26265997c080  debian/config/samsung/defines
 c4897d4d9a8c8fd5d4fbdd17540908de  debian/config/siano/defines
 7e9bbc1e206af60541b528f0b977d979  debian/config/ti-connectivity/defines
