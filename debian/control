@@ -323,8 +323,21 @@ Description: Binary firmware for AMD/ATI graphics chips
   * "Renoir" PFP firmware (amdgpu/renoir_pfp.bin)
   * "Renoir" RLC firmware (amdgpu/renoir_rlc.bin)
   * "Renoir" SDMA firmware (amdgpu/renoir_sdma.bin)
+  * "Renoir" TA firmware (amdgpu/renoir_ta.bin)
   * "Renoir" VCN firmware (amdgpu/renoir_vcn.bin)
   * Radeon "SI58" MC microcode (amdgpu/si58_mc.bin)
+  * amdgpu/sienna_cichlid_ce.bin
+  * amdgpu/sienna_cichlid_dmcub.bin
+  * amdgpu/sienna_cichlid_me.bin
+  * amdgpu/sienna_cichlid_mec.bin
+  * amdgpu/sienna_cichlid_mec2.bin
+  * amdgpu/sienna_cichlid_pfp.bin
+  * amdgpu/sienna_cichlid_rlc.bin
+  * amdgpu/sienna_cichlid_sdma.bin
+  * amdgpu/sienna_cichlid_smc.bin
+  * amdgpu/sienna_cichlid_sos.bin
+  * amdgpu/sienna_cichlid_ta.bin
+  * amdgpu/sienna_cichlid_vcn.bin
   * "Stoney" CE firmware (amdgpu/stoney_ce.bin)
   * "Stoney" ME firmware (amdgpu/stoney_me.bin)
   * "Stoney" MEC firmware (amdgpu/stoney_mec.bin)
@@ -789,8 +802,10 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * Qualcomm Atheros QCA6174 rev 3.0 firmware, version
     WLAN.RM.2.0-00180-QCARMSWPZ-1 (ath10k/QCA6174/hw3.0/firmware-4.bin)
   * Qualcomm Atheros QCA6174 rev 3.0 firmware, version
-    WLAN.RM.4.4.1-00079-QCARMSWPZ-1
+    WLAN.RM.4.4.1-00157-QCARMSWPZ-1
     (ath10k/QCA6174/hw3.0/firmware-6.bin)
+  * Qualcomm Atheros QCA6174 SDIO rev 3.0 firmware, version
+    WLAN.RMH.4.4.1-00077 (ath10k/QCA6174/hw3.0/firmware-sdio-6.bin)
   * Qualcomm Atheros QCA9377 rev 1.0 board configuration, version 1
     (ath10k/QCA9377/hw1.0/board.bin)
   * Qualcomm Atheros QCA9377 rev 1.0 board configuration, version 2
@@ -799,6 +814,9 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     WLAN.TF.1.0-00267-1 (ath10k/QCA9377/hw1.0/firmware-5.bin)
   * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
     WLAN.TF.2.1-00021-QCARMSWP-1 (ath10k/QCA9377/hw1.0/firmware-6.bin)
+  * Qualcomm Atheros QCA9377 rev 1.0 firmware, version
+    WLAN.TF.1.1.1-00061-QCATFSWPZ-1
+    (ath10k/QCA9377/hw1.0/firmware-sdio-5.bin)
   * Qualcomm Atheros QCA9887 rev 1.0 board configuration, version 1
     (ath10k/QCA9887/hw1.0/board.bin)
   * Qualcomm Atheros QCA9887 rev 1.0 firmware, version 10.2.4-1.0-00041
@@ -806,7 +824,7 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * Qualcomm Atheros QCA9888 rev 2.0 board configuration, version 2
     (ath10k/QCA9888/hw2.0/board-2.bin)
   * Qualcomm Atheros QCA9888 rev 2.0 firmware, version
-    10.4-3.9.0.2-00024 (ath10k/QCA9888/hw2.0/firmware-5.bin)
+    10.4-3.9.0.2-00131 (ath10k/QCA9888/hw2.0/firmware-5.bin)
   * Qualcomm Atheros QCA988X board configuration, version 1
     (ath10k/QCA988X/hw2.0/board.bin)
   * Qualcomm Atheros QCA988X firmware, version 10.2.4.45
@@ -816,13 +834,120 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * Qualcomm Atheros QCA9984 rev 1.0 board configuration, version 2
     (ath10k/QCA9984/hw1.0/board-2.bin)
   * Qualcomm Atheros QCA9984 rev 1.0 firmware, version
-    10.4-3.9.0.2-00021 (ath10k/QCA9984/hw1.0/firmware-5.bin)
+    10.4-3.9.0.2-00131 (ath10k/QCA9984/hw1.0/firmware-5.bin)
   * Qualcomm Atheros QCA99X0 board configuration, version 1
     (ath10k/QCA99X0/hw2.0/board.bin)
   * Qualcomm Atheros QCA99X0 firmware, version 10.4.1.00030-1
     (ath10k/QCA99X0/hw2.0/firmware-5.bin)
-  * ath10k/WCN3990/hw1.0/firmware-5.bin
-  * ath10k/WCN3990/hw1.0/wlanmdsp.mbn
+  * Qualcomm Atheros WCN3990 firmware
+    (ath10k/WCN3990/hw1.0/firmware-5.bin)
+  * Qualcomm Atheros WCN3990 wlan DSP firmware
+    (ath10k/WCN3990/hw1.0/wlanmdsp.mbn)
+  * Qualcomm Atheros IPQ6018 802.11ax board-2.bin firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/board-2.bin)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b00 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/m3_fw.b00)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b01 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/m3_fw.b01)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.b02 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/m3_fw.b02)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.flist firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/m3_fw.flist)
+  * Qualcomm Atheros IPQ6018 802.11ax m3_fw.mdt firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/m3_fw.mdt)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b00 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b00)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b01 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b01)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b02 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b02)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b03 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b03)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b04 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b04)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b05 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b05)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b07 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b07)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.b08 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.b08)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.flist firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.flist)
+  * Qualcomm Atheros IPQ6018 802.11ax q6_fw.mdt firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ6018/hw1.0/q6_fw.mdt)
+  * Qualcomm Atheros IPQ8074 board firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/board-2.bin)
+  * Qualcomm Atheros IPQ8074 m3_fw.b00 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/m3_fw.b00)
+  * Qualcomm Atheros IPQ8074 m3_fw.b01 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/m3_fw.b01)
+  * Qualcomm Atheros IPQ8074 m3_fw.b02 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/m3_fw.b02)
+  * Qualcomm Atheros IPQ8074 m3_fw.flist firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/m3_fw.flist)
+  * Qualcomm Atheros IPQ8074 m3_fw.mdt firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/m3_fw.mdt)
+  * Qualcomm Atheros IPQ8074 q6_fw.b00 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b00)
+  * Qualcomm Atheros IPQ8074 q6_fw.b01 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b01)
+  * Qualcomm Atheros IPQ8074 q6_fw.b02 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b02)
+  * Qualcomm Atheros IPQ8074 q6_fw.b03 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b03)
+  * Qualcomm Atheros IPQ8074 q6_fw.b04 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b04)
+  * Qualcomm Atheros IPQ8074 q6_fw.b05 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b05)
+  * Qualcomm Atheros IPQ8074 q6_fw.b07 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b07)
+  * Qualcomm Atheros IPQ8074 q6_fw.b08 firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.b08)
+  * Qualcomm Atheros IPQ8074 q6_fw.list firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.flist)
+  * Qualcomm Atheros IPQ8074 q6_fw.mdt firmware, version
+    WLAN.HK.2.1.0.1-01238-QCAHKSWPL_SILICONZ-2
+    (ath11k/IPQ8074/hw2.0/q6_fw.mdt)
+  * Qualcomm Atheros QCA6390 board-2 firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/board-2.bin)
+  * Qualcomm Atheros QCA6390 amss firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/amss.bin)
+  * Qualcomm Atheros QCA6390 m3 firmware, version
+    WLAN.HST.1.0.1-01740-QCAHSTSWPLZ_V2_TO_X86-1
+    (ath11k/QCA6390/hw2.0/m3.bin)
   * Atheros AR3011 firmware (ath3k-1.fw)
   * ath6k/AR6003.1/hw2.1.1/athwlan.bin
   * ath6k/AR6003.1/hw2.1.1/bdata.SD31.bin
@@ -861,9 +986,14 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
   * Atheros AR7010 firmware, version 1.3.1 (htc_7010.fw)
   * Atheros AR9271 firmware, version 1.3.1 (htc_9271.fw)
   * Qualcomm WCN3990 Bluetooth firmware (qca/crbtfw21.tlv)
+  * Qualcomm WCN3991 RAM FW (qca/crbtfw32.tlv)
   * Qualcomm WCN3990 Bluetooth NVM configuration (qca/crnv21.bin)
   * Qualcomm WCN3991 Bluetooth NVM configuration (qca/crnv32.bin)
-  * Qualcomm QCA6390 Bluetooth firmware (qca/htbtfw20.tlv)
+  * Qualcomm WCN3991 Bluetooth NVM configuration (qca/crnv32u.bin)
+  * Qualcomm QCA6390 Bluetooth HTBFW20 firmware, version v2.0.0-00874
+    (qca/htbtfw20.tlv)
+  * Qualcomm QCA6390 Bluetooth HTNV20 firmware, version v2.0.0-00874
+    (qca/htnv20.bin)
   * Qualcomm Atheros QCA61x4 version 3.0 UART BT NVM configuration
     (qca/nvm_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
@@ -1026,7 +1156,7 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM4356-PCIe firmware (brcm/brcmfmac4356-pcie.bin)
   * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
     (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
-  * Broadcom BCM4356-SDIO firmware] (brcm/brcmfmac4356-sdio.bin)
+  * Broadcom BCM4356-SDIO firmware (brcm/brcmfmac4356-sdio.bin)
   * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
   * Broadcom BCM43570 firmware (brcm/brcmfmac43570-pcie.bin)
   * Broadcom BCM4358 firmware (brcm/brcmfmac4358-pcie.bin)
@@ -1036,6 +1166,32 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM4371 firmware (brcm/brcmfmac4371-pcie.bin)
   * Cypress CYW4373-USB firmware (brcm/brcmfmac4373.bin)
   * Cypress CYW4373-SDIO firmware (brcm/brcmfmac4373-sdio.bin)
+  * Cypress CYW43012-SDIO firmware (cypress/cyfmac43012-sdio.bin)
+  * Cypress CYW43012-SDIO CLM firmware
+    (cypress/cyfmac43012-sdio.clm_blob)
+  * Cypress CYW43340-SDIO firmware (cypress/cyfmac43340-sdio.bin)
+  * Cypress CYW43362-SDIO firmware (cypress/cyfmac43362-sdio.bin)
+  * Cypress CYW4339-SDIO firmware (cypress/cyfmac4339-sdio.bin)
+  * Cypress CYW43430-SDIO firmware (cypress/cyfmac43430-sdio.bin)
+  * Cypress CYW43430-SDIO CLM firmware
+    (cypress/cyfmac43430-sdio.clm_blob)
+  * Cypress CYW43455-SDIO firmware (cypress/cyfmac43455-sdio.bin)
+  * Cypress CYW43455-SDIO CLM firmware
+    (cypress/cyfmac43455-sdio.clm_blob)
+  * Cypress CYW4354-SDIO firmware (cypress/cyfmac4354-sdio.bin)
+  * Cypress CYW4354-SDIO CLM firmware (cypress/cyfmac4354-sdio.clm_blob)
+  * Cypress CYW4356-PCIE firmware (cypress/cyfmac4356-pcie.bin)
+  * Cypress CYW4356-PCIE CLM firmware (cypress/cyfmac4356-pcie.clm_blob)
+  * Cypress CYW4356-SDIO firmware (cypress/cyfmac4356-sdio.bin)
+  * Cypress CYW4356-SDIO CLM firmware (cypress/cyfmac4356-sdio.clm_blob)
+  * Cypress CYW43570-PCIE firmware (cypress/cyfmac43570-pcie.bin)
+  * Cypress CYW43570-PCIE CLM firmware
+    (cypress/cyfmac43570-pcie.clm_blob)
+  * Cypress CYW4373-SDIO firmware (cypress/cyfmac4373-sdio.bin)
+  * Cypress CYW4373-SDIO CLM firmware (cypress/cyfmac4373-sdio.clm_blob)
+  * Cypress CYW54591-PCIE firmware (cypress/cyfmac54591-pcie.bin)
+  * Cypress CYW54591-PCIE CLM firmware
+    (cypress/cyfmac54591-pcie.clm_blob)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1252,6 +1408,10 @@ Description: Binary firmware for Intel Wireless cards
     (intel/ibt-19-240-4.ddc)
   * Intel Bluetooth AX201 firmware, version 21.90.0.3
     (intel/ibt-19-240-4.sfi)
+  * Intel Bluetooth AX201 (var 32 rev 0) configuration
+    (intel/ibt-19-32-0.ddc)
+  * Intel Bluetooth AX201 (var 32 rev 0) firmware
+    (intel/ibt-19-32-0.sfi)
   * Intel Bluetooth AX201 (var 32 rev 1) configuration, version
     21.20.0.4 (intel/ibt-19-32-1.ddc)
   * Intel Bluetooth AX201 (var 32 rev 1) firmware, version 21.20.0.4
@@ -1272,6 +1432,10 @@ Description: Binary firmware for Intel Wireless cards
     (intel/ibt-20-1-4.ddc)
   * Intel Wireless 22161 (var 1 rev 4) Bluetooth firmware
     (intel/ibt-20-1-4.sfi)
+  * Intel Wireless AX2100 Bluethooth configuration
+    (intel/ibt-0041-0041.ddc)
+  * Intel Wireless AX2100 Bluethooth firmware, version 22.20.0.3
+    (intel/ibt-0041-0041.sfi)
   * Intel Wireless 3160 (B6) Bluetooth firmware patch, version 19.30
     (intel/ibt-hw-37.7.10-fw-1.0.1.2d.d.bseq)
   * Intel Wireless 3160 (B4) Bluetooth firmware patch, version 19.01
@@ -1307,7 +1471,7 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-3160-17.ucode)
   * Intel Wireless 3168 firmware, version 22.391740.0
     (iwlwifi-3168-22.ucode)
-  * Intel Wireless 3168 firmware, version 29.3e3b4de5.0
+  * Intel Wireless 3168 firmware, version 29.0bd893f3.0
     (iwlwifi-3168-29.ucode)
   * Intel Wireless 3945 firmware, version 15.32.2.9
     (iwlwifi-3945-2.ucode)
@@ -1337,15 +1501,15 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-7265-17.ucode)
   * Intel Wireless 7265D firmware, version 22.391740.0
     (iwlwifi-7265D-22.ucode)
-  * Intel Wireless 7265D firmware, version 29.3e3b4de5.0
+  * Intel Wireless 7265D firmware, version 29.0bd893f3.0
     (iwlwifi-7265D-29.ucode)
   * Intel Wireless 8000C firmware, version 22.391740.0
     (iwlwifi-8000C-22.ucode)
-  * Intel Wireless 8000C firmware, version 36.8fd77bb3c.0
+  * Intel Wireless 8000C firmware, version 36.ad812ee0.0
     (iwlwifi-8000C-36.ucode)
   * Intel Wireless 8265 firmware, version 22.391740.0
     (iwlwifi-8265-22.ucode)
-  * Intel Wireless 8265 firmware, version 36.8fd77bb3c.0
+  * Intel Wireless 8265 firmware, version 36.ad812ee0.0
     (iwlwifi-8265-36.ucode)
   * Intel Wireless 9000 firmware, version 34.ba501b11.0
     (iwlwifi-9000-pu-b0-jf-b0-34.ucode)
@@ -1361,45 +1525,82 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-9260-th-b0-jf-b0-38.ucode)
   * Intel Wireless 9260 firmware, version 41.fc1a7aea.0
     (iwlwifi-9260-th-b0-jf-b0-41.ucode)
-  * Intel Wireless 9260 firmware, version 46.a41adfe7.0
+  * Intel Wireless 9260 firmware, version 46.4d093a30.0
     (iwlwifi-9260-th-b0-jf-b0-46.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-b0-hr-b0-48.ucode)
-  * iwlwifi-Qu-b0-hr-b0-50.ucode
-  * iwlwifi-Qu-b0-hr-b0-53.ucode
-  * iwlwifi-Qu-b0-hr-b0-55.ucode
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-b0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    53.c31ac674.0 (iwlwifi-Qu-b0-hr-b0-53.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    55.d9698065.0 (iwlwifi-Qu-b0-hr-b0-55.ucode)
+  * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-b0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-b0-jf-b0-48.ucode)
-  * iwlwifi-Qu-b0-jf-b0-50.ucode
-  * iwlwifi-Qu-b0-jf-b0-53.ucode
-  * iwlwifi-Qu-b0-jf-b0-55.ucode
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-b0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    53.c31ac674.0 (iwlwifi-Qu-b0-jf-b0-53.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    55.d9698065.0 (iwlwifi-Qu-b0-jf-b0-55.ucode)
+  * Intel Wireless 22000 series (QU-B-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-b0-jf-b0-59.ucode)
   * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-c0-hr-b0-48.ucode)
-  * iwlwifi-Qu-c0-hr-b0-50.ucode
-  * iwlwifi-Qu-c0-hr-b0-53.ucode
-  * iwlwifi-Qu-c0-hr-b0-55.ucode
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-c0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    53.c31ac674.0 (iwlwifi-Qu-c0-hr-b0-53.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    55.d9698065.0 (iwlwifi-Qu-c0-hr-b0-55.ucode)
+  * Intel Wireless 22000 series (QU-C-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-c0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
     48.13675109.0 (iwlwifi-Qu-c0-jf-b0-48.ucode)
-  * iwlwifi-Qu-c0-jf-b0-50.ucode
-  * iwlwifi-Qu-c0-jf-b0-53.ucode
-  * iwlwifi-Qu-c0-jf-b0-55.ucode
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-Qu-c0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    53.c31ac674.0 (iwlwifi-Qu-c0-jf-b0-53.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    55.d9698065.0 (iwlwifi-Qu-c0-jf-b0-55.ucode)
+  * Intel Wireless 22000 series (QU-C-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-Qu-c0-jf-b0-59.ucode)
   * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
     48.13675109.0 (iwlwifi-QuZ-a0-hr-b0-48.ucode)
-  * iwlwifi-QuZ-a0-hr-b0-50.ucode
-  * iwlwifi-QuZ-a0-hr-b0-53.ucode
-  * iwlwifi-QuZ-a0-hr-b0-55.ucode
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-QuZ-a0-hr-b0-50.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    53.c31ac674.0 (iwlwifi-QuZ-a0-hr-b0-53.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    55.d9698065.0 (iwlwifi-QuZ-a0-hr-b0-55.ucode)
+  * Intel Wireless 22000 series (QUZ-A-HR-B) firmware, version
+    59.601f3a66.0 (iwlwifi-QuZ-a0-hr-b0-59.ucode)
   * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
     48.13675109.0 (iwlwifi-QuZ-a0-jf-b0-48.ucode)
-  * iwlwifi-QuZ-a0-jf-b0-50.ucode
-  * iwlwifi-QuZ-a0-jf-b0-53.ucode
-  * iwlwifi-QuZ-a0-jf-b0-55.ucode
-  * Intel Wireless 22260 firmware, version 46.3cfab8da.0
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    50.3e391d3e.0 (iwlwifi-QuZ-a0-jf-b0-50.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    53.c31ac674.0 (iwlwifi-QuZ-a0-jf-b0-53.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    55.d9698065.0 (iwlwifi-QuZ-a0-jf-b0-55.ucode)
+  * Intel Wireless 22000 series (QUZ-A-JF-B) firmware, version
+    59.601f3a66.0 (iwlwifi-QuZ-a0-jf-b0-59.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 46.3cfab8da.0
     (iwlwifi-cc-a0-46.ucode)
-  * Intel Wireless 22260 firmware, version 48.13675109.0
+  * Intel Wireless series (CC-A0) firmware, version 48.13675109.0
     (iwlwifi-cc-a0-48.ucode)
-  * iwlwifi-cc-a0-50.ucode
-  * iwlwifi-cc-a0-53.ucode
-  * iwlwifi-cc-a0-55.ucode
+  * Intel Wireless series (CC-A0) firmware, version 50.3e391d3e.0
+    (iwlwifi-cc-a0-50.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 53.c31ac674.0
+    (iwlwifi-cc-a0-53.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 55.d9698065.0
+    (iwlwifi-cc-a0-55.ucode)
+  * Intel Wireless series (CC-A0) firmware, version 59.601f3a66.0
+    (iwlwifi-cc-a0-59.ucode)
+  * Intel Wireless (TY-A0-GF-A0) firmware, version 59.601f3a66.0
+    (iwlwifi-ty-a0-gf-a0-59.ucode)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1585,6 +1786,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/bxt_guc_32.0.3.bin)
   * Intel "Broxton" GuC firmware, version 33.0.0
     (i915/bxt_guc_33.0.0.bin)
+  * Intel "Broxton" GuC firmware, version 49.0.1
+    (i915/bxt_guc_49.0.1.bin)
   * Intel "Broxton" GuC firmware, version 8.7 (i915/bxt_guc_ver8_7.bin)
   * Intel "Broxton" GuC firmware, version 9.29
     (i915/bxt_guc_ver9_29.bin)
@@ -1595,12 +1798,17 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/bxt_huc_ver01_8_2893.bin)
   * Intel "Comet Lake" GuC firmware, version 33.0.0
     (i915/cml_guc_33.0.0.bin)
+  * Intel "Comet Lake" GuC firmware, version 49.0.1
+    (i915/cml_guc_49.0.1.bin)
   * Intel "Comet Lake" HuC firmware, version 4.0.0
     (i915/cml_huc_4.0.0.bin)
   * Intel "Cannonlake" DMC firmware, version 1.07
     (i915/cnl_dmc_ver1_07.bin)
+  * i915/dg1_dmc_ver2_02.bin
   * Intel "Elkhart Lake" GuC firmware, version 33.0.4
     (i915/ehl_guc_33.0.4.bin)
+  * Intel "Elkhart Lake" GuC firmware, version 49.0.1
+    (i915/ehl_guc_49.0.1.bin)
   * Intel "Elkhart Lake" HuC firmware, version 9.0.0
     (i915/ehl_huc_9.0.0.bin)
   * Intel "Geminilake" DMC firmware, version 1.04
@@ -1609,6 +1817,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/glk_guc_32.0.3.bin)
   * Intel "Geminilake" GuC firmware, version 33.0.0
     (i915/glk_guc_33.0.0.bin)
+  * Intel "Geminilake" GuC firmware, version 49.0.1
+    (i915/glk_guc_49.0.1.bin)
   * Intel "Geminilake" HuC firmware, version 4.0.0
     (i915/glk_huc_4.0.0.bin)
   * Intel "Geminilake" HuC firmware, version 3.1.2893
@@ -1621,6 +1831,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/icl_guc_32.0.3.bin)
   * Intel "Icelake" GuC firmware, version 33.0.0
     (i915/icl_guc_33.0.0.bin)
+  * Intel "Icelake" GuC firmware, version 49.0.1
+    (i915/icl_guc_49.0.1.bin)
   * Intel "Icelake" HuC firmware, version 9.0.0 (i915/icl_huc_9.0.0.bin)
   * Intel "Icelake" HuC firmware, version 8.4.3238
     (i915/icl_huc_ver8_4_3238.bin)
@@ -1632,6 +1844,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/kbl_guc_32.0.3.bin)
   * Intel "Kabylake" GuC firmware, version 33.0.0
     (i915/kbl_guc_33.0.0.bin)
+  * Intel "Kabylake" GuC firmware, version 49.0.1
+    (i915/kbl_guc_49.0.1.bin)
   * Intel "Kabylake" GuC firmware, version 9.14
     (i915/kbl_guc_ver9_14.bin)
   * Intel "Kabylake" GuC firmware, version 9.39
@@ -1640,7 +1854,8 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/kbl_huc_4.0.0.bin)
   * Intel "Kabylake" HuC firmware, version 2.0.1810
     (i915/kbl_huc_ver02_00_1810.bin)
-  * i915/rkl_dmc_ver2_02.bin
+  * Intel "Rocketlake" DMC firmware, version 2.02
+    (i915/rkl_dmc_ver2_02.bin)
   * Intel "Skylake" DMC firmware, version 1.23
     (i915/skl_dmc_ver1_23.bin)
   * Intel "Skylake" DMC firmware, version 1.26
@@ -1651,6 +1866,7 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/skl_guc_32.0.3.bin)
   * Intel "Skylake" GuC firmware, version 33.0.0
     (i915/skl_guc_33.0.0.bin)
+  * i915/skl_guc_49.0.1.bin
   * Intel "Skylake" GuC firmware, version 1.1059 (i915/skl_guc_ver1.bin)
   * Intel "Skylake" GuC firmware, version 4.3 (i915/skl_guc_ver4.bin)
   * Intel "Skylake" GuC firmware, version 6.1 (i915/skl_guc_ver6_1.bin,
@@ -1668,16 +1884,24 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/tgl_dmc_ver2_08.bin)
   * Intel "Tiger Lake" GuC firmware, version 35.2.0
     (i915/tgl_guc_35.2.0.bin)
+  * Intel "Tiger Lake" GuC firmware, version 49.0.1
+    (i915/tgl_guc_49.0.1.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.12
     (i915/tgl_huc_7.0.12.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.0.3
     (i915/tgl_huc_7.0.3.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.5.0
     (i915/tgl_huc_7.5.0.bin)
+  * Intel E800 comms package, version 1.3.20
+    (intel/ice/ddp-comms/ice_comms-1.3.20.0.pkg)
+  * Intel E800 ice driver, version 1.3.16
+    (intel/ice/ddp/ice-1.3.16.0.pkg)
   * kaweth/new_code.bin
   * kaweth/new_code_fix.bin
   * kaweth/trigger_code.bin
   * kaweth/trigger_code_fix.bin
+  * Lontium LT9611UXC DSI to HDMI bridge firmware, version 0x43
+    (lt9611uxc_fw.bin)
   * Matrox G200 WARP engine microcode (matrox/g200_warp.fw)
   * Matrox G400/G550 WARP engine microcode (matrox/g400_warp.fw)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7610e.bin)
@@ -1697,6 +1921,10 @@ Description: Binary firmware for various drivers in the Linux kernel
   * MediaTek MT7915E firmware (mediatek/mt7915_wm.bin)
   * MediaTek MT7915E firmware (mediatek/mt7915_wa.bin)
   * MediaTek MT7915E firmware (mediatek/mt7915_rom_patch.bin)
+  * MediaTek MT8173 VPU_D firmware, version 1.1.16
+    (mediatek/mt8173/vpu_d.bin)
+  * MediaTek MT8173 VPU_P firmware, version 1.1.16
+    (mediatek/mt8173/vpu_p.bin)
   * MOXA UPort 1110 firmware (moxa/moxa-1110.fw)
   * MOXA UPort 1130 firmware (moxa/moxa-1130.fw)
   * MOXA UPort 1130I firmware (moxa/moxa-1131.fw)
@@ -1929,10 +2157,10 @@ Description: Binary firmware for various drivers in the Linux kernel
     nvidia/tu106/acr/ucode_ahesasc.bin
   * nvidia/tu102/acr/ucode_asb.bin, nvidia/tu104/acr/ucode_asb.bin,
     nvidia/tu106/acr/ucode_asb.bin
-  * nvidia/tu102/acr/ucode_unload.bin,
-    nvidia/tu104/acr/ucode_unload.bin, nvidia/tu106/acr/ucode_unload.bin
-  * nvidia/tu102/acr/unload_bl.bin, nvidia/tu104/acr/unload_bl.bin,
+  * nvidia/tu102/acr/ucode_unload.bin, nvidia/tu104/acr/unload_bl.bin,
     nvidia/tu106/acr/unload_bl.bin
+  * nvidia/tu102/acr/unload_bl.bin, nvidia/tu104/acr/ucode_unload.bin,
+    nvidia/tu106/acr/ucode_unload.bin
   * nvidia/tu102/gr/fecs_bl.bin, nvidia/tu104/gr/fecs_bl.bin,
     nvidia/tu106/gr/fecs_bl.bin
   * nvidia/tu102/gr/fecs_data.bin
@@ -2531,6 +2759,7 @@ Description: Binary firmware for TI Connectivity wifi and BT/FM/GPS adapters
  driver.
  .
  Contents:
+  * TI VPDMA firmare (ti/vpdma-1b8.bin)
   * ti-connectivity/TIInit_6.2.31.bts
   * ti-connectivity/TIInit_6.6.15.bts
   * ti-connectivity/TIInit_7.2.31.bts
