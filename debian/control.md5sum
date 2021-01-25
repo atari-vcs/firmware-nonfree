@@ -1,7 +1,7 @@
 ae9d57a264ff3a9ba5933f2ff686d731  debian/bin/gencontrol.py
-aeee675c3985fd86d0ff7c7674f0b2ad  debian/build/version-info
+7913a0a39e95629c2925965a1dc99783  debian/build/version-info
 f2d56a87a7a481fec4b3983bd3129cdb  debian/templates/control.binary.in
-463b3ce9e0bf7e828429778da9046274  debian/templates/control.extra.in
+5766be40b0266b0083624e9c265ae7c4  debian/templates/control.extra.in
 23e858c90f46d393ec91602a3958f143  debian/templates/control.source.in
 bc45709eafabb0ffe3a3e636f587d3f1  debian/templates/copyright.binary.in
 d8ec26344473f36fc003658b597cc8b2  debian/templates/metainfo.xml.firmware.in
@@ -28,7 +28,7 @@ f05420efbb40dbdccc866507c7046b2b  debian/config/netronome/defines
 71cf992c3f0de4d379ebeb6478b192cb  debian/config/netxen/defines
 8bbfab8b9d97d3175b4e698fca48ee09  debian/config/qcom-soc/defines
 4fa20574adb2334113bf759f217c5286  debian/config/qlogic/defines
-888848afeca7f5e0f5b610830644fae2  debian/config/realtek/defines
+c0e9a41437f44f95ce85788f69d142ed  debian/config/realtek/defines
 4d1779a828bdc84fb7ee26265997c080  debian/config/samsung/defines
 c4897d4d9a8c8fd5d4fbdd17540908de  debian/config/siano/defines
 80e9e5fbc5e402e91f5d5a67c953e722  debian/config/ti-connectivity/defines

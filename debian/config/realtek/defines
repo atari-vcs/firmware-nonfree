@@ -18,7 +18,9 @@ files:
  rtl_bt/rtl8822b_config.bin
  rtl_bt/rtl8822b_fw.bin
  rtl_bt/rtl8822cs_fw.bin
+ rtl_bt/rtl8822cs_config.bin
  rtl_bt/rtl8822cu_fw.bin
+ rtl_bt/rtl8822cu_config.bin
  rtl_nic/rtl8105e-1.fw
  rtl_nic/rtl8106e-1.fw
  rtl_nic/rtl8106e-2.fw
@@ -75,6 +77,8 @@ files:
  rtlwifi/rtl8723defw.bin
  rtlwifi/rtl8723fw_B.bin
  rtlwifi/rtl8723fw.bin
+ rtlwifi/rtl8812aefw.bin
+ rtlwifi/rtl8812aefw_wowlan.bin
  rtlwifi/rtl8821aefw_29.bin
  rtlwifi/rtl8821aefw_wowlan.bin
  rtlwifi/rtl8821aefw.bin
@@ -83,6 +87,7 @@ files:
  rtw88/rtw8822b_fw.bin
  rtw88/rtw8822c_fw.bin
  rtw88/rtw8822c_wow_fw.bin
+ rtw88/rtw8723d_fw.bin
 
 longdesc: Realtek Ethernet, wifi and Bluetooth adapters supported by various
  drivers
@@ -139,8 +144,14 @@ desc: Realtek RTL8822B Bluetooth firmware
 [rtl_bt/rtl8822cs_fw.bin_base]
 desc: Realtek RTL8822CS Bluetooth firmware
 
+[rtl_bt/rtl8822cs_config.bin_base]
+desc: Realtek RTL8822CS Bluetooth config
+
 [rtl_bt/rtl8822cu_fw.bin_base]
 desc: Realtek RTL8822CU Bluetooth firmware
+
+[rtl_bt/rtl8822cu_config.bin_base]
+desc: Realtek RTL8822CU Bluetooth config
 
 [rtl_nic/rtl8105e-1.fw_base]
 desc: Realtek RTL8105E-1 firmware
@@ -328,6 +339,12 @@ desc: Realtek RTL8723AE rev B firmware
 [rtlwifi/rtl8723fw.bin_base]
 desc: Realtek RTL8723AE rev A firmware
 
+[rtlwifi/rtl8812aefw.bin_base]
+desc: Realtek RTL8821AEFW firmware
+
+[rtlwifi/rtl8812aefw_wowlan.bin_base]
+desc: Realtek RTL8821AEFW wowlan firmware
+
 [rtlwifi/rtl8821aefw_29.bin_base]
 desc: Realtek RTL8821AE firmware
 version: 29
@@ -352,3 +369,6 @@ desc: Realtek 8822CE firmware
 
 [rtw88/rtw8822c_wow_fw.bin_base]
 desc: Realtek 8822C firmware
+
+[rtw88/rtw88/rtw8723d_fw.bin_base]
+desc: Realtek RTW8723D firmware

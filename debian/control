@@ -23,7 +23,7 @@ Architecture: all
 Section: non-free/metapackages
 Depends: firmware-misc-nonfree (= ${binary:Version}), firmware-amd-graphics (= ${binary:Version}), ${misc:Depends}
 Recommends: intel-microcode, amd64-microcode
-Description: Binary firmware for various drivers in the Linux kernel (meta-package)
+Description: Binary firmware for various drivers in the Linux kernel (metapackage)
  This package depends on non-free firmware which may be used with drivers
  in the Linux kernel.
 
@@ -2611,7 +2611,9 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8822B Bluetooth config (rtl_bt/rtl8822b_config.bin)
   * Realtek RTL8822B Bluetooth firmware (rtl_bt/rtl8822b_fw.bin)
   * Realtek RTL8822CS Bluetooth firmware (rtl_bt/rtl8822cs_fw.bin)
+  * Realtek RTL8822CS Bluetooth config (rtl_bt/rtl8822cs_config.bin)
   * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
+  * Realtek RTL8822CU Bluetooth config (rtl_bt/rtl8822cu_config.bin)
   * Realtek RTL8105E-1 firmware (rtl_nic/rtl8105e-1.fw)
   * Realtek RTL8106E-1 firmware, version 0.0.1 (rtl_nic/rtl8106e-1.fw)
   * Realtek RTL8106E-2 firmware, version 0.0.1 (rtl_nic/rtl8106e-2.fw)
@@ -2680,6 +2682,8 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8723DE firmware (rtlwifi/rtl8723defw.bin)
   * Realtek RTL8723AE rev B firmware (rtlwifi/rtl8723fw_B.bin)
   * Realtek RTL8723AE rev A firmware (rtlwifi/rtl8723fw.bin)
+  * Realtek RTL8821AEFW firmware (rtlwifi/rtl8812aefw.bin)
+  * Realtek RTL8821AEFW wowlan firmware (rtlwifi/rtl8812aefw_wowlan.bin)
   * Realtek RTL8821AE firmware, version 29 (rtlwifi/rtl8821aefw_29.bin)
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw.bin)
@@ -2688,6 +2692,7 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)
   * Realtek 8822CE firmware (rtw88/rtw8822c_fw.bin)
   * Realtek 8822C firmware (rtw88/rtw8822c_wow_fw.bin)
+  * rtw88/rtw8723d_fw.bin
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 

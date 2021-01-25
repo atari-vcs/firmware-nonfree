@@ -1,3 +1,17 @@
+firmware-nonfree (20201218-3) unstable; urgency=medium
+
+  * Add Realtek rtl8822cu config (closes: #971791)
+  * Add Realtek RTL8812 firmwares (closes: #877667)
+  * Add Realtek rtl8822cs config.
+
+ -- maximilian attems <maks@debian.org>  Mon, 25 Jan 2021 08:49:45 +0100
+
+firmware-nonfree (20201218-2) unstable; urgency=medium
+
+  * Add RTW8723D firmware (closes: #980101)
+
+ -- maximilian attems <maks@debian.org>  Tue, 19 Jan 2021 15:52:36 +0100
+
 firmware-nonfree (20201218-1) unstable; urgency=medium
 
   * New upstream version:
