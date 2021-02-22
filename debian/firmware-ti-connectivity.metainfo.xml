@@ -5,6 +5,7 @@
   <summary>Binary firmware for Texas Instruments WL1251, WL127x, WL128x and WL18xx wireless network chips supported by the wl1251, wl12xx and wl18xx drivers and BT/FM/GPS chips supported by the st_drv driver.</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <provides>
+    <firmware type="runtime">ti/vpdma-1b8.bin</firmware>
     <firmware type="runtime">ti-connectivity/TIInit_6.2.31.bts</firmware>
     <firmware type="runtime">ti-connectivity/TIInit_6.6.15.bts</firmware>
     <firmware type="runtime">ti-connectivity/TIInit_7.2.31.bts</firmware>
