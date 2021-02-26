@@ -30,10 +30,18 @@
     <firmware type="runtime">cxgb4/bcm8483.bin</firmware>
     <firmware type="runtime">cxgb4/t4fw.bin</firmware>
     <firmware type="runtime">cxgb4/t4fw-1.24.17.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t4-config.txt</firmware>
     <firmware type="runtime">cxgb4/t5fw.bin</firmware>
     <firmware type="runtime">cxgb4/t5fw-1.24.17.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t5-config.txt</firmware>
     <firmware type="runtime">cxgb4/t6fw.bin</firmware>
     <firmware type="runtime">cxgb4/t6fw-1.24.17.0.bin</firmware>
+    <firmware type="runtime">cxgb4/t6-config.txt</firmware>
+    <firmware type="runtime">cxgb4/configs/t4-config-default.txt</firmware>
+    <firmware type="runtime">cxgb4/configs/t5-config-default.txt</firmware>
+    <firmware type="runtime">cxgb4/configs/t6-config-default.txt</firmware>
+    <firmware type="runtime">cxgb4/configs/t5-config-hashfilter.txt</firmware>
+    <firmware type="runtime">cxgb4/configs/t6-config-hashfilter.txt</firmware>
     <firmware type="runtime">dabusb/bitstream.bin</firmware>
     <firmware type="runtime">dabusb/firmware.fw</firmware>
     <firmware type="runtime">dvb-fe-xc4000-1.4.1.fw</firmware>
@@ -67,6 +75,7 @@
     <firmware type="runtime">hfi1_sbus.fw</firmware>
     <firmware type="runtime">imx/sdma/sdma-imx6q.bin</firmware>
     <firmware type="runtime">imx/sdma/sdma-imx7d.bin</firmware>
+    <firmware type="runtime">i915/adls_dmc_ver2_01.bin</firmware>
     <firmware type="runtime">i915/bxt_dmc_ver1.bin</firmware>
     <firmware type="runtime">i915/bxt_dmc_ver1_07.bin</firmware>
     <firmware type="runtime">i915/bxt_guc_32.0.3.bin</firmware>
@@ -82,6 +91,8 @@
     <firmware type="runtime">i915/cml_huc_4.0.0.bin</firmware>
     <firmware type="runtime">i915/cnl_dmc_ver1_07.bin</firmware>
     <firmware type="runtime">i915/dg1_dmc_ver2_02.bin</firmware>
+    <firmware type="runtime">i915/dg1_guc_49.0.1.bin</firmware>
+    <firmware type="runtime">i915/dg1_huc_7.7.1.bin</firmware>
     <firmware type="runtime">i915/ehl_guc_33.0.4.bin</firmware>
     <firmware type="runtime">i915/ehl_guc_49.0.1.bin</firmware>
     <firmware type="runtime">i915/ehl_huc_9.0.0.bin</firmware>
@@ -131,8 +142,10 @@
     <firmware type="runtime">i915/tgl_huc_7.0.12.bin</firmware>
     <firmware type="runtime">i915/tgl_huc_7.0.3.bin</firmware>
     <firmware type="runtime">i915/tgl_huc_7.5.0.bin</firmware>
+    <firmware type="runtime">intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin</firmware>
     <firmware type="runtime">intel/ice/ddp-comms/ice_comms-1.3.20.0.pkg</firmware>
     <firmware type="runtime">intel/ice/ddp/ice-1.3.16.0.pkg</firmware>
+    <firmware type="runtime">intel/ice/ddp/ice.pkg</firmware>
     <firmware type="runtime">kaweth/new_code.bin</firmware>
     <firmware type="runtime">kaweth/new_code_fix.bin</firmware>
     <firmware type="runtime">kaweth/trigger_code.bin</firmware>
@@ -147,6 +160,8 @@
     <firmware type="runtime">mediatek/mt7615_rom_patch.bin</firmware>
     <firmware type="runtime">mediatek/mt7622pr2h.bin</firmware>
     <firmware type="runtime">mediatek/mt7650e.bin</firmware>
+    <firmware type="runtime">mediatek/mt7622_n9.bin</firmware>
+    <firmware type="runtime">mediatek/mt7622_rom_patch.bin</firmware>
     <firmware type="runtime">mediatek/mt7662u.bin</firmware>
     <firmware type="runtime">mediatek/mt7662u_rom_patch.bin</firmware>
     <firmware type="runtime">mediatek/mt7663pr2h.bin</firmware>
@@ -159,6 +174,8 @@
     <firmware type="runtime">mediatek/mt7915_rom_patch.bin</firmware>
     <firmware type="runtime">mediatek/mt8173/vpu_d.bin</firmware>
     <firmware type="runtime">mediatek/mt8173/vpu_p.bin</firmware>
+    <firmware type="runtime">mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin</firmware>
+    <firmware type="runtime">mediatek/WIFI_RAM_CODE_MT7961_1.bin</firmware>
     <firmware type="runtime">moxa/moxa-1110.fw</firmware>
     <firmware type="runtime">moxa/moxa-1130.fw</firmware>
     <firmware type="runtime">moxa/moxa-1131.fw</firmware>

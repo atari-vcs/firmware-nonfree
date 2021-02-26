@@ -84,10 +84,12 @@
     <firmware type="runtime">iwlwifi-9000-pu-b0-jf-b0-34.ucode</firmware>
     <firmware type="runtime">iwlwifi-9000-pu-b0-jf-b0-38.ucode</firmware>
     <firmware type="runtime">iwlwifi-9000-pu-b0-jf-b0-41.ucode</firmware>
+    <firmware type="runtime">iwlwifi-9000-pu-b0-jf-b0-43.ucode</firmware>
     <firmware type="runtime">iwlwifi-9000-pu-b0-jf-b0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-34.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-38.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-41.ucode</firmware>
+    <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-43.ucode</firmware>
     <firmware type="runtime">iwlwifi-9260-th-b0-jf-b0-46.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-48.ucode</firmware>
     <firmware type="runtime">iwlwifi-Qu-b0-hr-b0-50.ucode</firmware>

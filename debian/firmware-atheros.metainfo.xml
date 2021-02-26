@@ -136,11 +136,15 @@
     <firmware type="runtime">qca/htnv20.bin</firmware>
     <firmware type="runtime">qca/nvm_00130300.bin</firmware>
     <firmware type="runtime">qca/nvm_00130302.bin</firmware>
+    <firmware type="runtime">qca/nvm_00230302.bin</firmware>
     <firmware type="runtime">qca/nvm_00440302.bin</firmware>
+    <firmware type="runtime">qca/nvm_00440302_eu.bin</firmware>
+    <firmware type="runtime">qca/nvm_00440302_i2s_eu.bin</firmware>
     <firmware type="runtime">qca/nvm_usb_00000200.bin</firmware>
     <firmware type="runtime">qca/nvm_usb_00000201.bin</firmware>
     <firmware type="runtime">qca/nvm_usb_00000300.bin</firmware>
     <firmware type="runtime">qca/nvm_usb_00000302.bin</firmware>
+    <firmware type="runtime">qca/nvm_usb_00000302_eu.bin</firmware>
     <firmware type="runtime">qca/rampatch_00130300.bin</firmware>
     <firmware type="runtime">qca/rampatch_00130302.bin</firmware>
     <firmware type="runtime">qca/rampatch_00230302.bin</firmware>

@@ -998,7 +998,11 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (qca/nvm_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
     (qca/nvm_00130302.bin)
+  * Qualcomm Atheros QCA9377 Bluetooth firmware (qca/nvm_00230302.bin)
   * Qualcomm Atheros QCA6174 BT NVM configuration (qca/nvm_00440302.bin)
+  * Qualcomm Atheros QCA6174 BT NVM firmware (qca/nvm_00440302_eu.bin)
+  * Qualcomm Atheros QCA6174 BT NVM firmware
+    (qca/nvm_00440302_i2s_eu.bin)
   * Qualcomm Atheros QCA61x4 version 2.0 USB BT NVM configuration
     (qca/nvm_usb_00000200.bin)
   * Qualcomm Atheros QCA61x4 version 2.1 USB BT NVM configuration
@@ -1007,6 +1011,7 @@ Description: Binary firmware for Qualcomm Atheros wireless cards
     (qca/nvm_usb_00000300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 USB BT NVM configuration
     (qca/nvm_usb_00000302.bin)
+  * Qualcomm Atheros QCA6174 firmware (qca/nvm_usb_00000302_eu.bin)
   * Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
     (qca/rampatch_00130300.bin)
   * Qualcomm Atheros QCA61x4 version 3.2 UART BT rampatch
@@ -1137,61 +1142,77 @@ Description: Binary firmware for Broadcom/Cypress 802.11 wireless cards
   * Broadcom BCM4329 firmware (brcm/brcmfmac4329-sdio.bin)
   * Broadcom BCM4330 firmware (brcm/brcmfmac4330-sdio.bin)
   * Broadcom BCM4334 firmware (brcm/brcmfmac4334-sdio.bin)
-  * Broadcom BCM43340 firmware (brcm/brcmfmac43340-sdio.bin)
-  * Broadcom BCM4335 firmware (brcm/brcmfmac4335-sdio.bin)
-  * Broadcom BCM43362 firmware (brcm/brcmfmac43362-sdio.bin)
-  * Broadcom BCM4339 firmware (brcm/brcmfmac4339-sdio.bin)
-  * Broadcom BCM43455 firmware (brcm/brcmfmac43455-sdio.bin)
-  * BCM43455 NVRAM for the Raspberry Pi 3 B+
-    (brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt)
-  * BCM43455 NVRAM for the Raspberry Pi 4 B
-    (brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt)
+  * brcm/brcmfmac4335-sdio.bin
   * Broadcom BCM43430 rev 0 firmware (brcm/brcmfmac43430a0-sdio.bin)
-  * Broadcom BCM43430 rev 1+ firmware (brcm/brcmfmac43430-sdio.bin)
+  * brcm/brcmfmac43430-sdio.AP6212.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-plus.txt,
+    brcm/brcmfmac43430-sdio.sinovoip,bpi-m2-zero.txt
   * BCM43430 NVRAM for the Raspberry Pi 3 B
     (brcm/brcmfmac43430-sdio.raspberrypi,3-model-b.txt)
-  * Broadcom BCM4350 rev 0-4 firmware (brcm/brcmfmac4350-pcie.bin)
+  * BCM43455 NVRAM for the Raspberry Pi 3 B+
+    (brcm/brcmfmac43455-sdio.raspberrypi,3-model-b-plus.txt,
+    brcm/brcmfmac43455-sdio.raspberrypi,3-model-a-plus.txt)
+  * BCM43455 NVRAM for the Raspberry Pi 4 B
+    (brcm/brcmfmac43455-sdio.raspberrypi,4-model-b.txt)
   * Broadcom BCM4350 rev 5+ firmware (brcm/brcmfmac4350c2-pcie.bin)
-  * Broadcom BCM4354 firmware (brcm/brcmfmac4354-sdio.bin)
-  * Broadcom BCM4356-PCIe firmware (brcm/brcmfmac4356-pcie.bin)
+  * Broadcom BCM4350 rev 0-4 firmware (brcm/brcmfmac4350-pcie.bin)
+  * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
   * Broadcom BCM4356-PCIe NVRAM for GPD Pocket and Win
     (brcm/brcmfmac4356-pcie.gpd-win-pocket.txt)
-  * Broadcom BCM4356-SDIO firmware (brcm/brcmfmac4356-sdio.bin)
-  * Broadcom BCM43569 firmware (brcm/brcmfmac43569.bin)
-  * Broadcom BCM43570 firmware (brcm/brcmfmac43570-pcie.bin)
+  * Rock960 Cypress 4356 WiFi (brcm/brcmfmac4356-sdio.vamrs,rock960.txt)
   * Broadcom BCM4358 firmware (brcm/brcmfmac4358-pcie.bin)
   * Broadcom BCM43602 AP-mode firmware (brcm/brcmfmac43602-pcie.ap.bin)
   * Broadcom BCM43602 firmware (brcm/brcmfmac43602-pcie.bin)
   * Broadcom BCM4366 firmware (brcm/brcmfmac4366b-pcie.bin)
   * Broadcom BCM4371 firmware (brcm/brcmfmac4371-pcie.bin)
   * Cypress CYW4373-USB firmware (brcm/brcmfmac4373.bin)
-  * Cypress CYW4373-SDIO firmware (brcm/brcmfmac4373-sdio.bin)
-  * Cypress CYW43012-SDIO firmware (cypress/cyfmac43012-sdio.bin)
+  * Cypress CYW43012-SDIO firmware (cypress/cyfmac43012-sdio.bin,
+    brcm/brcmfmac43012-sdio.bin)
   * Cypress CYW43012-SDIO CLM firmware
-    (cypress/cyfmac43012-sdio.clm_blob)
-  * Cypress CYW43340-SDIO firmware (cypress/cyfmac43340-sdio.bin)
-  * Cypress CYW43362-SDIO firmware (cypress/cyfmac43362-sdio.bin)
-  * Cypress CYW4339-SDIO firmware (cypress/cyfmac4339-sdio.bin)
-  * Cypress CYW43430-SDIO firmware (cypress/cyfmac43430-sdio.bin)
+    (cypress/cyfmac43012-sdio.clm_blob,
+    brcm/brcmfmac43012-sdio.clm_blob)
+  * Cypress CYW43340-SDIO firmware (cypress/cyfmac43340-sdio.bin,
+    brcm/brcmfmac43340-sdio.bin)
+  * Cypress CYW43362-SDIO firmware (cypress/cyfmac43362-sdio.bin,
+    brcm/brcmfmac43362-sdio.bin)
+  * Cypress CYW4339-SDIO firmware (cypress/cyfmac4339-sdio.bin,
+    brcm/brcmfmac4339-sdio.bin)
+  * Cypress CYW43430-SDIO firmware (cypress/cyfmac43430-sdio.bin,
+    brcm/brcmfmac43430-sdio.bin)
   * Cypress CYW43430-SDIO CLM firmware
-    (cypress/cyfmac43430-sdio.clm_blob)
-  * Cypress CYW43455-SDIO firmware (cypress/cyfmac43455-sdio.bin)
+    (cypress/cyfmac43430-sdio.clm_blob,
+    brcm/brcmfmac43430-sdio.clm_blob)
+  * Cypress CYW43455-SDIO firmware (cypress/cyfmac43455-sdio.bin,
+    brcm/brcmfmac43455-sdio.bin)
   * Cypress CYW43455-SDIO CLM firmware
-    (cypress/cyfmac43455-sdio.clm_blob)
-  * Cypress CYW4354-SDIO firmware (cypress/cyfmac4354-sdio.bin)
-  * Cypress CYW4354-SDIO CLM firmware (cypress/cyfmac4354-sdio.clm_blob)
-  * Cypress CYW4356-PCIE firmware (cypress/cyfmac4356-pcie.bin)
-  * Cypress CYW4356-PCIE CLM firmware (cypress/cyfmac4356-pcie.clm_blob)
-  * Cypress CYW4356-SDIO firmware (cypress/cyfmac4356-sdio.bin)
-  * Cypress CYW4356-SDIO CLM firmware (cypress/cyfmac4356-sdio.clm_blob)
-  * Cypress CYW43570-PCIE firmware (cypress/cyfmac43570-pcie.bin)
+    (cypress/cyfmac43455-sdio.clm_blob,
+    brcm/brcmfmac43455-sdio.clm_blob)
+  * Cypress CYW4354-SDIO firmware (cypress/cyfmac4354-sdio.bin,
+    brcm/brcmfmac4354-sdio.bin)
+  * Cypress CYW4354-SDIO CLM firmware (cypress/cyfmac4354-sdio.clm_blob,
+    brcm/brcmfmac4354-sdio.clm_blob)
+  * Cypress CYW4356-PCIE firmware (cypress/cyfmac4356-pcie.bin,
+    brcm/brcmfmac4356-pcie.bin)
+  * Cypress CYW4356-PCIE CLM firmware (cypress/cyfmac4356-pcie.clm_blob,
+    brcm/brcmfmac4356-pcie.clm_blob)
+  * Cypress CYW4356-SDIO firmware (cypress/cyfmac4356-sdio.bin,
+    brcm/brcmfmac4356-sdio.bin)
+  * Cypress CYW4356-SDIO CLM firmware (cypress/cyfmac4356-sdio.clm_blob,
+    brcm/brcmfmac4356-sdio.clm_blob)
+  * Cypress CYW43570-PCIE firmware (cypress/cyfmac43570-pcie.bin,
+    brcm/brcmfmac43570-pcie.bin)
   * Cypress CYW43570-PCIE CLM firmware
-    (cypress/cyfmac43570-pcie.clm_blob)
-  * Cypress CYW4373-SDIO firmware (cypress/cyfmac4373-sdio.bin)
-  * Cypress CYW4373-SDIO CLM firmware (cypress/cyfmac4373-sdio.clm_blob)
-  * Cypress CYW54591-PCIE firmware (cypress/cyfmac54591-pcie.bin)
+    (cypress/cyfmac43570-pcie.clm_blob,
+    brcm/brcmfmac43570-pcie.clm_blob)
+  * Cypress CYW4373-SDIO firmware (cypress/cyfmac4373-sdio.bin,
+    brcm/brcmfmac4373-sdio.bin)
+  * Cypress CYW4373-SDIO CLM firmware (cypress/cyfmac4373-sdio.clm_blob,
+    brcm/brcmfmac4373-sdio.clm_blob)
+  * Cypress CYW54591-PCIE firmware (cypress/cyfmac54591-pcie.bin,
+    brcm/brcmfmac54591-pcie.bin)
   * Cypress CYW54591-PCIE CLM firmware
-    (cypress/cyfmac54591-pcie.clm_blob)
+    (cypress/cyfmac54591-pcie.clm_blob,
+    brcm/brcmfmac54591-pcie.clm_blob)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -1265,6 +1286,8 @@ Description: Binary firmware for Intel sound DSPs
     (intel/IntcSST2.bin)
   * Intel "Broxton" SST DSP firmware, version 9.22.01.3366_157
     (intel/dsp_fw_bxtn_v3366.bin, intel/dsp_fw_bxtn.bin)
+  * Intel "Cannonlake" SST DSP firmware, version 10.00.00.1191
+    (intel/dsp_fw_cnl_v1191.bin)
   * Intel "Cannonlake" SST DSP firmware, version 10.23.00.1858
     (intel/dsp_fw_cnl_v1858.bin, intel/dsp_fw_cnl.bin)
   * Intel "Geminilake" SST DSP firmware, version 9.22.01.3366_157
@@ -1279,6 +1302,8 @@ Description: Binary firmware for Intel sound DSPs
     (intel/fw_sst_0f28.bin-48kHz_i2s_master)
   * Intel "Bay Trail" SST DSP firmware, version 01.0C.00.01
     (intel/fw_sst_0f28.bin)
+  * Intel "Bay Trail" SST DSP firmware, version 01.0C.00.01
+    (intel/fw_sst_0f28_ssp0.bin)
   * Intel "Cherry Trail"/"Braswell" SST DSP firmware, version
     01.0B.02.02 (intel/fw_sst_22a8.bin)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
@@ -1517,6 +1542,8 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-9000-pu-b0-jf-b0-38.ucode)
   * Intel Wireless 9000 firmware, version 41.fc1a7aea.0
     (iwlwifi-9000-pu-b0-jf-b0-41.ucode)
+  * Intel Wireless 9000 firmware, version 43.95eb4e97
+    (iwlwifi-9000-pu-b0-jf-b0-43.ucode)
   * Intel Wireless 9000 firmware, version 46.a41adfe7.0
     (iwlwifi-9000-pu-b0-jf-b0-46.ucode)
   * Intel Wireless 9260 firmware, version 34.ba501b11.0
@@ -1525,6 +1552,8 @@ Description: Binary firmware for Intel Wireless cards
     (iwlwifi-9260-th-b0-jf-b0-38.ucode)
   * Intel Wireless 9260 firmware, version 41.fc1a7aea.0
     (iwlwifi-9260-th-b0-jf-b0-41.ucode)
+  * Intel Wireless 9260 firmware, version 43.95eb4e97
+    (iwlwifi-9260-th-b0-jf-b0-43.ucode)
   * Intel Wireless 9260 firmware, version 46.4d093a30.0
     (iwlwifi-9260-th-b0-jf-b0-46.ucode)
   * Intel Wireless 22000 series (QU-B-HR-B) firmware, version
@@ -1744,6 +1773,16 @@ Description: Binary firmware for various drivers in the Linux kernel
   * cxgb4/t4fw-1.24.17.0.bin, cxgb4/t4fw.bin
   * cxgb4/t5fw-1.24.17.0.bin, cxgb4/t5fw.bin
   * cxgb4/t6fw-1.24.17.0.bin, cxgb4/t6fw.bin
+  * Chelsio T4 config (cxgb4/configs/t4-config-default.txt,
+    cxgb4/t4-config.txt)
+  * Chelsio T5 config (cxgb4/configs/t5-config-default.txt,
+    cxgb4/t5-config.txt)
+  * Chelsio T6 config (cxgb4/configs/t6-config-default.txt,
+    cxgb4/t6-config.txt)
+  * Chelsio T5 hashfilter config
+    (cxgb4/configs/t5-config-hashfilter.txt)
+  * Chelsio T6 hashfilter config
+    (cxgb4/configs/t6-config-hashfilter.txt)
   * DAB-USB FPGA bitfile (dabusb/bitstream.bin)
   * DAB-USB firmware (dabusb/firmware.fw)
   * Xceive 4000 tuner firmware, version 1.4.1 (dvb-fe-xc4000-1.4.1.fw)
@@ -1780,6 +1819,8 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel OPA Gen1 SBus firmware, version 0x10130001 (hfi1_sbus.fw)
   * Freescale i.MX6 SDMA firmware, version 3.5 (imx/sdma/sdma-imx6q.bin)
   * Freescale i.MX7 SDMA firmware, version 4.5 (imx/sdma/sdma-imx7d.bin)
+  * Intel "Adler Lake" DMC firmware, version 2.01
+    (i915/adls_dmc_ver2_01.bin)
   * Intel "Broxton" DMC firmware, version 1.07
     (i915/bxt_dmc_ver1_07.bin, i915/bxt_dmc_ver1.bin)
   * Intel "Broxton" GuC firmware, version 32.0.3
@@ -1805,6 +1846,8 @@ Description: Binary firmware for various drivers in the Linux kernel
   * Intel "Cannonlake" DMC firmware, version 1.07
     (i915/cnl_dmc_ver1_07.bin)
   * i915/dg1_dmc_ver2_02.bin
+  * Intel DG1 GUC firmware, version 49.0.1 (i915/dg1_guc_49.0.1.bin)
+  * Intel DG1 HUC firmware, version 7.7.1 (i915/dg1_huc_7.7.1.bin)
   * Intel "Elkhart Lake" GuC firmware, version 33.0.4
     (i915/ehl_guc_33.0.4.bin)
   * Intel "Elkhart Lake" GuC firmware, version 49.0.1
@@ -1892,10 +1935,12 @@ Description: Binary firmware for various drivers in the Linux kernel
     (i915/tgl_huc_7.0.3.bin)
   * Intel "Tiger Lake" HuC firmware, version 7.5.0
     (i915/tgl_huc_7.5.0.bin)
+  * Intel "Kabylake" IPU3 firmware, version 20161208_0213_20170112_1500
+    (intel/irci_irci_ecr-master_20161208_0213_20170112_1500.bin)
   * Intel E800 comms package, version 1.3.20
     (intel/ice/ddp-comms/ice_comms-1.3.20.0.pkg)
   * Intel E800 ice driver, version 1.3.16
-    (intel/ice/ddp/ice-1.3.16.0.pkg)
+    (intel/ice/ddp/ice-1.3.16.0.pkg, intel/ice/ddp/ice.pkg)
   * kaweth/new_code.bin
   * kaweth/new_code_fix.bin
   * kaweth/trigger_code.bin
@@ -1911,6 +1956,8 @@ Description: Binary firmware for various drivers in the Linux kernel
   * MediaTek MT7615 rom firmware (mediatek/mt7615_rom_patch.bin)
   * MediaTek MT7622 Bluetooth firmware (mediatek/mt7622pr2h.bin)
   * MediaTek MT76x0 wifi firmware (mediatek/mt7650e.bin)
+  * MediaTek MT7622 N9 firmware (mediatek/mt7622_n9.bin)
+  * MediaTek MT7622 rom firmware (mediatek/mt7622_rom_patch.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u.bin)
   * MediaTek MT76x2u wifi firmware (mediatek/mt7662u_rom_patch.bin)
   * MediaTek MT7663 firmware (mediatek/mt7663pr2h.bin)
@@ -1925,6 +1972,10 @@ Description: Binary firmware for various drivers in the Linux kernel
     (mediatek/mt8173/vpu_d.bin)
   * MediaTek MT8173 VPU_P firmware, version 1.1.16
     (mediatek/mt8173/vpu_p.bin)
+  * MediaTek MT7921 hdr firmware, version 20210122002654a
+    (mediatek/WIFI_MT7961_patch_mcu_1_2_hdr.bin)
+  * MediaTek MT7921 firmware, version 20210122002730
+    (mediatek/WIFI_RAM_CODE_MT7961_1.bin)
   * MOXA UPort 1110 firmware (moxa/moxa-1110.fw)
   * MOXA UPort 1130 firmware (moxa/moxa-1130.fw)
   * MOXA UPort 1130I firmware (moxa/moxa-1131.fw)
@@ -2491,6 +2542,8 @@ Description: Binary firmware for Qualcomm SoCs
   * Qualcomm Adreno 530 v3 GPMU firmware (qcom/a530v3_gpmu.fw2)
   * Qualcomm Adreno 630 GMU firmware (qcom/a630_gmu.bin)
   * Qualcomm Adreno 630 SQE firmware (qcom/a630_sqe.fw)
+  * Qualcomm Adreno 650 GMU firmware (qcom/a650_gmu.bin)
+  * Qualcomm Adreno 650 SQE firmware (qcom/a650_sqe.fw)
   * Qualcomm Adreno 630 SDM845 ZAP firmware (qcom/sdm845/a630_zap.mbn)
   * Qualcomm SDM845 audio firmware (qcom/sdm845/adsp.mbn)
   * Qualcomm SDM845 audio configuration (qcom/sdm845/adspr.jsn)
@@ -2500,6 +2553,12 @@ Description: Binary firmware for Qualcomm SoCs
   * Qualcomm SDM845 modem firmware (qcom/sdm845/mba.mbn)
   * Qualcomm SDM845 modem firmware (qcom/sdm845/modem.mbn)
   * Qualcomm SDM845 modem configuration (qcom/sdm845/modemuw.jsn)
+  * Qualcomm SM8250 ZAP firmware (qcom/sm8250/a650_zap.mbn)
+  * Qualcomm SM8250 audio firmware (qcom/sm8250/adsp.mbn)
+  * Qualcomm SM8250 audio general config (qcom/sm8250/adspr.jsn)
+  * Qualcomm SM8250 audio config (qcom/sm8250/adspua.jsn)
+  * Qualcomm SM8250 compute DSP firmware (qcom/sm8250/cdsp.mbn)
+  * Qualcomm SM8250 compute DSP config (qcom/sm8250/cdspr.jsn)
   * Qualcomm Venus 1.8 firmware part 0 (qcom/venus-1.8/venus.b00)
   * Qualcomm Venus 1.8 firmware part 1 (qcom/venus-1.8/venus.b01)
   * Qualcomm Venus 1.8 firmware part 2 (qcom/venus-1.8/venus.b02)
@@ -2526,6 +2585,20 @@ Description: Binary firmware for Qualcomm SoCs
   * Qualcomm Venus 5.4 firmware part 4 (qcom/venus-5.4/venus.b04)
   * Qualcomm Venus 5.4 firmware (qcom/venus-5.4/venus.mbn)
   * Qualcomm Venus 5.4 firmware header (qcom/venus-5.4/venus.mdt)
+  * Qualcomm Venus VPU-1.0 firwmare part 0 (qcom/vpu-1.0/venus.b00)
+  * Qualcomm Venus VPU-1.0 firwmare part 1 (qcom/vpu-1.0/venus.b01)
+  * Qualcomm Venus VPU-1.0 firwmare part 2 (qcom/vpu-1.0/venus.b02)
+  * Qualcomm Venus VPU-1.0 firwmare part 3 (qcom/vpu-1.0/venus.b03)
+  * Qualcomm Venus VPU-1.0 firwmare part 4 (qcom/vpu-1.0/venus.b04)
+  * Qualcomm Venus VPU-1.0 firwmare part 5 (qcom/vpu-1.0/venus.b05)
+  * Qualcomm Venus VPU-1.0 firwmare part 6 (qcom/vpu-1.0/venus.b06)
+  * Qualcomm Venus VPU-1.0 firwmare part 7 (qcom/vpu-1.0/venus.b07)
+  * Qualcomm Venus VPU-1.0 firwmare part 8 (qcom/vpu-1.0/venus.b08)
+  * Qualcomm Venus VPU-1.0 firwmare part 9 (qcom/vpu-1.0/venus.b09)
+  * Qualcomm Venus VPU-1.0 firwmare part 10 (qcom/vpu-1.0/venus.b10)
+  * Qualcomm Venus VPU-1.0 firwmare part 19 (qcom/vpu-1.0/venus.b19)
+  * Qualcomm Venus VPU-1.0 firwmare (qcom/vpu-1.0/venus.mbn)
+  * Qualcomm Venus VPU-1.0 firwmare header (qcom/vpu-1.0/venus.mdt)
 Homepage: https://git.kernel.org/cgit/linux/kernel/git/firmware/linux-firmware.git
 Multi-Arch: foreign
 
@@ -2598,22 +2671,27 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8192E init data (RTL8192E/data.img)
   * Realtek RTL8192E main code (RTL8192E/main.img)
   * Realtek RTL8192EE Bluetooth firmware (rtl_bt/rtl8192ee_fw.bin)
-  * Realtek RTL8812AE Bluetooth firmware (rtl_bt/rtl8812ae_fw.bin)
-  * Realtek RTL8761A Bluetooth firmware (rtl_bt/rtl8761a_fw.bin)
-  * Realtek RTL8821A Bluetooth firmware (rtl_bt/rtl8821a_fw.bin)
   * Realtek RTL8192EU Bluetooth firmware (rtl_bt/rtl8192eu_fw.bin)
   * Realtek RTL8723AU rev A Bluetooth firmware (rtl_bt/rtl8723a_fw.bin)
   * Realtek RTL8723BU rev B Bluetooth firmware (rtl_bt/rtl8723b_fw.bin)
+  * Realtek RTL8723BS Bluetooth config
+    (rtl_bt/rtl8723bs_config-OBDA8723.bin)
+  * Realtek RTL8723BS Bluetooth firmware (rtl_bt/rtl8723bs_fw.bin)
   * Realtek RTL8723D Bluetooth config (rtl_bt/rtl8723d_config.bin)
   * Realtek RTL8723D Bluetooth firmware (rtl_bt/rtl8723d_fw.bin)
+  * Realtek RTL8761A Bluetooth firmware (rtl_bt/rtl8761a_fw.bin)
+  * Realtek RTL8812AE Bluetooth firmware (rtl_bt/rtl8812ae_fw.bin)
+  * Realtek RTL8821A Bluetooth firmware (rtl_bt/rtl8821a_fw.bin)
   * Realtek RTL8821C Bluetooth config (rtl_bt/rtl8821c_config.bin)
   * Realtek RTL8821C Bluetooth firmware (rtl_bt/rtl8821c_fw.bin)
   * Realtek RTL8822B Bluetooth config (rtl_bt/rtl8822b_config.bin)
   * Realtek RTL8822B Bluetooth firmware (rtl_bt/rtl8822b_fw.bin)
-  * Realtek RTL8822CS Bluetooth firmware (rtl_bt/rtl8822cs_fw.bin)
   * Realtek RTL8822CS Bluetooth config (rtl_bt/rtl8822cs_config.bin)
-  * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
+  * Realtek RTL8822CS Bluetooth firmware (rtl_bt/rtl8822cs_fw.bin)
   * Realtek RTL8822CU Bluetooth config (rtl_bt/rtl8822cu_config.bin)
+  * Realtek RTL8822CU Bluetooth firmware (rtl_bt/rtl8822cu_fw.bin)
+  * Realtek RTL8852AU Bluetooth config (rtl_bt/rtl8852au_config.bin)
+  * Realtek RTL8852AU Bluetooth firmware (rtl_bt/rtl8852au_fw.bin)
   * Realtek RTL8105E-1 firmware (rtl_nic/rtl8105e-1.fw)
   * Realtek RTL8106E-1 firmware, version 0.0.1 (rtl_nic/rtl8106e-1.fw)
   * Realtek RTL8106E-2 firmware, version 0.0.1 (rtl_nic/rtl8106e-2.fw)
@@ -2653,12 +2731,13 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
     (rtlwifi/rtl8192cufw_A.bin)
   * Realtek RTL8192CU/RTL8188CU UMC B-cut firmware
     (rtlwifi/rtl8192cufw_B.bin)
-  * Realtek RTL8192CU/RTL8188CU TMSC firmware
-    (rtlwifi/rtl8192cufw_TMSC.bin)
   * Realtek RTL8192CU/RTL8188CU fallback firmware
     (rtlwifi/rtl8192cufw.bin)
+  * Realtek RTL8192CU/RTL8188CU TMSC firmware
+    (rtlwifi/rtl8192cufw_TMSC.bin)
   * Realtek RTL8192DE firmware (rtlwifi/rtl8192defw.bin)
   * Realtek RTL8192EE wifi firmware (rtlwifi/rtl8192eefw.bin)
+  * rtlwifi/rtl8192eu_ap_wowlan.bin
   * Realtek RTl8192EU non-WoWLAN firmware (rtlwifi/rtl8192eu_nic.bin)
   * Realtek RTl8192EU WoWLAN firmware (rtlwifi/rtl8192eu_wowlan.bin)
   * Realtek RTL8192SE/RTL8191SE firmware, version 4.816.2011
@@ -2672,11 +2751,15 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
     (rtlwifi/rtl8723aufw_B_NoBT.bin)
   * Realtek RTL8723BE firmware, version 36 (rtlwifi/rtl8723befw_36.bin)
   * Realtek RTL8723BE firmware (rtlwifi/rtl8723befw.bin)
+  * Realtek RTL8723BS AP WOWLAN firmware
+    (rtlwifi/rtl8723bs_ap_wowlan.bin)
   * Realtek RTL8723BS BT firmware (rtlwifi/rtl8723bs_bt.bin)
   * Realtek RTL8723BS wifi non-WoWLAN firmware
     (rtlwifi/rtl8723bs_nic.bin)
   * Realtek RTL8723BS wifi WoWLAN firmware
     (rtlwifi/rtl8723bs_wowlan.bin)
+  * Realtek RTl8723BU AP WoWLAN firmware
+    (rtlwifi/rtl8723bu_ap_wowlan.bin)
   * Realtek RTl8723BU non-WoWLAN firmware (rtlwifi/rtl8723bu_nic.bin)
   * Realtek RTl8723BU WoWLAN firmware (rtlwifi/rtl8723bu_wowlan.bin)
   * Realtek RTL8723DE firmware (rtlwifi/rtl8723defw.bin)
@@ -2685,8 +2768,8 @@ Description: Binary firmware for Realtek wired/wifi/BT adapters
   * Realtek RTL8821AEFW firmware (rtlwifi/rtl8812aefw.bin)
   * Realtek RTL8821AEFW wowlan firmware (rtlwifi/rtl8812aefw_wowlan.bin)
   * Realtek RTL8821AE firmware, version 29 (rtlwifi/rtl8821aefw_29.bin)
-  * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
   * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw.bin)
+  * Realtek RTL8821AE firmware (rtlwifi/rtl8821aefw_wowlan.bin)
   * Realtek RTL8822BE firmware (rtlwifi/rtl8822befw.bin)
   * Realtek 8821C firmware (rtw88/rtw8821c_fw.bin)
   * Realtek 8822BE firmware (rtw88/rtw8822b_fw.bin)

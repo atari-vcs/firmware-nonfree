@@ -132,11 +132,15 @@ files:
  qca/htnv20.bin
  qca/nvm_00130300.bin
  qca/nvm_00130302.bin
+ qca/nvm_00230302.bin
  qca/nvm_00440302.bin
+ qca/nvm_00440302_eu.bin
+ qca/nvm_00440302_i2s_eu.bin
  qca/nvm_usb_00000200.bin
  qca/nvm_usb_00000201.bin
  qca/nvm_usb_00000300.bin
  qca/nvm_usb_00000302.bin
+ qca/nvm_usb_00000302_eu.bin
  qca/rampatch_00130300.bin
  qca/rampatch_00130302.bin
  qca/rampatch_00230302.bin
@@ -513,8 +517,17 @@ desc: Qualcomm Atheros QCA61x4 version 3.0 UART BT NVM configuration
 [qca/nvm_00130302.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 3.2 UART BT NVM configuration
 
+[qca/nvm_00230302.bin_base]
+desc: Qualcomm Atheros QCA9377 Bluetooth firmware
+
 [qca/nvm_00440302.bin_base]
 desc: Qualcomm Atheros QCA6174 BT NVM configuration
+
+[qca/nvm_00440302_eu.bin_base]
+desc: Qualcomm Atheros QCA6174 BT NVM firmware
+
+[qca/nvm_00440302_i2s_eu.bin_base]
+desc: Qualcomm Atheros QCA6174 BT NVM firmware
 
 [qca/nvm_usb_00000200.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 2.0 USB BT NVM configuration
@@ -527,6 +540,9 @@ desc: Qualcomm Atheros QCA61x4 version 3.0 USB BT NVM configuration
 
 [qca/nvm_usb_00000302.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 3.2 USB BT NVM configuration
+
+[qca/nvm_usb_00000302_eu.bin_base]
+desc: Qualcomm Atheros QCA6174 firmware
 
 [qca/rampatch_00130300.bin_base]
 desc: Qualcomm Atheros QCA61x4 version 3.0 UART BT rampatch
