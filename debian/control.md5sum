@@ -1,5 +1,4 @@
 ae9d57a264ff3a9ba5933f2ff686d731  debian/bin/gencontrol.py
-84b908f3f7533ed694162048ce593b58  debian/build/version-info
 f2d56a87a7a481fec4b3983bd3129cdb  debian/templates/control.binary.in
 5766be40b0266b0083624e9c265ae7c4  debian/templates/control.extra.in
 23e858c90f46d393ec91602a3958f143  debian/templates/control.source.in

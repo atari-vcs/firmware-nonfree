@@ -1,3 +1,9 @@
+firmware-nonfree (20210208-3atari1) atari; urgency=medium
+
+  * Disable control regeneration
+
+ -- Sjoerd Simons <sjoerd@collabora.com>  Wed, 17 Mar 2021 19:18:46 +0100
+
 firmware-nonfree (20210208-3) unstable; urgency=medium
 
   * misc-nonfree: Add missing config files for cxgb4 (closes: #983561)
