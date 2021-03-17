@@ -35,8 +35,8 @@ CONTROL_FILES += debian/bin/gencontrol.py debian/config/defines $(wildcard debia
 # frequent changes to debian/control.md5sum, include only those fields
 # in the checksum.
 debian/build/version-info: debian/changelog
-	mkdir -p $(@D)
-	printf >$@ 'Source: %s\nVersion: %s\n' $(SOURCE) $(VERSION_SOURCE)
+	#mkdir -p $(@D)
+	#printf >$@ 'Source: %s\nVersion: %s\n' $(SOURCE) $(VERSION_SOURCE)
 
 debian/control debian/rules.gen: $(GENCONTROL) $(CONTROL_FILES)
 ifeq ($(wildcard debian/control.md5sum),)
