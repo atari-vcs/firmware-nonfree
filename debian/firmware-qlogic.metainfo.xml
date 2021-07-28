@@ -15,6 +15,7 @@
     <firmware type="runtime">qed/qed_init_values_zipped-8.33.1.0.bin</firmware>
     <firmware type="runtime">qed/qed_init_values_zipped-8.33.11.0.bin</firmware>
     <firmware type="runtime">qed/qed_init_values_zipped-8.37.2.0.bin</firmware>
+    <firmware type="runtime">qed/qed_init_values_zipped-8.42.2.0.bin</firmware>
     <firmware type="runtime">qlogic/1040.bin</firmware>
     <firmware type="runtime">qlogic/1280.bin</firmware>
     <firmware type="runtime">qlogic/12160.bin</firmware>
